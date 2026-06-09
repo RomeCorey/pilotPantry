@@ -1,7 +1,6 @@
 import { useState, useMemo, useEffect, type FormEvent } from 'react'
-import pantryLogo from './assets/PantryPilot.png'
 import pantryNoText from './assets/PantryPilotNoText.svg'
-import produceBackground from './assets/produceBackground.svg'
+import cuttingBoard from './assets/cuttingBoard.png'
 import {
   CATEGORY_FILES,
   UNIT_OPTIONS,
@@ -146,7 +145,7 @@ function HomePage({ onRecipeClick, onShoppingClick, onGoShoppingClick }: any) {
   return (
     <div className="homepage light-mode">
       <header className="header">
-        <img src={pantryLogo} alt="Pantry Pilot" className="header-logo" />
+        <img src={pantryNoText} alt="" className="header-logo" aria-hidden="true" />
       </header>
 
       {isConfigured && (loading || user) && (
@@ -170,6 +169,11 @@ function HomePage({ onRecipeClick, onShoppingClick, onGoShoppingClick }: any) {
         </div>
       )}
 
+      <div className="homepage-hero">
+        <h1 className="homepage-title">Pantry Pilot</h1>
+      </div>
+
+      <div className="homepage-bottom">
       {isConfigured && !loading && !user && (
         <section className="auth-section">
             <form className="auth-form" onSubmit={handleSignIn}>
@@ -236,6 +240,7 @@ function HomePage({ onRecipeClick, onShoppingClick, onGoShoppingClick }: any) {
         >
           Let's Go Shopping
         </button>
+      </div>
       </div>
     </div>
   )
@@ -495,7 +500,7 @@ function InputRecipePage({ onBack }: any) {
         className="page-content produce-background-content"
         style={
           {
-            '--produce-bg': `url(${produceBackground})`,
+            '--produce-bg': `url(${cuttingBoard})`,
           } as React.CSSProperties
         }
       >
@@ -859,7 +864,7 @@ function ShoppingPage({ onBack }: any) {
         className="page-content produce-background-content"
         style={
           {
-            '--produce-bg': `url(${produceBackground})`,
+            '--produce-bg': `url(${cuttingBoard})`,
           } as React.CSSProperties
         }
       >
@@ -1044,7 +1049,7 @@ function GoShoppingPage({ onBack }: any) {
         className="page-content produce-background-content"
         style={
           {
-            '--produce-bg': `url(${produceBackground})`,
+            '--produce-bg': `url(${cuttingBoard})`,
           } as React.CSSProperties
         }
       >
