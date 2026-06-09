@@ -8,6 +8,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // https://vite.dev/config/
 export default defineConfig({
+  // GitLab Pages serves at /pantry_pilot/; use / locally for dev
+  base: process.env.CI ? '/pilotPantry/' : '/',
   plugins: [
     react(),
     {
