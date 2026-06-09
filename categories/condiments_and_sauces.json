@@ -1,0 +1,405 @@
+{
+  "category": "condiments_and_sauces",
+  "items": {
+    "relish": {
+      "category": "condiments",
+      "item": "Relish",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "tablespoons": 20,
+            "cups": 0.625
+          }
+        }
+      ]
+    },
+    "salsa": {
+      "category": "condiments",
+      "item": "Salsa",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 1,
+            "tablespoons": 32
+          }
+        }
+      ]
+    },
+    "guacamole": {
+      "category": "condiments",
+      "item": "Guacamole",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "tablespoons": 12,
+            "cups": 0.375
+          }
+        }
+      ]
+    },
+    "hummus": {
+      "category": "condiments",
+      "item": "Hummus",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "tablespoons": 20,
+            "cups": 0.625
+          }
+        }
+      ]
+    },
+    "oyster_sauce": {
+      "category": "specialty_sauces",
+      "item": "Oyster Sauce",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 9,
+          "conversions": {
+            "milliliters": 266.16,
+            "tablespoons": 18,
+            "grams": 324
+          }
+        }
+      ]
+    },
+    "hoisin_sauce": {
+      "category": "specialty_sauces",
+      "item": "Hoisin Sauce",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "tablespoons": 16,
+            "cups": 0.5
+          }
+        }
+      ]
+    },
+    "sweet_and_sour_sauce": {
+      "category": "specialty_sauces",
+      "item": "Sweet and Sour Sauce",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 10,
+          "conversions": {
+            "milliliters": 295.74,
+            "tablespoons": 20,
+            "cups": 1.25
+          }
+        }
+      ]
+    },
+    "sriracha": {
+      "category": "specialty_sauces",
+      "item": "Sriracha",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 17,
+          "conversions": {
+            "milliliters": 503.02,
+            "tablespoons": 34,
+            "grams": 612
+          }
+        }
+      ]
+    },
+    "tabasco_sauce": {
+      "category": "specialty_sauces",
+      "item": "Tabasco Sauce",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 2,
+          "conversions": {
+            "milliliters": 59.15,
+            "teaspoons": 12,
+            "tablespoons": 4
+          }
+        }
+      ]
+    },
+    "alfredo_sauce": {
+      "category": "pasta_sauces",
+      "item": "Alfredo Sauce",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1,
+            "tablespoons": 30
+          }
+        }
+      ]
+    },
+    "vodka_sauce": {
+      "category": "pasta_sauces",
+      "item": "Vodka Sauce",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 24,
+          "conversions": {
+            "grams": 680.39,
+            "cups": 2.5,
+            "tablespoons": 48
+          }
+        }
+      ]
+    },
+    "arrabiata_sauce": {
+      "category": "pasta_sauces",
+      "item": "Arrabiata Sauce",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 24,
+          "conversions": {
+            "grams": 680.39,
+            "cups": 2.5,
+            "tablespoons": 48
+          }
+        }
+      ]
+    },
+    "bbq_dry_rub": {
+      "category": "bbq_and_marinades",
+      "item": "BBQ Dry Rub",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 3,
+          "conversions": {
+            "grams": 85.05,
+            "tablespoons": 6,
+            "teaspoons": 18
+          }
+        }
+      ]
+    },
+    "teriyaki_marinade": {
+      "category": "bbq_and_marinades",
+      "item": "Teriyaki Marinade",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 10,
+          "conversions": {
+            "milliliters": 295.74,
+            "tablespoons": 20,
+            "cups": 1.25
+          }
+        }
+      ]
+    },
+    "ranch_dressing": {
+      "category": "condiments",
+      "item": "Ranch Dressing",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 16,
+          "conversions": {
+            "milliliters": 473.18,
+            "tablespoons": 32,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "caesar_dressing": {
+      "category": "condiments",
+      "item": "Caesar Dressing",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 12,
+          "conversions": {
+            "milliliters": 354.88,
+            "tablespoons": 24,
+            "cups": 1.5
+          }
+        }
+      ]
+    },
+    "balsamic_glaze": {
+      "category": "condiments",
+      "item": "Balsamic Glaze",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 8.5,
+          "conversions": {
+            "milliliters": 251.37,
+            "tablespoons": 17,
+            "cups": 1
+          }
+        }
+      ]
+    },
+    "chimichurri_sauce": {
+      "category": "condiments",
+      "item": "Chimichurri Sauce",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "tablespoons": 16,
+            "cups": 1
+          }
+        }
+      ]
+    },
+    "honey_mustard": {
+      "category": "condiments",
+      "item": "Honey Mustard",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "tablespoons": 24,
+            "cups": 1.5
+          }
+        }
+      ]
+    },
+    "steak_sauce": {
+      "category": "condiments",
+      "item": "Steak Sauce",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "tablespoons": 20,
+            "cups": 1.25
+          }
+        }
+      ]
+    },
+    "buffalo_sauce": {
+      "category": "specialty_sauces",
+      "item": "Buffalo Sauce",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 12,
+          "conversions": {
+            "milliliters": 354.88,
+            "tablespoons": 24,
+            "cups": 1.5
+          }
+        }
+      ]
+    },
+    "tzatziki": {
+      "category": "condiments",
+      "item": "Tzatziki",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 1,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "italian_dressing": {
+      "category": "condiments",
+      "item": "Italian Dressing",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 16,
+          "conversions": {
+            "milliliters": 473.18,
+            "cups": 2,
+            "tablespoons": 32
+          }
+        }
+      ]
+    },
+    "cocktail_sauce": {
+      "category": "condiments",
+      "item": "Cocktail Sauce",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "cups": 1.5,
+            "tablespoons": 24
+          }
+        }
+      ]
+    },
+    "sweet_chili_sauce": {
+      "category": "specialty_sauces",
+      "item": "Sweet Chili Sauce",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 10,
+          "conversions": {
+            "milliliters": 295.74,
+            "tablespoons": 20,
+            "cups": 1.25
+          }
+        }
+      ]
+    }
+  }
+}

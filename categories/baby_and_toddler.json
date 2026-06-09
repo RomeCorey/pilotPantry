@@ -1,0 +1,149 @@
+{
+  "category": "baby_and_toddler",
+  "items": {
+    "baby_formula": {
+      "category": "baby_and_toddler",
+      "item": "Baby Formula",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 35,
+          "conversions": {
+            "grams": 992.08,
+            "pounds": 2.19,
+            "cups": 2.2,
+            "servings": "200-300 oz servings"
+          }
+        }
+      ]
+    },
+    "baby_food_jars": {
+      "category": "baby_and_toddler",
+      "item": "Baby Food Jars",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "tablespoons": 8,
+            "jars": "1 jar"
+          }
+        }
+      ]
+    },
+    "baby_food_pouches": {
+      "category": "baby_and_toddler",
+      "item": "Baby Food Pouches",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 3.5,
+          "conversions": {
+            "grams": 99.22,
+            "tablespoons": 7,
+            "pouches": "1 pouch"
+          }
+        }
+      ]
+    },
+    "baby_cereal": {
+      "category": "baby_and_toddler",
+      "item": "Baby Cereal",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "tablespoons": 16,
+            "cups": 0.5
+          }
+        }
+      ]
+    },
+    "teething_crackers": {
+      "category": "baby_and_toddler",
+      "item": "Teething Crackers",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "cracker",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 4,
+            "ounces": 0.14
+          }
+        }
+      ]
+    },
+    "toddler_snacks": {
+      "category": "baby_and_toddler",
+      "item": "Toddler Snacks",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "pouches": "6 pouches",
+            "servings": "6 servings"
+          }
+        }
+      ]
+    },
+    "baby_snacks": {
+      "category": "baby_and_toddler",
+      "item": "Baby Snacks",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1.5,
+          "conversions": {
+            "grams": 42.52,
+            "containers": "1 container",
+            "servings": "4-6 servings"
+          }
+        }
+      ]
+    },
+    "toddler_formula": {
+      "category": "baby_and_toddler",
+      "item": "Toddler Formula",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 24,
+          "conversions": {
+            "grams": 680.39,
+            "cups": 1.5,
+            "servings": "150 servings"
+          }
+        }
+      ]
+    },
+    "baby_puffs": {
+      "category": "baby_and_toddler",
+      "item": "Baby Puffs",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1.5,
+          "conversions": {
+            "grams": 42.52,
+            "containers": "1 container",
+            "servings": "6 servings"
+          }
+        }
+      ]
+    }
+  }
+}

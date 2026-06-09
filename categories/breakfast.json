@@ -1,0 +1,186 @@
+{
+  "category": "breakfast",
+  "items": {
+    "white_bread": {
+      "category": "bread_and_baked_goods",
+      "item": "White Bread",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "loaf",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 20,
+            "grams": 567,
+            "pounds": 1.25,
+            "slices": "20-24 slices"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "slice",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1,
+            "grams": 28,
+            "calories": "80-100"
+          }
+        }
+      ]
+    },
+    "eggs": {
+      "category": "eggs",
+      "item": "Eggs",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "egg",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1.7,
+            "grams": 50,
+            "cups": 0.25
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "dozen",
+          "typical_amount": 1,
+          "conversions": {
+            "eggs": "12 eggs",
+            "ounces": "20.4",
+            "grams": "578",
+            "pounds": 1.28
+          }
+        }
+      ]
+    },
+    "whole_wheat_bread": {
+      "category": "bread_and_baked_goods",
+      "item": "Whole Wheat Bread",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "loaf",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 20,
+            "grams": 567,
+            "pounds": 1.25,
+            "slices": "18-20 slices"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "slice",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1,
+            "grams": 28
+          }
+        }
+      ]
+    },
+    "hamburger_buns": {
+      "category": "bread_and_baked_goods",
+      "item": "Hamburger Buns",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "bun",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 2,
+            "grams": 57,
+            "pack": "1 of 8-pack"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "pack",
+          "typical_amount": 1,
+          "conversions": {
+            "buns": "8 buns",
+            "ounces": 16,
+            "grams": 454
+          }
+        }
+      ]
+    },
+    "sourdough_bread": {
+      "category": "bread_and_baked_goods",
+      "item": "Sourdough Bread",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "loaf",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 24,
+            "grams": 680,
+            "pounds": 1.5,
+            "slices": "16-18 slices"
+          }
+        }
+      ]
+    },
+    "dinner_rolls": {
+      "category": "bread_and_baked_goods",
+      "item": "Dinner Rolls",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "roll",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1.5,
+            "grams": 43,
+            "pack": "1 of 12-pack"
+          }
+        }
+      ]
+    },
+    "sub_rolls": {
+      "category": "bread_and_baked_goods",
+      "item": "Sub Rolls",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "roll",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3,
+            "grams": 85,
+            "pack": "1 of 6-pack"
+          }
+        }
+      ]
+    },
+    "hot_dog_buns": {
+      "category": "bread_and_baked_goods",
+      "item": "Hot Dog Buns",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "bun",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1.5,
+            "grams": 43,
+            "pack": "1 of 8-pack"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "pack",
+          "typical_amount": 1,
+          "conversions": {
+            "buns": "8 buns",
+            "ounces": 12,
+            "grams": 340
+          }
+        }
+      ]
+    }
+  }
+}

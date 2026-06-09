@@ -1,0 +1,911 @@
+{
+  "category": "meat_and_poultry",
+  "items": {
+    "ground_beef": {
+      "category": "beef",
+      "item": "Ground Beef",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2
+          }
+        },
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "pounds": 0.25,
+            "cups": 0.5
+          }
+        }
+      ]
+    },
+    "beef_ribeye_steak": {
+      "category": "beef",
+      "item": "Beef Ribeye Steak",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "pounds": 0.75,
+            "count": "1 steak"
+          }
+        },
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91
+          }
+        }
+      ]
+    },
+    "beef_sirloin_steak": {
+      "category": "beef",
+      "item": "Beef Sirloin Steak",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "pounds": 0.625,
+            "count": "1 steak"
+          }
+        }
+      ]
+    },
+    "beef_tenderloin": {
+      "category": "beef",
+      "item": "Beef Tenderloin",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 3,
+          "conversions": {
+            "ounces": 48,
+            "grams": 1360.77,
+            "kilograms": 1.36
+          }
+        }
+      ]
+    },
+    "beef_chuck_roast": {
+      "category": "beef",
+      "item": "Beef Chuck Roast",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 4,
+          "conversions": {
+            "ounces": 64,
+            "grams": 1814.37,
+            "kilograms": 1.81
+          }
+        }
+      ]
+    },
+    "beef_stew_meat": {
+      "category": "beef",
+      "item": "Beef Stew Meat",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91
+          }
+        }
+      ]
+    },
+    "chicken_breast": {
+      "category": "chicken",
+      "item": "Chicken Breast",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5,
+            "count": "1 breast"
+          }
+        },
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91,
+            "count": "4 breasts"
+          }
+        }
+      ]
+    },
+    "chicken_thighs": {
+      "category": "chicken",
+      "item": "Chicken Thighs",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 5,
+          "conversions": {
+            "grams": 141.75,
+            "pounds": 0.3125,
+            "count": "1 thigh"
+          }
+        }
+      ]
+    },
+    "chicken_drumsticks": {
+      "category": "chicken",
+      "item": "Chicken Drumsticks",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 3,
+          "conversions": {
+            "grams": 85.05,
+            "pounds": 0.1875,
+            "count": "1 drumstick"
+          }
+        }
+      ]
+    },
+    "chicken_wings": {
+      "category": "chicken",
+      "item": "Chicken Wings",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 3,
+          "conversions": {
+            "ounces": 48,
+            "grams": 1360.77,
+            "kilograms": 1.36,
+            "count": "12-15 wings"
+          }
+        }
+      ]
+    },
+    "ground_chicken": {
+      "category": "chicken",
+      "item": "Ground Chicken",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "pork_chops": {
+      "category": "pork",
+      "item": "Pork Chops",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "pounds": 0.375,
+            "count": "1 chop"
+          }
+        },
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1.5,
+          "conversions": {
+            "ounces": 24,
+            "grams": 680.39,
+            "kilograms": 0.68,
+            "count": "4 chops"
+          }
+        }
+      ]
+    },
+    "pork_tenderloin": {
+      "category": "pork",
+      "item": "Pork Tenderloin",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91
+          }
+        }
+      ]
+    },
+    "pork_ribs": {
+      "category": "pork",
+      "item": "Pork Ribs",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 3,
+          "conversions": {
+            "ounces": 48,
+            "grams": 1360.77,
+            "kilograms": 1.36
+          }
+        }
+      ]
+    },
+    "ground_pork": {
+      "category": "pork",
+      "item": "Ground Pork",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "bacon": {
+      "category": "pork",
+      "item": "Bacon",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5,
+            "slices": "8-12 slices"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "slice",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 8,
+            "ounces": 0.28
+          }
+        }
+      ]
+    },
+    "ham": {
+      "category": "pork",
+      "item": "Ham",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1.5,
+          "conversions": {
+            "ounces": 24,
+            "grams": 680.39,
+            "kilograms": 0.68
+          }
+        }
+      ]
+    },
+    "pork_sausage": {
+      "category": "pork",
+      "item": "Pork Sausage",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454
+          }
+        }
+      ]
+    },
+    "whole_turkey": {
+      "category": "turkey",
+      "item": "Whole Turkey",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 14,
+          "conversions": {
+            "ounces": 224,
+            "grams": 6350.29,
+            "kilograms": 6.35
+          }
+        }
+      ]
+    },
+    "turkey_breast": {
+      "category": "turkey",
+      "item": "Turkey Breast",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91
+          }
+        }
+      ]
+    },
+    "ground_turkey": {
+      "category": "turkey",
+      "item": "Ground Turkey",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "turkey_bacon": {
+      "category": "turkey",
+      "item": "Turkey Bacon",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "pounds": 0.375,
+            "slices": "6-8 slices"
+          }
+        }
+      ]
+    },
+    "turkey_sausage": {
+      "category": "turkey",
+      "item": "Turkey Sausage",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454
+          }
+        }
+      ]
+    },
+    "salmon": {
+      "category": "seafood",
+      "item": "Salmon",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "pounds": 0.375,
+            "count": "1 fillet"
+          }
+        },
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1.5,
+          "conversions": {
+            "ounces": 24,
+            "grams": 680.39,
+            "kilograms": 0.68
+          }
+        }
+      ]
+    },
+    "cod": {
+      "category": "seafood",
+      "item": "Cod",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "pounds": 0.375
+          }
+        }
+      ]
+    },
+    "tilapia": {
+      "category": "seafood",
+      "item": "Tilapia",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "pounds": 0.375
+          }
+        }
+      ]
+    },
+    "shrimp": {
+      "category": "seafood",
+      "item": "Shrimp",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "count": "20-24 large shrimp"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "shrimp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 20,
+            "ounces": 0.71
+          }
+        }
+      ]
+    },
+    "crab": {
+      "category": "seafood",
+      "item": "Crab",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91
+          }
+        }
+      ]
+    },
+    "tuna": {
+      "category": "seafood",
+      "item": "Tuna",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 5,
+          "conversions": {
+            "grams": 141.75,
+            "pounds": 0.3125
+          }
+        }
+      ]
+    },
+    "sliced_turkey": {
+      "category": "deli_meats",
+      "item": "Sliced Turkey",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "pounds": 0.375,
+            "slices": "6-8 slices"
+          }
+        }
+      ]
+    },
+    "sliced_ham": {
+      "category": "deli_meats",
+      "item": "Sliced Ham",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "pounds": 0.375,
+            "slices": "6-8 slices"
+          }
+        }
+      ]
+    },
+    "sliced_roast_beef": {
+      "category": "deli_meats",
+      "item": "Sliced Roast Beef",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "pounds": 0.375,
+            "slices": "6-8 slices"
+          }
+        }
+      ]
+    },
+    "bologna": {
+      "category": "deli_meats",
+      "item": "Bologna",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5,
+            "slices": "8-10 slices"
+          }
+        }
+      ]
+    },
+    "italian_sausage": {
+      "category": "pork",
+      "item": "Italian Sausage",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "links": "4-5 links"
+          }
+        }
+      ]
+    },
+    "breakfast_sausage": {
+      "category": "pork",
+      "item": "Breakfast Sausage",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "links": "8-10 links"
+          }
+        }
+      ]
+    },
+    "ground_lamb": {
+      "category": "beef",
+      "item": "Ground Lamb",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.45
+          }
+        }
+      ]
+    },
+    "whole_chicken": {
+      "category": "chicken",
+      "item": "Whole Chicken",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 4,
+          "conversions": {
+            "ounces": 64,
+            "grams": 1814.37,
+            "kilograms": 1.81
+          }
+        }
+      ]
+    },
+    "pork_shoulder": {
+      "category": "pork",
+      "item": "Pork Shoulder",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 4,
+          "conversions": {
+            "ounces": 64,
+            "grams": 1814.37,
+            "kilograms": 1.81
+          }
+        }
+      ]
+    },
+    "pepperoni": {
+      "category": "deli_meats",
+      "item": "Pepperoni",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "pounds": 0.375,
+            "slices": "50-60 slices"
+          }
+        }
+      ]
+    },
+    "salami": {
+      "category": "deli_meats",
+      "item": "Salami",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5,
+            "slices": "20-25 slices"
+          }
+        }
+      ]
+    },
+    "kielbasa": {
+      "category": "pork",
+      "item": "Kielbasa",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "links": "1-2 links"
+          }
+        }
+      ]
+    },
+    "chicken_tenders": {
+      "category": "chicken",
+      "item": "Chicken Tenders",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1.5,
+          "conversions": {
+            "ounces": 24,
+            "grams": 680.39,
+            "pieces": "6-8 tenders"
+          }
+        }
+      ]
+    },
+    "flank_steak": {
+      "category": "beef",
+      "item": "Flank Steak",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1.5,
+          "conversions": {
+            "ounces": 24,
+            "grams": 680.39,
+            "kilograms": 0.68
+          }
+        }
+      ]
+    },
+    "brisket": {
+      "category": "beef",
+      "item": "Brisket",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 4,
+          "conversions": {
+            "ounces": 64,
+            "grams": 1814.37,
+            "kilograms": 1.81
+          }
+        }
+      ]
+    },
+    "short_ribs": {
+      "category": "beef",
+      "item": "Short Ribs",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "pieces": "4-6 ribs"
+          }
+        }
+      ]
+    },
+    "lamb_chops": {
+      "category": "beef",
+      "item": "Lamb Chops",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "chops": "4 chops"
+          }
+        }
+      ]
+    },
+    "hot_dogs": {
+      "category": "pork",
+      "item": "Hot Dogs",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "hot dog",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1.5,
+            "grams": 43,
+            "pack": "1 of 8-pack"
+          }
+        }
+      ]
+    },
+    "bratwurst": {
+      "category": "pork",
+      "item": "Bratwurst",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "link",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3.5,
+            "grams": 99,
+            "pack": "1 of 5-pack"
+          }
+        }
+      ]
+    },
+    "andouille_sausage": {
+      "category": "pork",
+      "item": "Andouille Sausage",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "links": "4 links"
+          }
+        }
+      ]
+    },
+    "prosciutto": {
+      "category": "deli_meats",
+      "item": "Prosciutto",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "slices": "12-15 slices",
+            "pounds": 0.25
+          }
+        }
+      ]
+    },
+    "rotisserie_chicken": {
+      "category": "chicken",
+      "item": "Rotisserie Chicken",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "chicken",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907,
+            "pounds": 2
+          }
+        }
+      ]
+    },
+    "corned_beef": {
+      "category": "deli_meats",
+      "item": "Corned Beef",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "slices": "20-25 slices"
+          }
+        }
+      ]
+    }
+  }
+}
+

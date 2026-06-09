@@ -1,0 +1,419 @@
+{
+  "category": "organic_and_specialty",
+  "items": {
+    "organic_milk": {
+      "category": "organic",
+      "item": "Organic Milk",
+      "common_units": [
+        {
+          "unit": "gallons",
+          "symbol": "gal",
+          "typical_amount": 1,
+          "conversions": {
+            "quarts": 4,
+            "cups": 16,
+            "liters": 3.785,
+            "ounces": 128,
+            "grams": 3785
+          }
+        }
+      ]
+    },
+    "organic_eggs": {
+      "category": "organic",
+      "item": "Organic Eggs",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "dozen",
+          "typical_amount": 1,
+          "conversions": {
+            "eggs": "12 eggs",
+            "ounces": "20.4",
+            "grams": "578",
+            "pounds": 1.28
+          }
+        }
+      ]
+    },
+    "organic_coffee": {
+      "category": "organic",
+      "item": "Organic Coffee",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "pounds": 1,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "gluten_free_bread": {
+      "category": "gluten_free",
+      "item": "Gluten-Free Bread",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "loaf",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 18,
+            "grams": 510.29,
+            "pounds": 1.125,
+            "slices": "18-20 slices"
+          }
+        }
+      ]
+    },
+    "gluten_free_pasta": {
+      "category": "gluten_free",
+      "item": "Gluten-Free Pasta",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 13,
+          "conversions": {
+            "grams": 368.54,
+            "pounds": 0.8125,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "gluten_free_flour": {
+      "category": "gluten_free",
+      "item": "Gluten-Free Flour",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91,
+            "cups": 7
+          }
+        }
+      ]
+    },
+    "vegan_milk": {
+      "category": "vegan",
+      "item": "Vegan Milk",
+      "common_units": [
+        {
+          "unit": "quarts",
+          "symbol": "qt",
+          "typical_amount": 1,
+          "conversions": {
+            "gallons": 0.25,
+            "cups": 4,
+            "ounces": 32,
+            "liters": 0.946,
+            "milliliters": 946
+          }
+        }
+      ]
+    },
+    "vegan_butter": {
+      "category": "vegan",
+      "item": "Vegan Butter",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "pounds": 1,
+            "cups": 2,
+            "tablespoons": 32
+          }
+        }
+      ]
+    },
+    "vegan_cheese": {
+      "category": "vegan",
+      "item": "Vegan Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5,
+            "cups": 1
+          }
+        }
+      ]
+    },
+    "tofu": {
+      "category": "vegan",
+      "item": "Tofu",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 14,
+          "conversions": {
+            "grams": 396.89,
+            "pounds": 0.875,
+            "cups": 2,
+            "packages": "1 package"
+          }
+        }
+      ]
+    },
+    "tempeh": {
+      "category": "vegan",
+      "item": "Tempeh",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5,
+            "packages": "1 package"
+          }
+        }
+      ]
+    },
+    "cauliflower_rice": {
+      "category": "keto_and_low_carb",
+      "item": "Cauliflower Rice",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "cups": 3,
+            "pounds": 0.75,
+            "packages": "1 bag"
+          }
+        }
+      ]
+    },
+    "zucchini_noodles": {
+      "category": "keto_and_low_carb",
+      "item": "Zucchini Noodles",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "cups": 2,
+            "pounds": 0.625,
+            "packages": "1 bag"
+          }
+        }
+      ]
+    },
+    "almond_flour": {
+      "category": "keto_and_low_carb",
+      "item": "Almond Flour",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 3.5
+          }
+        }
+      ]
+    },
+    "coconut_flour": {
+      "category": "keto_and_low_carb",
+      "item": "Coconut Flour",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 4
+          }
+        }
+      ]
+    },
+    "erythritol": {
+      "category": "keto_and_low_carb",
+      "item": "Erythritol",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "pounds": 1,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "monk_fruit_sweetener": {
+      "category": "keto_and_low_carb",
+      "item": "Monk Fruit Sweetener",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 3.5,
+          "conversions": {
+            "grams": 99.22,
+            "cups": 0.5,
+            "teaspoons": 24
+          }
+        }
+      ]
+    },
+    "organic_butter": {
+      "category": "organic",
+      "item": "Organic Butter",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 2,
+            "tablespoons": 32
+          }
+        }
+      ]
+    },
+    "organic_flour": {
+      "category": "organic",
+      "item": "Organic Flour",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 5,
+          "conversions": {
+            "ounces": 80,
+            "grams": 2267.96,
+            "cups": 18
+          }
+        }
+      ]
+    },
+    "stevia": {
+      "category": "keto_and_low_carb",
+      "item": "Stevia",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 3.5,
+          "conversions": {
+            "grams": 99.22,
+            "teaspoons": 100,
+            "packets": "75 packets"
+          }
+        }
+      ]
+    },
+    "nutritional_yeast": {
+      "category": "vegan",
+      "item": "Nutritional Yeast",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "cups": 1,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "seitan": {
+      "category": "vegan",
+      "item": "Seitan",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5,
+            "packages": "1 package"
+          }
+        }
+      ]
+    },
+    "plant_based_ground": {
+      "category": "vegan",
+      "item": "Plant-Based Ground",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "packages": "1 package"
+          }
+        }
+      ]
+    },
+    "gluten_free_oats": {
+      "category": "gluten_free",
+      "item": "Gluten-Free Oats",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 32,
+          "conversions": {
+            "grams": 907.18,
+            "cups": 6,
+            "pounds": 2
+          }
+        }
+      ]
+    },
+    "organic_chicken": {
+      "category": "organic",
+      "item": "Organic Chicken Breast",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1.5,
+          "conversions": {
+            "ounces": 24,
+            "grams": 680.39,
+            "breasts": "2 breasts"
+          }
+        }
+      ]
+    }
+  }
+}

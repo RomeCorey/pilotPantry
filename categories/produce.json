@@ -1,0 +1,1575 @@
+{
+  "category": "produce",
+  "items": {
+    "carrots": {
+      "category": "vegetables",
+      "item": "Carrots",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91,
+            "count": "8-10 medium carrots"
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 8,
+            "grams": 227,
+            "tablespoons": 32,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "broccoli": {
+      "category": "vegetables",
+      "item": "Broccoli",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "head",
+          "typical_amount": 1,
+          "conversions": {
+            "pounds": 1.2,
+            "ounces": 19.2,
+            "grams": 544.22,
+            "cups": 2.5
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 3,
+          "conversions": {
+            "ounces": 7.2,
+            "grams": 204,
+            "pounds": 0.45,
+            "count": "0.4 heads"
+          }
+        }
+      ]
+    },
+    "spinach": {
+      "category": "vegetables",
+      "item": "Spinach",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "pounds": 0.625,
+            "cups": 8
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 2.5,
+            "grams": 70.87,
+            "pounds": 0.156
+          }
+        }
+      ]
+    },
+    "tomatoes": {
+      "category": "vegetables",
+      "item": "Tomatoes",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91,
+            "count": "3-4 medium tomatoes"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "tomato",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5.3,
+            "grams": 150,
+            "cups": 0.7,
+            "pounds": 0.33
+          }
+        }
+      ]
+    },
+    "onions": {
+      "category": "vegetables",
+      "item": "Onions",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 3,
+          "conversions": {
+            "ounces": 48,
+            "grams": 1360.77,
+            "kilograms": 1.36,
+            "count": "3-4 large onions"
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5.3,
+            "grams": 150,
+            "tablespoons": 16,
+            "count": "0.5 large onion"
+          }
+        }
+      ]
+    },
+    "garlic": {
+      "category": "vegetables",
+      "item": "Garlic",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "bulb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1.8,
+            "grams": 51,
+            "teaspoons": 3,
+            "cloves": "10-12"
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 3,
+            "ounces": 0.1,
+            "cloves": "1 clove"
+          }
+        }
+      ]
+    },
+    "potatoes": {
+      "category": "vegetables",
+      "item": "Potatoes",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 5,
+          "conversions": {
+            "ounces": 80,
+            "grams": 2267.96,
+            "kilograms": 2.27,
+            "count": "10-12 medium potatoes"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "potato",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5.3,
+            "grams": 150,
+            "cups": 0.7,
+            "pounds": 0.33
+          }
+        }
+      ]
+    },
+    "bell_peppers": {
+      "category": "vegetables",
+      "item": "Bell Peppers",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1.5,
+          "conversions": {
+            "ounces": 24,
+            "grams": 680.39,
+            "kilograms": 0.68,
+            "count": "2-3 medium peppers"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "pepper",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5.3,
+            "grams": 150,
+            "cups": 0.75,
+            "pounds": 0.33
+          }
+        }
+      ]
+    },
+    "cucumbers": {
+      "category": "vegetables",
+      "item": "Cucumbers",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "cucumber",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 7,
+            "grams": 198,
+            "cups": 0.75,
+            "pounds": 0.44
+          }
+        }
+      ]
+    },
+    "lettuce": {
+      "category": "vegetables",
+      "item": "Lettuce",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "head",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 20,
+            "grams": 567,
+            "cups": 6,
+            "pounds": 1.25
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 3,
+          "conversions": {
+            "ounces": 3,
+            "grams": 85,
+            "pounds": 0.19
+          }
+        }
+      ]
+    },
+    "apples": {
+      "category": "fruits",
+      "item": "Apples",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 3,
+          "conversions": {
+            "ounces": 48,
+            "grams": 1360.77,
+            "kilograms": 1.36,
+            "count": "6-8 medium apples"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "apple",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 6,
+            "grams": 170,
+            "cups": 0.6,
+            "pounds": 0.375
+          }
+        }
+      ]
+    },
+    "bananas": {
+      "category": "fruits",
+      "item": "Bananas",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "banana",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3.5,
+            "grams": 99,
+            "cups": 0.5,
+            "pounds": 0.22
+          }
+        },
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1.5,
+          "conversions": {
+            "ounces": 24,
+            "grams": 680.39,
+            "kilograms": 0.68,
+            "count": "6-7 bananas"
+          }
+        }
+      ]
+    },
+    "avocado": {
+      "category": "vegetables",
+      "item": "Avocado",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "avocado",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 6,
+            "grams": 170,
+            "cups": 0.75,
+            "pounds": 0.375
+          }
+        }
+      ]
+    },
+    "lemon": {
+      "category": "fruits",
+      "item": "Lemon",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "lemon",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3.5,
+            "grams": 99,
+            "tablespoons": 3,
+            "cups": 0.25
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "teaspoons": 3,
+            "milliliters": 15,
+            "ounces": 0.5
+          }
+        }
+      ]
+    },
+    "lime": {
+      "category": "fruits",
+      "item": "Lime",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "lime",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 2,
+            "grams": 57,
+            "tablespoons": 2,
+            "cups": 0.15
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "teaspoons": 3,
+            "milliliters": 15,
+            "ounces": 0.5
+          }
+        }
+      ]
+    },
+    "celery": {
+      "category": "vegetables",
+      "item": "Celery",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "bunch",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 454,
+            "cups": 4,
+            "stalks": "8-10 stalks"
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3.5,
+            "grams": 99,
+            "tablespoons": 16,
+            "stalks": "2 stalks"
+          }
+        }
+      ]
+    },
+    "mushrooms": {
+      "category": "vegetables",
+      "item": "Mushrooms",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5,
+            "cups": 2
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3,
+            "grams": 85,
+            "pounds": 0.19
+          }
+        }
+      ]
+    },
+    "zucchini": {
+      "category": "vegetables",
+      "item": "Zucchini",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "zucchini",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 7,
+            "grams": 198,
+            "cups": 1.5,
+            "pounds": 0.44
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 4.5,
+            "grams": 128,
+            "pounds": 0.28
+          }
+        }
+      ]
+    },
+    "green_beans": {
+      "category": "vegetables",
+      "item": "Green Beans",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 4
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 4,
+            "grams": 113,
+            "pounds": 0.25
+          }
+        }
+      ]
+    },
+    "asparagus": {
+      "category": "vegetables",
+      "item": "Asparagus",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 3,
+            "spears": "20-25 spears"
+          }
+        }
+      ]
+    },
+    "sweet_potato": {
+      "category": "vegetables",
+      "item": "Sweet Potato",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "sweet potato",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5,
+            "grams": 142,
+            "cups": 1,
+            "pounds": 0.31
+          }
+        },
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 3,
+          "conversions": {
+            "ounces": 48,
+            "grams": 1360.77,
+            "count": "3-4 medium sweet potatoes"
+          }
+        }
+      ]
+    },
+    "red_onion": {
+      "category": "vegetables",
+      "item": "Red Onion",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "onion",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5,
+            "grams": 142,
+            "cups": 1,
+            "pounds": 0.31
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5,
+            "grams": 142,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "green_onions": {
+      "category": "vegetables",
+      "item": "Green Onions",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "bunch",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 2,
+            "grams": 57,
+            "cups": 0.5,
+            "stalks": "6-8 stalks"
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 0.5,
+          "conversions": {
+            "ounces": 1,
+            "grams": 28,
+            "tablespoons": 8
+          }
+        }
+      ]
+    },
+    "shallots": {
+      "category": "vegetables",
+      "item": "Shallots",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "shallot",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1,
+            "grams": 28,
+            "tablespoons": 2,
+            "cups": 0.1
+          }
+        }
+      ]
+    },
+    "jalapeno": {
+      "category": "vegetables",
+      "item": "Jalapeño",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "pepper",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.5,
+            "grams": 14,
+            "tablespoons": 2,
+            "cups": 0.1
+          }
+        }
+      ]
+    },
+    "cabbage": {
+      "category": "vegetables",
+      "item": "Cabbage",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "head",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907,
+            "cups": 8,
+            "pounds": 2
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3,
+            "grams": 85,
+            "pounds": 0.19
+          }
+        }
+      ]
+    },
+    "cauliflower": {
+      "category": "vegetables",
+      "item": "Cauliflower",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "head",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 24,
+            "grams": 680,
+            "cups": 4,
+            "pounds": 1.5
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3.5,
+            "grams": 99,
+            "pounds": 0.22
+          }
+        }
+      ]
+    },
+    "kale": {
+      "category": "vegetables",
+      "item": "Kale",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "pounds": 0.625,
+            "cups": 6
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1.5,
+            "grams": 43,
+            "pounds": 0.09
+          }
+        }
+      ]
+    },
+    "fresh_corn": {
+      "category": "vegetables",
+      "item": "Corn",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "ear",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 4,
+            "grams": 113,
+            "cups": 0.75,
+            "pounds": 0.25
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5,
+            "grams": 142,
+            "ears": "1-2 ears"
+          }
+        }
+      ]
+    },
+    "ginger_root": {
+      "category": "vegetables",
+      "item": "Fresh Ginger",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "tablespoons": 6,
+            "teaspoons": 18
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "teaspoons": 3,
+            "grams": 6,
+            "ounces": 0.2
+          }
+        }
+      ]
+    },
+    "cilantro": {
+      "category": "herbs",
+      "item": "Cilantro",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "bunch",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1,
+            "grams": 28,
+            "cups": 0.5
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 0.25,
+          "conversions": {
+            "ounces": 0.5,
+            "grams": 14,
+            "tablespoons": 4
+          }
+        }
+      ]
+    },
+    "parsley": {
+      "category": "herbs",
+      "item": "Parsley",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "bunch",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1,
+            "grams": 28,
+            "cups": 0.5
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 0.25,
+          "conversions": {
+            "ounces": 0.5,
+            "grams": 14,
+            "tablespoons": 4
+          }
+        }
+      ]
+    },
+    "fresh_basil": {
+      "category": "herbs",
+      "item": "Fresh Basil",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 0.75,
+          "conversions": {
+            "grams": 21.26,
+            "cups": 1.5,
+            "tablespoons": 24
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 0.5,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7,
+            "tablespoons": 8
+          }
+        }
+      ]
+    },
+    "strawberries": {
+      "category": "fruits",
+      "item": "Strawberries",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "pounds": 1,
+            "cups": 2.5
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5.5,
+            "grams": 156,
+            "pounds": 0.34
+          }
+        }
+      ]
+    },
+    "blueberries": {
+      "category": "fruits",
+      "item": "Blueberries",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "pounds": 0.375,
+            "cups": 1
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5.3,
+            "grams": 150,
+            "pounds": 0.33
+          }
+        }
+      ]
+    },
+    "oranges": {
+      "category": "fruits",
+      "item": "Oranges",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "orange",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5,
+            "grams": 142,
+            "cups": 0.75,
+            "pounds": 0.31
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "grams": 227,
+            "oranges": "2-3 oranges"
+          }
+        }
+      ]
+    },
+    "cherry_tomatoes": {
+      "category": "vegetables",
+      "item": "Cherry Tomatoes",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "pounds": 0.625,
+            "cups": 2
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5,
+            "grams": 142,
+            "pounds": 0.31
+          }
+        }
+      ]
+    },
+    "roma_tomatoes": {
+      "category": "vegetables",
+      "item": "Roma Tomatoes",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "tomato",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3,
+            "grams": 85,
+            "cups": 0.5,
+            "pounds": 0.19
+          }
+        },
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "count": "5-6 roma tomatoes"
+          }
+        }
+      ]
+    },
+    "eggplant": {
+      "category": "vegetables",
+      "item": "Eggplant",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "eggplant",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 20,
+            "grams": 567,
+            "cups": 4,
+            "pounds": 1.25
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3,
+            "grams": 85,
+            "pounds": 0.19
+          }
+        }
+      ]
+    },
+    "butternut_squash": {
+      "category": "vegetables",
+      "item": "Butternut Squash",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "squash",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907,
+            "cups": 4,
+            "pounds": 2
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5,
+            "grams": 142,
+            "pounds": 0.31
+          }
+        }
+      ]
+    },
+    "brussels_sprouts": {
+      "category": "vegetables",
+      "item": "Brussels Sprouts",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 4
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3,
+            "grams": 85,
+            "pounds": 0.19
+          }
+        }
+      ]
+    },
+    "leeks": {
+      "category": "vegetables",
+      "item": "Leeks",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "leek",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5,
+            "grams": 142,
+            "cups": 1,
+            "pounds": 0.31
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3,
+            "grams": 85,
+            "leeks": "1 medium leek"
+          }
+        }
+      ]
+    },
+    "arugula": {
+      "category": "vegetables",
+      "item": "Arugula",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 5,
+          "conversions": {
+            "grams": 141.75,
+            "pounds": 0.31,
+            "cups": 5
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1,
+            "grams": 28,
+            "pounds": 0.06
+          }
+        }
+      ]
+    },
+    "grapes": {
+      "category": "fruits",
+      "item": "Grapes",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "cups": 4
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5,
+            "grams": 142,
+            "pounds": 0.31
+          }
+        }
+      ]
+    },
+    "peaches": {
+      "category": "fruits",
+      "item": "Peaches",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "peach",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5,
+            "grams": 142,
+            "cups": 0.75,
+            "pounds": 0.31
+          }
+        },
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "count": "4-5 peaches"
+          }
+        }
+      ]
+    },
+    "yellow_squash": {
+      "category": "vegetables",
+      "item": "Yellow Squash",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "squash",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 6,
+            "grams": 170,
+            "cups": 1.5,
+            "pounds": 0.375
+          }
+        }
+      ]
+    },
+    "cremini_mushrooms": {
+      "category": "vegetables",
+      "item": "Cremini Mushrooms",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 2,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "mango": {
+      "category": "fruits",
+      "item": "Mango",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "mango",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 10,
+            "grams": 283,
+            "cups": 1.5,
+            "pounds": 0.625
+          }
+        }
+      ]
+    },
+    "pineapple": {
+      "category": "fruits",
+      "item": "Pineapple",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "pineapple",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 35,
+            "grams": 992,
+            "cups": 4,
+            "pounds": 2.2
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5.5,
+            "grams": 156,
+            "pounds": 0.34
+          }
+        }
+      ]
+    },
+    "raspberries": {
+      "category": "fruits",
+      "item": "Raspberries",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "cups": 1,
+            "pounds": 0.375
+          }
+        }
+      ]
+    },
+    "blackberries": {
+      "category": "fruits",
+      "item": "Blackberries",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "cups": 1,
+            "pounds": 0.375
+          }
+        }
+      ]
+    },
+    "cherries": {
+      "category": "fruits",
+      "item": "Cherries",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 2.5
+          }
+        }
+      ]
+    },
+    "grapefruit": {
+      "category": "fruits",
+      "item": "Grapefruit",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "grapefruit",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 10,
+            "grams": 283,
+            "cups": 1,
+            "pounds": 0.625
+          }
+        }
+      ]
+    },
+    "kiwi": {
+      "category": "fruits",
+      "item": "Kiwi",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "kiwi",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 2.5,
+            "grams": 71,
+            "cups": 0.5,
+            "pounds": 0.16
+          }
+        }
+      ]
+    },
+    "beets": {
+      "category": "vegetables",
+      "item": "Beets",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "beet",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 4,
+            "grams": 113,
+            "cups": 0.75,
+            "pounds": 0.25
+          }
+        },
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "count": "3-4 beets"
+          }
+        }
+      ]
+    },
+    "radishes": {
+      "category": "vegetables",
+      "item": "Radishes",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "bunch",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 6,
+            "grams": 170,
+            "cups": 1
+          }
+        }
+      ]
+    },
+    "bok_choy": {
+      "category": "vegetables",
+      "item": "Bok Choy",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "head",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 12,
+            "grams": 340,
+            "cups": 3,
+            "pounds": 0.75
+          }
+        }
+      ]
+    },
+    "snap_peas": {
+      "category": "vegetables",
+      "item": "Snap Peas",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 2,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "collard_greens": {
+      "category": "vegetables",
+      "item": "Collard Greens",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "bunch",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 12,
+            "grams": 340,
+            "cups": 4
+          }
+        }
+      ]
+    },
+    "fennel": {
+      "category": "vegetables",
+      "item": "Fennel",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "bulb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "grams": 227,
+            "cups": 1.5,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "romaine_lettuce": {
+      "category": "vegetables",
+      "item": "Romaine Lettuce",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "head",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 454,
+            "cups": 6,
+            "pounds": 1
+          }
+        }
+      ]
+    },
+    "poblano_pepper": {
+      "category": "vegetables",
+      "item": "Poblano Pepper",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "pepper",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 4,
+            "grams": 113,
+            "cups": 0.75,
+            "pounds": 0.25
+          }
+        }
+      ]
+    },
+    "artichoke": {
+      "category": "vegetables",
+      "item": "Artichoke",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "artichoke",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 10,
+            "grams": 283,
+            "cups": 1,
+            "pounds": 0.625
+          }
+        }
+      ]
+    },
+    "fresh_thyme": {
+      "category": "herbs",
+      "item": "Fresh Thyme",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 0.75,
+          "conversions": {
+            "grams": 21.26,
+            "cups": 1,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "fresh_rosemary": {
+      "category": "herbs",
+      "item": "Fresh Rosemary",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 0.75,
+          "conversions": {
+            "grams": 21.26,
+            "cups": 1,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "fresh_mint": {
+      "category": "herbs",
+      "item": "Fresh Mint",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 0.75,
+          "conversions": {
+            "grams": 21.26,
+            "cups": 1.5,
+            "tablespoons": 24
+          }
+        }
+      ]
+    },
+    "fresh_dill": {
+      "category": "herbs",
+      "item": "Fresh Dill",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 0.75,
+          "conversions": {
+            "grams": 21.26,
+            "cups": 1,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "pears": {
+      "category": "fruits",
+      "item": "Pears",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "pear",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 6,
+            "grams": 170,
+            "cups": 0.75,
+            "pounds": 0.375
+          }
+        },
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "count": "4-5 pears"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "category": "frozen_foods",
+  "items": {
+    "frozen_broccoli": {
+      "category": "frozen_vegetables",
+      "item": "Frozen Broccoli",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91,
+            "cups": 4
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3,
+            "grams": 85,
+            "pounds": 0.19
+          }
+        }
+      ]
+    },
+    "vanilla_ice_cream": {
+      "category": "ice_cream",
+      "item": "Vanilla Ice Cream",
+      "common_units": [
+        {
+          "unit": "quarts",
+          "symbol": "qt",
+          "typical_amount": 1,
+          "conversions": {
+            "gallons": 0.25,
+            "pints": 2,
+            "cups": 4,
+            "ounces": 32,
+            "grams": 907.18
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "grams": 226.80,
+            "tablespoons": 16,
+            "pints": 0.5
+          }
+        }
+      ]
+    },
+    "frozen_peas": {
+      "category": "frozen_vegetables",
+      "item": "Frozen Peas",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "frozen_corn": {
+      "category": "frozen_vegetables",
+      "item": "Frozen Corn",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "frozen_strawberries": {
+      "category": "frozen_fruits",
+      "item": "Frozen Strawberries",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 1.5
+          }
+        }
+      ]
+    },
+    "frozen_blueberries": {
+      "category": "frozen_fruits",
+      "item": "Frozen Blueberries",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "frozen_pizza": {
+      "category": "frozen_meals",
+      "item": "Frozen Pizza",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "pounds": 0.94,
+            "count": "1 pizza"
+          }
+        }
+      ]
+    },
+    "frozen_dinner": {
+      "category": "frozen_meals",
+      "item": "Frozen Dinner",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "pounds": 0.625,
+            "count": "1 meal"
+          }
+        }
+      ]
+    },
+    "frozen_burritos": {
+      "category": "frozen_meals",
+      "item": "Frozen Burritos",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 5,
+          "conversions": {
+            "grams": 141.75,
+            "pounds": 0.3125,
+            "count": "1 burrito"
+          }
+        }
+      ]
+    },
+    "frozen_chicken_nuggets": {
+      "category": "frozen_meals",
+      "item": "Frozen Chicken Nuggets",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "pounds": 1,
+            "pieces": "20-24 pieces"
+          }
+        }
+      ]
+    },
+    "chocolate_ice_cream": {
+      "category": "ice_cream",
+      "item": "Chocolate Ice Cream",
+      "common_units": [
+        {
+          "unit": "quarts",
+          "symbol": "qt",
+          "typical_amount": 1,
+          "conversions": {
+            "gallons": 0.25,
+            "pints": 2,
+            "cups": 4,
+            "ounces": 32,
+            "grams": 907.18
+          }
+        }
+      ]
+    },
+    "strawberry_ice_cream": {
+      "category": "ice_cream",
+      "item": "Strawberry Ice Cream",
+      "common_units": [
+        {
+          "unit": "quarts",
+          "symbol": "qt",
+          "typical_amount": 1,
+          "conversions": {
+            "gallons": 0.25,
+            "pints": 2,
+            "cups": 4,
+            "ounces": 32,
+            "grams": 907.18
+          }
+        }
+      ]
+    },
+    "frozen_spinach": {
+      "category": "frozen_vegetables",
+      "item": "Frozen Spinach",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "cups": 1.5,
+            "pounds": 0.625
+          }
+        }
+      ]
+    },
+    "frozen_mixed_vegetables": {
+      "category": "frozen_vegetables",
+      "item": "Frozen Mixed Vegetables",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 3
+          }
+        }
+      ]
+    },
+    "frozen_green_beans": {
+      "category": "frozen_vegetables",
+      "item": "Frozen Green Beans",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 3
+          }
+        }
+      ]
+    },
+    "frozen_cauliflower": {
+      "category": "frozen_vegetables",
+      "item": "Frozen Cauliflower",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 3
+          }
+        }
+      ]
+    },
+    "frozen_french_fries": {
+      "category": "frozen_meals",
+      "item": "Frozen French Fries",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 32,
+          "conversions": {
+            "grams": 907.18,
+            "pounds": 2,
+            "cups": 4
+          }
+        }
+      ]
+    },
+    "frozen_waffles": {
+      "category": "frozen_meals",
+      "item": "Frozen Waffles",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "waffle",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1.25,
+            "grams": 35,
+            "box": "1 of 10-pack"
+          }
+        }
+      ]
+    },
+    "frozen_fish_sticks": {
+      "category": "frozen_meals",
+      "item": "Frozen Fish Sticks",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "pieces": "10-12 sticks",
+            "pounds": 0.75
+          }
+        }
+      ]
+    },
+    "frozen_shrimp": {
+      "category": "frozen_meals",
+      "item": "Frozen Shrimp",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "count": "30-40 shrimp"
+          }
+        }
+      ]
+    },
+    "frozen_pie_crust": {
+      "category": "frozen_meals",
+      "item": "Frozen Pie Crust",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "crust",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 6,
+            "grams": 170,
+            "box": "2 crusts per box"
+          }
+        }
+      ]
+    },
+    "frozen_berries": {
+      "category": "frozen_fruits",
+      "item": "Frozen Mixed Berries",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 3
+          }
+        }
+      ]
+    },
+    "frozen_mango": {
+      "category": "frozen_fruits",
+      "item": "Frozen Mango",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 2.5
+          }
+        }
+      ]
+    },
+    "sorbet": {
+      "category": "ice_cream",
+      "item": "Sorbet",
+      "common_units": [
+        {
+          "unit": "pints",
+          "symbol": "pt",
+          "typical_amount": 1,
+          "conversions": {
+            "cups": 2,
+            "ounces": 16,
+            "grams": 453.59
+          }
+        }
+      ]
+    }
+  }
+}

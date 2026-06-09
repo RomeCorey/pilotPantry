@@ -1,0 +1,407 @@
+{
+  "category": "snacks",
+  "items": {
+    "potato_chips": {
+      "category": "chips_and_crackers",
+      "item": "Potato Chips",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 2.5,
+          "conversions": {
+            "grams": 70.87,
+            "pounds": 0.156
+          }
+        },
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454
+          }
+        }
+      ]
+    },
+    "mixed_nuts": {
+      "category": "dried_fruits_and_nuts",
+      "item": "Mixed Nuts",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 1,
+            "pounds": 0.5
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5.3,
+            "grams": 150,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "tortilla_chips": {
+      "category": "chips_and_crackers",
+      "item": "Tortilla Chips",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "cups": 2,
+            "pounds": 0.625
+          }
+        }
+      ]
+    },
+    "pretzels": {
+      "category": "chips_and_crackers",
+      "item": "Pretzels",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 2,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "dried_cranberries": {
+      "category": "dried_fruits_and_nuts",
+      "item": "Dried Cranberries",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 4,
+            "grams": 113,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "trail_mix": {
+      "category": "dried_fruits_and_nuts",
+      "item": "Trail Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "cups": 2,
+            "pounds": 0.625,
+            "servings": "5-7 servings"
+          }
+        }
+      ]
+    },
+    "gummy_bears": {
+      "category": "candy",
+      "item": "Gummy Bears",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 5,
+          "conversions": {
+            "grams": 141.75,
+            "pounds": 0.3125,
+            "servings": "3-4 servings"
+          }
+        }
+      ]
+    },
+    "chocolate_bars": {
+      "category": "candy",
+      "item": "Chocolate Bars",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1.5,
+          "conversions": {
+            "grams": 42.52,
+            "count": "1 bar"
+          }
+        }
+      ]
+    },
+    "hard_candy": {
+      "category": "candy",
+      "item": "Hard Candy",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "pounds": 0.625,
+            "pieces": "30-40 pieces"
+          }
+        }
+      ]
+    },
+    "granola_bars": {
+      "category": "granola_and_bars",
+      "item": "Granola Bars",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1.5,
+          "conversions": {
+            "grams": 42.52,
+            "count": "1 bar"
+          }
+        }
+      ]
+    },
+    "protein_bars": {
+      "category": "granola_and_bars",
+      "item": "Protein Bars",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 2,
+          "conversions": {
+            "grams": 56.70,
+            "count": "1 bar"
+          }
+        }
+      ]
+    },
+    "energy_bars": {
+      "category": "granola_and_bars",
+      "item": "Energy Bars",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 2,
+          "conversions": {
+            "grams": 56.70,
+            "count": "1 bar"
+          }
+        }
+      ]
+    },
+    "microwave_popcorn": {
+      "category": "popcorn",
+      "item": "Microwave Popcorn",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 3.5,
+          "conversions": {
+            "grams": 99.22,
+            "packages": "1 package",
+            "cups": 3
+          }
+        }
+      ]
+    },
+    "popcorn_kernels": {
+      "category": "popcorn",
+      "item": "Popcorn Kernels",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2,
+            "quarts": "3-4 quarts popped"
+          }
+        }
+      ]
+    },
+    "saltine_crackers": {
+      "category": "chips_and_crackers",
+      "item": "Saltine Crackers",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 4,
+            "sleeves": "4 sleeves"
+          }
+        }
+      ]
+    },
+    "ritz_crackers": {
+      "category": "chips_and_crackers",
+      "item": "Ritz Crackers",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 13.7,
+          "conversions": {
+            "grams": 388.39,
+            "cups": 3,
+            "sleeves": "4 sleeves"
+          }
+        }
+      ]
+    },
+    "cheese_crackers": {
+      "category": "chips_and_crackers",
+      "item": "Cheese Crackers",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "cups": 3,
+            "pounds": 0.75
+          }
+        }
+      ]
+    },
+    "chocolate_chip_cookies": {
+      "category": "chips_and_crackers",
+      "item": "Chocolate Chip Cookies",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 13,
+          "conversions": {
+            "grams": 368.54,
+            "count": "12-15 cookies",
+            "pounds": 0.8125
+          }
+        }
+      ]
+    },
+    "beef_jerky": {
+      "category": "dried_fruits_and_nuts",
+      "item": "Beef Jerky",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 3,
+          "conversions": {
+            "grams": 85.05,
+            "pieces": "1 package",
+            "pounds": 0.19
+          }
+        }
+      ]
+    },
+    "rice_cakes": {
+      "category": "chips_and_crackers",
+      "item": "Rice Cakes",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "cake",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.35,
+            "grams": 10,
+            "pack": "1 of 12-pack"
+          }
+        }
+      ]
+    },
+    "pita_chips": {
+      "category": "chips_and_crackers",
+      "item": "Pita Chips",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 2,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "fruit_snacks": {
+      "category": "candy",
+      "item": "Fruit Snacks",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pouches": "10 pouches",
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "almonds_snack": {
+      "category": "dried_fruits_and_nuts",
+      "item": "Roasted Almonds",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "cups": 1,
+            "pounds": 0.375
+          }
+        }
+      ]
+    },
+    "cashews_snack": {
+      "category": "dried_fruits_and_nuts",
+      "item": "Roasted Cashews",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 1,
+            "pounds": 0.5
+          }
+        }
+      ]
+    }
+  }
+}

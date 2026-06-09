@@ -1,0 +1,478 @@
+{
+  "category": "international_foods",
+  "items": {
+    "rice_noodles": {
+      "category": "asian",
+      "item": "Rice Noodles",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "ramen_noodles": {
+      "category": "asian",
+      "item": "Ramen Noodles",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 3,
+          "conversions": {
+            "grams": 85.05,
+            "packages": "1 package"
+          }
+        }
+      ]
+    },
+    "coconut_milk": {
+      "category": "asian",
+      "item": "Coconut Milk",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 13,
+          "conversions": {
+            "milliliters": 384.46,
+            "cups": 1.625,
+            "cans": "1 can",
+            "grams": 385
+          }
+        }
+      ]
+    },
+    "panang_curry_paste": {
+      "category": "asian",
+      "item": "Panang Curry Paste",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "tablespoons": 8,
+            "cups": 0.25
+          }
+        }
+      ]
+    },
+    "miso_paste": {
+      "category": "asian",
+      "item": "Miso Paste",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "tablespoons": 20,
+            "cups": 0.625
+          }
+        }
+      ]
+    },
+    "wasabi": {
+      "category": "asian",
+      "item": "Wasabi",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 2,
+          "conversions": {
+            "grams": 56.70,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        }
+      ]
+    },
+    "nori_sheets": {
+      "category": "asian",
+      "item": "Nori Sheets",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "sheet",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 3,
+            "ounces": 0.1
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "pack",
+          "typical_amount": 1,
+          "conversions": {
+            "sheets": "10 sheets",
+            "grams": "30",
+            "ounces": "1.06"
+          }
+        }
+      ]
+    },
+    "corn_tortillas": {
+      "category": "mexican",
+      "item": "Tortillas (Corn)",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "tortilla",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 30,
+            "ounces": 1.06
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "pack",
+          "typical_amount": 1,
+          "conversions": {
+            "tortillas": "12-20 tortillas",
+            "grams": "360-600",
+            "ounces": "12-21",
+            "pounds": 0.75
+          }
+        }
+      ]
+    },
+    "flour_tortillas": {
+      "category": "mexican",
+      "item": "Tortillas (Flour)",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "tortilla",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 49,
+            "ounces": 1.73
+          }
+        }
+      ]
+    },
+    "enchilada_sauce": {
+      "category": "mexican",
+      "item": "Enchilada Sauce",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 19,
+          "conversions": {
+            "grams": 538.59,
+            "cups": 2.25,
+            "tablespoons": 38
+          }
+        }
+      ]
+    },
+    "chorizo": {
+      "category": "mexican",
+      "item": "Chorizo",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "pita_bread": {
+      "category": "middle_eastern",
+      "item": "Pita Bread",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "bread",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 55,
+            "ounces": 1.94
+          }
+        }
+      ]
+    },
+    "falafel_mix": {
+      "category": "middle_eastern",
+      "item": "Falafel Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "tablespoons": 12,
+            "cups": 0.5
+          }
+        }
+      ]
+    },
+    "zaatar": {
+      "category": "middle_eastern",
+      "item": "Zaatar",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 2,
+          "conversions": {
+            "grams": 56.70,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        }
+      ]
+    },
+    "sumac": {
+      "category": "middle_eastern",
+      "item": "Sumac",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        }
+      ]
+    },
+    "gochujang": {
+      "category": "asian",
+      "item": "Gochujang",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 17.6,
+          "conversions": {
+            "grams": 498.95,
+            "tablespoons": 35,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "red_curry_paste": {
+      "category": "asian",
+      "item": "Red Curry Paste",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "tablespoons": 8,
+            "teaspoons": 24
+          }
+        }
+      ]
+    },
+    "naan_bread": {
+      "category": "middle_eastern",
+      "item": "Naan Bread",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "naan",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 3.5,
+            "grams": 99,
+            "pack": "1 of 4-pack"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "pack",
+          "typical_amount": 1,
+          "conversions": {
+            "naan": "4 pieces",
+            "ounces": 14,
+            "grams": 397
+          }
+        }
+      ]
+    },
+    "kimchi": {
+      "category": "asian",
+      "item": "Kimchi",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 14,
+          "conversions": {
+            "grams": 396.89,
+            "cups": 2,
+            "jars": "1 jar"
+          }
+        }
+      ]
+    },
+    "harissa": {
+      "category": "middle_eastern",
+      "item": "Harissa",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "tablespoons": 8,
+            "teaspoons": 24
+          }
+        }
+      ]
+    },
+    "soba_noodles": {
+      "category": "asian",
+      "item": "Soba Noodles",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 2,
+            "packages": "1 package"
+          }
+        }
+      ]
+    },
+    "udon_noodles": {
+      "category": "asian",
+      "item": "Udon Noodles",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 14,
+          "conversions": {
+            "grams": 396.89,
+            "cups": 3,
+            "packages": "1 package"
+          }
+        }
+      ]
+    },
+    "pad_thai_sauce": {
+      "category": "asian",
+      "item": "Pad Thai Sauce",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 8,
+          "conversions": {
+            "milliliters": 236.59,
+            "tablespoons": 16,
+            "cups": 1
+          }
+        }
+      ]
+    },
+    "coconut_aminos": {
+      "category": "asian",
+      "item": "Coconut Aminos",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 10,
+          "conversions": {
+            "milliliters": 295.74,
+            "tablespoons": 20,
+            "cups": 1.25
+          }
+        }
+      ]
+    },
+    "tamarind_paste": {
+      "category": "asian",
+      "item": "Tamarind Paste",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "tablespoons": 16,
+            "cups": 1
+          }
+        }
+      ]
+    },
+    "rice_paper": {
+      "category": "asian",
+      "item": "Rice Paper",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "sheet",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 3,
+            "ounces": 0.1,
+            "pack": "1 of 30-sheet pack"
+          }
+        }
+      ]
+    },
+    "wonton_wrappers": {
+      "category": "asian",
+      "item": "Wonton Wrappers",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "wrapper",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 4,
+            "ounces": 0.14,
+            "pack": "1 of 48-count pack"
+          }
+        }
+      ]
+    },
+    "green_curry_paste": {
+      "category": "asian",
+      "item": "Green Curry Paste",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "tablespoons": 8,
+            "teaspoons": 24
+          }
+        }
+      ]
+    }
+  }
+}

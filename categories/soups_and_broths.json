@@ -1,0 +1,266 @@
+{
+  "category": "soups_and_broths",
+  "items": {
+    "chicken_noodle_soup": {
+      "category": "canned_soups",
+      "item": "Chicken Noodle Soup",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "cups": 1.25,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "tomato_soup": {
+      "category": "canned_soups",
+      "item": "Tomato Soup",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "cups": 1.25,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "cream_of_mushroom": {
+      "category": "canned_soups",
+      "item": "Cream of Mushroom",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "cups": 1.25,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "minestrone_soup": {
+      "category": "canned_soups",
+      "item": "Minestrone Soup",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 19,
+          "conversions": {
+            "grams": 538.59,
+            "cups": 2.25,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "beef_broth": {
+      "category": "broths_and_stocks",
+      "item": "Beef Broth",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "grams": 240
+          }
+        }
+      ]
+    },
+    "chicken_broth": {
+      "category": "broths_and_stocks",
+      "item": "Chicken Broth",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "grams": 240
+          }
+        }
+      ]
+    },
+    "vegetable_broth": {
+      "category": "broths_and_stocks",
+      "item": "Vegetable Broth",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "grams": 240
+          }
+        }
+      ]
+    },
+    "chili": {
+      "category": "canned_soups",
+      "item": "Chili",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1.75,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "cream_of_chicken": {
+      "category": "canned_soups",
+      "item": "Cream of Chicken Soup",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10.5,
+          "conversions": {
+            "grams": 297.67,
+            "cups": 1.25,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "bone_broth": {
+      "category": "broths_and_stocks",
+      "item": "Bone Broth",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "grams": 240
+          }
+        }
+      ]
+    },
+    "fish_stock": {
+      "category": "broths_and_stocks",
+      "item": "Fish Stock",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "grams": 240
+          }
+        }
+      ]
+    },
+    "cream_of_celery": {
+      "category": "canned_soups",
+      "item": "Cream of Celery Soup",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10.5,
+          "conversions": {
+            "grams": 297.67,
+            "cups": 1.25,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "lentil_soup": {
+      "category": "canned_soups",
+      "item": "Lentil Soup",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1.75,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "clam_chowder": {
+      "category": "canned_soups",
+      "item": "Clam Chowder",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1.75,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "french_onion_soup": {
+      "category": "canned_soups",
+      "item": "French Onion Soup",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10.5,
+          "conversions": {
+            "grams": 297.67,
+            "cups": 1.25,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "vegetable_soup": {
+      "category": "canned_soups",
+      "item": "Vegetable Soup",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1.75,
+            "cans": "1 can"
+          }
+        }
+      ]
+    }
+  }
+}

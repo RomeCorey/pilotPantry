@@ -1,0 +1,405 @@
+{
+  "category": "breakfast_cereals",
+  "items": {
+    "oatmeal": {
+      "category": "cereals",
+      "item": "Oatmeal",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "pounds": 1,
+            "cups": 3
+          }
+        }
+      ]
+    },
+    "cheerios": {
+      "category": "cereals",
+      "item": "Cheerios",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "cups": 4,
+            "pounds": 0.625
+          }
+        }
+      ]
+    },
+    "frosted_flakes": {
+      "category": "cereals",
+      "item": "Frosted Flakes",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 13,
+          "conversions": {
+            "grams": 368.54,
+            "cups": 4.5,
+            "pounds": 0.8125
+          }
+        }
+      ]
+    },
+    "froot_loops": {
+      "category": "cereals",
+      "item": "Froot Loops",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "cups": 4,
+            "pounds": 0.625
+          }
+        }
+      ]
+    },
+    "lucky_charms": {
+      "category": "cereals",
+      "item": "Lucky Charms",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "cups": 4,
+            "pounds": 0.625
+          }
+        }
+      ]
+    },
+    "cinnamon_toast_crunch": {
+      "category": "cereals",
+      "item": "Cinnamon Toast Crunch",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "cups": 4,
+            "pounds": 0.75
+          }
+        }
+      ]
+    },
+    "raisin_bran": {
+      "category": "cereals",
+      "item": "Raisin Bran",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 13,
+          "conversions": {
+            "grams": 368.54,
+            "cups": 4,
+            "pounds": 0.8125
+          }
+        }
+      ]
+    },
+    "granola": {
+      "category": "cereals",
+      "item": "Granola",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 4,
+            "pounds": 1
+          }
+        }
+      ]
+    },
+    "muesli": {
+      "category": "cereals",
+      "item": "Muesli Cereal",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 4,
+            "pounds": 1
+          }
+        }
+      ]
+    },
+    "bagels": {
+      "category": "bread_and_baked_goods",
+      "item": "Bagels",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "bagel",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 2.8,
+            "grams": 79,
+            "calories": "200-250"
+          }
+        }
+      ]
+    },
+    "english_muffins": {
+      "category": "bread_and_baked_goods",
+      "item": "English Muffins",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "muffin",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 2,
+            "grams": 57,
+            "calories": "150-200"
+          }
+        }
+      ]
+    },
+    "croissants": {
+      "category": "bread_and_baked_goods",
+      "item": "Croissants",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "croissant",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 2,
+            "grams": 57,
+            "calories": "200-250"
+          }
+        }
+      ]
+    },
+    "strawberry_jam": {
+      "category": "jams_and_spreads",
+      "item": "Strawberry Jam",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 18,
+          "conversions": {
+            "grams": 510.29,
+            "tablespoons": 36,
+            "cups": 0.75
+          }
+        }
+      ]
+    },
+    "raspberry_jam": {
+      "category": "jams_and_spreads",
+      "item": "Raspberry Jam",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 18,
+          "conversions": {
+            "grams": 510.29,
+            "tablespoons": 36,
+            "cups": 0.75
+          }
+        }
+      ]
+    },
+    "blueberry_jam": {
+      "category": "jams_and_spreads",
+      "item": "Blueberry Jam",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 18,
+          "conversions": {
+            "grams": 510.29,
+            "tablespoons": 36,
+            "cups": 0.75
+          }
+        }
+      ]
+    },
+    "turkey_bacon": {
+      "category": "breakfast_meats",
+      "item": "Turkey Bacon",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "pounds": 0.375,
+            "slices": "6-8 slices"
+          }
+        }
+      ]
+    },
+    "sausage_links": {
+      "category": "breakfast_meats",
+      "item": "Sausage Links",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5,
+            "count": "6-8 links"
+          }
+        }
+      ]
+    },
+    "honey_nut_cheerios": {
+      "category": "cereals",
+      "item": "Honey Nut Cheerios",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "cups": 4,
+            "pounds": 0.625
+          }
+        }
+      ]
+    },
+    "corn_flakes": {
+      "category": "cereals",
+      "item": "Corn Flakes",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "cups": 4,
+            "pounds": 0.75
+          }
+        }
+      ]
+    },
+    "grape_nuts": {
+      "category": "cereals",
+      "item": "Grape Nuts",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 20,
+          "conversions": {
+            "grams": 566.99,
+            "cups": 4,
+            "pounds": 1.25
+          }
+        }
+      ]
+    },
+    "cream_of_wheat": {
+      "category": "cereals",
+      "item": "Cream of Wheat",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 28,
+          "conversions": {
+            "grams": 793.79,
+            "cups": 4,
+            "pounds": 1.75
+          }
+        }
+      ]
+    },
+    "grits": {
+      "category": "cereals",
+      "item": "Grits",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 24,
+          "conversions": {
+            "grams": 680.39,
+            "cups": 4,
+            "pounds": 1.5
+          }
+        }
+      ]
+    },
+    "nutella": {
+      "category": "jams_and_spreads",
+      "item": "Nutella",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 13,
+          "conversions": {
+            "grams": 368.54,
+            "cups": 1.5,
+            "tablespoons": 26
+          }
+        }
+      ]
+    },
+    "pancake_syrup": {
+      "category": "jams_and_spreads",
+      "item": "Pancake Syrup",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 24,
+          "conversions": {
+            "milliliters": 710.32,
+            "cups": 3,
+            "tablespoons": 48
+          }
+        }
+      ]
+    },
+    "hash_browns": {
+      "category": "breakfast_meats",
+      "item": "Hash Browns",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 20,
+          "conversions": {
+            "grams": 566.99,
+            "cups": 3,
+            "pounds": 1.25
+          }
+        }
+      ]
+    }
+  }
+}

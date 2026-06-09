@@ -1,0 +1,180 @@
+{
+  "category": "party_supplies",
+  "items": {
+    "paper_plates": {
+      "category": "paper_and_plastic",
+      "item": "Paper Plates",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "plate",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 5,
+            "ounces": 0.18
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "pack",
+          "typical_amount": 1,
+          "conversions": {
+            "plates": "50-100 plates",
+            "ounces": "180-360",
+            "grams": "500-1000"
+          }
+        }
+      ]
+    },
+    "plastic_cups": {
+      "category": "paper_and_plastic",
+      "item": "Plastic Cups",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 1,
+            "ounces": 0.035
+          }
+        },
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 16,
+          "conversions": {
+            "cups": 2,
+            "milliliters": 473.18,
+            "liters": 0.473
+          }
+        }
+      ]
+    },
+    "plastic_utensils": {
+      "category": "paper_and_plastic",
+      "item": "Plastic Utensils",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "utensil",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 1,
+            "ounces": 0.035
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "pack",
+          "typical_amount": 1,
+          "conversions": {
+            "utensils": "50-100 utensils",
+            "ounces": "1.75-3.5",
+            "grams": "50-100"
+          }
+        }
+      ]
+    },
+    "napkins": {
+      "category": "paper_and_plastic",
+      "item": "Napkins",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "napkin",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 0.3,
+            "ounces": 0.01
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "pack",
+          "typical_amount": 1,
+          "conversions": {
+            "napkins": "100-200 napkins",
+            "ounces": "3-6",
+            "grams": "85-170"
+          }
+        }
+      ]
+    },
+    "aluminum_foil": {
+      "category": "paper_and_plastic",
+      "item": "Aluminum Foil",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "roll",
+          "typical_amount": 1,
+          "conversions": {
+            "square feet": "75 sq ft",
+            "inches": "18 inches wide"
+          }
+        }
+      ]
+    },
+    "plastic_wrap": {
+      "category": "paper_and_plastic",
+      "item": "Plastic Wrap",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "roll",
+          "typical_amount": 1,
+          "conversions": {
+            "square feet": "200 sq ft",
+            "inches": "12 inches wide"
+          }
+        }
+      ]
+    },
+    "parchment_paper": {
+      "category": "paper_and_plastic",
+      "item": "Parchment Paper",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "roll",
+          "typical_amount": 1,
+          "conversions": {
+            "square feet": "45 sq ft",
+            "sheets": "50 pre-cut sheets"
+          }
+        }
+      ]
+    },
+    "toothpicks": {
+      "category": "paper_and_plastic",
+      "item": "Toothpicks",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "toothpick",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 0.1,
+            "box": "1 of 250-count box"
+          }
+        }
+      ]
+    },
+    "paper_towels": {
+      "category": "paper_and_plastic",
+      "item": "Paper Towels",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "roll",
+          "typical_amount": 1,
+          "conversions": {
+            "sheets": "60-80 sheets",
+            "pack": "1 of 6-roll pack"
+          }
+        }
+      ]
+    }
+  }
+}

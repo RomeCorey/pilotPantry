@@ -1,0 +1,1619 @@
+{
+  "category": "pantry_staples",
+  "items": {
+    "all_purpose_flour": {
+      "category": "grains_and_flours",
+      "item": "All-Purpose Flour",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 5,
+          "conversions": {
+            "ounces": 80,
+            "grams": 2267.96,
+            "kilograms": 2.27,
+            "cups": 18
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 4.4,
+            "grams": 125,
+            "tablespoons": 16,
+            "pounds": 0.275
+          }
+        }
+      ]
+    },
+    "wheat_flour": {
+      "category": "grains_and_flours",
+      "item": "Wheat Flour",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 5,
+          "conversions": {
+            "ounces": 80,
+            "grams": 2267.96,
+            "kilograms": 2.27,
+            "cups": 15
+          }
+        }
+      ]
+    },
+    "bread_flour": {
+      "category": "grains_and_flours",
+      "item": "Bread Flour",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 5,
+          "conversions": {
+            "ounces": 80,
+            "grams": 2267.96,
+            "kilograms": 2.27
+          }
+        }
+      ]
+    },
+    "cake_flour": {
+      "category": "grains_and_flours",
+      "item": "Cake Flour",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91
+          }
+        }
+      ]
+    },
+    "cornmeal": {
+      "category": "grains_and_flours",
+      "item": "Cornmeal",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91,
+            "cups": 3
+          }
+        }
+      ]
+    },
+    "white_rice": {
+      "category": "grains_and_flours",
+      "item": "White Rice",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91,
+            "cups": 4.5
+          }
+        }
+      ]
+    },
+    "brown_rice": {
+      "category": "grains_and_flours",
+      "item": "Brown Rice",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91,
+            "cups": 4
+          }
+        }
+      ]
+    },
+    "jasmine_rice": {
+      "category": "grains_and_flours",
+      "item": "Jasmine Rice",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91
+          }
+        }
+      ]
+    },
+    "basmati_rice": {
+      "category": "grains_and_flours",
+      "item": "Basmati Rice",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91
+          }
+        }
+      ]
+    },
+    "wild_rice": {
+      "category": "grains_and_flours",
+      "item": "Wild Rice",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454
+          }
+        }
+      ]
+    },
+    "oats": {
+      "category": "grains_and_flours",
+      "item": "Oats",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 3
+          }
+        }
+      ]
+    },
+    "quinoa": {
+      "category": "grains_and_flours",
+      "item": "Quinoa",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "couscous": {
+      "category": "grains_and_flours",
+      "item": "Couscous",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2.5
+          }
+        }
+      ]
+    },
+    "pasta": {
+      "category": "grains_and_flours",
+      "item": "Pasta",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 3
+          }
+        }
+      ]
+    },
+    "whole_wheat_pasta": {
+      "category": "grains_and_flours",
+      "item": "Whole Wheat Pasta",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454
+          }
+        }
+      ]
+    },
+    "egg_noodles": {
+      "category": "grains_and_flours",
+      "item": "Egg Noodles",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "pounds": 0.75,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "granulated_sugar": {
+      "category": "sugar_and_sweeteners",
+      "item": "Granulated Sugar",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91,
+            "cups": 4.5
+          }
+        }
+      ]
+    },
+    "brown_sugar": {
+      "category": "sugar_and_sweeteners",
+      "item": "Brown Sugar",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2.25
+          }
+        }
+      ]
+    },
+    "powdered_sugar": {
+      "category": "sugar_and_sweeteners",
+      "item": "Powdered Sugar",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "kilograms": 0.91,
+            "cups": 7.5
+          }
+        }
+      ]
+    },
+    "honey": {
+      "category": "sugar_and_sweeteners",
+      "item": "Honey",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "pounds": 0.75,
+            "cups": 0.8,
+            "tablespoons": 24
+          }
+        }
+      ]
+    },
+    "maple_syrup": {
+      "category": "sugar_and_sweeteners",
+      "item": "Maple Syrup",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "grams": 322
+          }
+        }
+      ]
+    },
+    "agave_nectar": {
+      "category": "sugar_and_sweeteners",
+      "item": "Agave Nectar",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "grams": 240
+          }
+        }
+      ]
+    },
+    "molasses": {
+      "category": "sugar_and_sweeteners",
+      "item": "Molasses",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "grams": 352
+          }
+        }
+      ]
+    },
+    "olive_oil": {
+      "category": "oils_and_vinegars",
+      "item": "Olive Oil",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 16,
+          "conversions": {
+            "cups": 2,
+            "milliliters": 473.18,
+            "liters": 0.473,
+            "tablespoons": 32,
+            "grams": 454
+          }
+        }
+      ]
+    },
+    "extra_virgin_olive_oil": {
+      "category": "oils_and_vinegars",
+      "item": "Extra Virgin Olive Oil",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 16,
+          "conversions": {
+            "cups": 2,
+            "milliliters": 473.18,
+            "liters": 0.473
+          }
+        }
+      ]
+    },
+    "vegetable_oil": {
+      "category": "oils_and_vinegars",
+      "item": "Vegetable Oil",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 16,
+          "conversions": {
+            "cups": 2,
+            "milliliters": 473.18,
+            "liters": 0.473
+          }
+        }
+      ]
+    },
+    "canola_oil": {
+      "category": "oils_and_vinegars",
+      "item": "Canola Oil",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 16,
+          "conversions": {
+            "cups": 2,
+            "milliliters": 473.18,
+            "liters": 0.473
+          }
+        }
+      ]
+    },
+    "coconut_oil": {
+      "category": "oils_and_vinegars",
+      "item": "Coconut Oil",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "grams": 216,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "sesame_oil": {
+      "category": "oils_and_vinegars",
+      "item": "Sesame Oil",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 10,
+          "conversions": {
+            "milliliters": 295.74,
+            "tablespoons": 20,
+            "grams": 285
+          }
+        }
+      ]
+    },
+    "avocado_oil": {
+      "category": "oils_and_vinegars",
+      "item": "Avocado Oil",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 16,
+          "conversions": {
+            "cups": 2,
+            "milliliters": 473.18,
+            "liters": 0.473
+          }
+        }
+      ]
+    },
+    "apple_cider_vinegar": {
+      "category": "oils_and_vinegars",
+      "item": "Apple Cider Vinegar",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 16,
+          "conversions": {
+            "cups": 2,
+            "milliliters": 473.18,
+            "liters": 0.473,
+            "tablespoons": 32
+          }
+        }
+      ]
+    },
+    "balsamic_vinegar": {
+      "category": "oils_and_vinegars",
+      "item": "Balsamic Vinegar",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 8,
+          "conversions": {
+            "milliliters": 236.59,
+            "tablespoons": 16,
+            "cups": 1
+          }
+        }
+      ]
+    },
+    "white_vinegar": {
+      "category": "oils_and_vinegars",
+      "item": "White Vinegar",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 16,
+          "conversions": {
+            "cups": 2,
+            "milliliters": 473.18,
+            "liters": 0.473
+          }
+        }
+      ]
+    },
+    "rice_vinegar": {
+      "category": "oils_and_vinegars",
+      "item": "Rice Vinegar",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 10,
+          "conversions": {
+            "milliliters": 295.74,
+            "tablespoons": 20,
+            "cups": 1.25
+          }
+        }
+      ]
+    },
+    "ketchup": {
+      "category": "sauces_and_condiments",
+      "item": "Ketchup",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 20,
+          "conversions": {
+            "grams": 567,
+            "pounds": 1.25,
+            "cups": 1.25
+          }
+        }
+      ]
+    },
+    "mustard_yellow": {
+      "category": "sauces_and_condiments",
+      "item": "Mustard (Yellow)",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "tablespoons": 16,
+            "cups": 0.5
+          }
+        }
+      ]
+    },
+    "mayonnaise": {
+      "category": "sauces_and_condiments",
+      "item": "Mayonnaise",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "pounds": 1,
+            "cups": 1,
+            "tablespoons": 32
+          }
+        }
+      ]
+    },
+    "hot_sauce": {
+      "category": "sauces_and_condiments",
+      "item": "Hot Sauce",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 5,
+          "conversions": {
+            "milliliters": 147.87,
+            "tablespoons": 10,
+            "teaspoons": 30
+          }
+        }
+      ]
+    },
+    "soy_sauce": {
+      "category": "sauces_and_condiments",
+      "item": "Soy Sauce",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 10,
+          "conversions": {
+            "cups": 1.25,
+            "milliliters": 295.74,
+            "tablespoons": 20,
+            "liters": 0.296
+          }
+        }
+      ]
+    },
+    "worcestershire_sauce": {
+      "category": "sauces_and_condiments",
+      "item": "Worcestershire Sauce",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 10,
+          "conversions": {
+            "milliliters": 295.74,
+            "tablespoons": 20,
+            "teaspoons": 60
+          }
+        }
+      ]
+    },
+    "teriyaki_sauce": {
+      "category": "sauces_and_condiments",
+      "item": "Teriyaki Sauce",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 10,
+          "conversions": {
+            "milliliters": 295.74,
+            "tablespoons": 20,
+            "cups": 1.25
+          }
+        }
+      ]
+    },
+    "bbq_sauce": {
+      "category": "sauces_and_condiments",
+      "item": "BBQ Sauce",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 18,
+          "conversions": {
+            "grams": 510.29,
+            "cups": 1,
+            "tablespoons": 32
+          }
+        }
+      ]
+    },
+    "salsa": {
+      "category": "sauces_and_condiments",
+      "item": "Salsa",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 1,
+            "tablespoons": 32
+          }
+        }
+      ]
+    },
+    "pesto": {
+      "category": "sauces_and_condiments",
+      "item": "Pesto",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 7,
+          "conversions": {
+            "grams": 198.41,
+            "cups": 0.5,
+            "tablespoons": 14
+          }
+        }
+      ]
+    },
+    "marinara_sauce": {
+      "category": "sauces_and_condiments",
+      "item": "Marinara Sauce",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 24,
+          "conversions": {
+            "grams": 680.39,
+            "cups": 2.5,
+            "tablespoons": 48
+          }
+        }
+      ]
+    },
+    "canned_tomatoes": {
+      "category": "canned_and_jarred",
+      "item": "Canned Tomatoes",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 28,
+          "conversions": {
+            "grams": 793.78,
+            "pounds": 1.75,
+            "cups": 3.5
+          }
+        }
+      ]
+    },
+    "tomato_sauce": {
+      "category": "canned_and_jarred",
+      "item": "Tomato Sauce",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1.75,
+            "tablespoons": 30
+          }
+        }
+      ]
+    },
+    "tomato_paste": {
+      "category": "canned_and_jarred",
+      "item": "Tomato Paste",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "tablespoons": 12,
+            "cups": 0.5
+          }
+        }
+      ]
+    },
+    "canned_beans": {
+      "category": "canned_and_jarred",
+      "item": "Canned Beans",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1.75,
+            "pounds": 0.94
+          }
+        }
+      ]
+    },
+    "canned_chickpeas": {
+      "category": "canned_and_jarred",
+      "item": "Canned Chickpeas",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1.75,
+            "pounds": 0.94
+          }
+        }
+      ]
+    },
+    "canned_corn": {
+      "category": "canned_and_jarred",
+      "item": "Canned Corn",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1.75,
+            "pounds": 0.94
+          }
+        }
+      ]
+    },
+    "canned_tuna": {
+      "category": "canned_and_jarred",
+      "item": "Canned Tuna",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 5,
+          "conversions": {
+            "grams": 141.75,
+            "pounds": 0.3125,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "pickles": {
+      "category": "canned_and_jarred",
+      "item": "Pickles",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 24,
+          "conversions": {
+            "grams": 680.39,
+            "cups": 2,
+            "jars": "1 jar"
+          }
+        }
+      ]
+    },
+    "jam": {
+      "category": "canned_and_jarred",
+      "item": "Jam",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 18,
+          "conversions": {
+            "grams": 510.29,
+            "tablespoons": 36,
+            "cups": 0.75
+          }
+        }
+      ]
+    },
+    "peanut_butter": {
+      "category": "canned_and_jarred",
+      "item": "Peanut Butter",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "pounds": 1,
+            "cups": 1
+          }
+        }
+      ]
+    },
+    "almond_butter": {
+      "category": "canned_and_jarred",
+      "item": "Almond Butter",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "pounds": 0.75,
+            "cups": 0.75
+          }
+        }
+      ]
+    },
+    "tahini": {
+      "category": "canned_and_jarred",
+      "item": "Tahini",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "pounds": 1,
+            "cups": 1
+          }
+        }
+      ]
+    },
+    "lentils": {
+      "category": "grains_and_flours",
+      "item": "Lentils",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 2.25
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 7,
+            "grams": 198,
+            "pounds": 0.44
+          }
+        }
+      ]
+    },
+    "black_beans_dry": {
+      "category": "grains_and_flours",
+      "item": "Black Beans (Dry)",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 2.25
+          }
+        }
+      ]
+    },
+    "kidney_beans_dry": {
+      "category": "grains_and_flours",
+      "item": "Kidney Beans (Dry)",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 2.25
+          }
+        }
+      ]
+    },
+    "pinto_beans_dry": {
+      "category": "grains_and_flours",
+      "item": "Pinto Beans (Dry)",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 2.25
+          }
+        }
+      ]
+    },
+    "split_peas": {
+      "category": "grains_and_flours",
+      "item": "Split Peas",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 2.25
+          }
+        }
+      ]
+    },
+    "barley": {
+      "category": "grains_and_flours",
+      "item": "Barley",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "cups": 2.5
+          }
+        }
+      ]
+    },
+    "spaghetti": {
+      "category": "grains_and_flours",
+      "item": "Spaghetti",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "pounds": 1,
+            "cups": 4
+          }
+        }
+      ]
+    },
+    "penne": {
+      "category": "grains_and_flours",
+      "item": "Penne",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "pounds": 1,
+            "cups": 4
+          }
+        }
+      ]
+    },
+    "breadcrumbs": {
+      "category": "grains_and_flours",
+      "item": "Breadcrumbs",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 3.75,
+            "pounds": 0.94
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 4,
+            "grams": 113,
+            "pounds": 0.25
+          }
+        }
+      ]
+    },
+    "cornstarch": {
+      "category": "grains_and_flours",
+      "item": "Cornstarch",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 3.5,
+            "tablespoons": 56
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 8,
+            "teaspoons": 3,
+            "ounces": 0.28
+          }
+        }
+      ]
+    },
+    "chicken_bouillon": {
+      "category": "canned_and_jarred",
+      "item": "Chicken Bouillon",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 3.5,
+          "conversions": {
+            "grams": 99.22,
+            "cubes": "25 cubes",
+            "cups": 0.5
+          }
+        }
+      ]
+    },
+    "beef_bouillon": {
+      "category": "canned_and_jarred",
+      "item": "Beef Bouillon",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 3.5,
+          "conversions": {
+            "grams": 99.22,
+            "cubes": "25 cubes",
+            "cups": 0.5
+          }
+        }
+      ]
+    },
+    "fish_sauce": {
+      "category": "sauces_and_condiments",
+      "item": "Fish Sauce",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 10,
+          "conversions": {
+            "milliliters": 295.74,
+            "tablespoons": 20,
+            "cups": 1.25
+          }
+        }
+      ]
+    },
+    "dijon_mustard": {
+      "category": "sauces_and_condiments",
+      "item": "Dijon Mustard",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "tablespoons": 16,
+            "teaspoons": 48
+          }
+        }
+      ]
+    },
+    "capers": {
+      "category": "canned_and_jarred",
+      "item": "Capers",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 3,
+          "conversions": {
+            "grams": 85.05,
+            "tablespoons": 6,
+            "cups": 0.4
+          }
+        }
+      ]
+    },
+    "black_olives": {
+      "category": "canned_and_jarred",
+      "item": "Black Olives",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "cups": 1,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "green_olives": {
+      "category": "canned_and_jarred",
+      "item": "Green Olives",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "cups": 1,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "sun_dried_tomatoes": {
+      "category": "canned_and_jarred",
+      "item": "Sun-Dried Tomatoes",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 1,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "anchovies": {
+      "category": "canned_and_jarred",
+      "item": "Anchovies",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 2,
+          "conversions": {
+            "grams": 56.70,
+            "tablespoons": 4,
+            "fillets": "12-15 fillets"
+          }
+        }
+      ]
+    },
+    "coconut_cream": {
+      "category": "canned_and_jarred",
+      "item": "Coconut Cream",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 13.5,
+          "conversions": {
+            "grams": 382.72,
+            "cups": 1.5,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "canned_black_beans": {
+      "category": "canned_and_jarred",
+      "item": "Black Beans (Canned)",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1.75,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "canned_kidney_beans": {
+      "category": "canned_and_jarred",
+      "item": "Kidney Beans (Canned)",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1.75,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "canned_pinto_beans": {
+      "category": "canned_and_jarred",
+      "item": "Pinto Beans (Canned)",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1.75,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "refried_beans": {
+      "category": "canned_and_jarred",
+      "item": "Refried Beans",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 2,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "cannellini_beans": {
+      "category": "canned_and_jarred",
+      "item": "Cannellini Beans",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1.75,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "red_wine_vinegar": {
+      "category": "oils_and_vinegars",
+      "item": "Red Wine Vinegar",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 12,
+          "conversions": {
+            "milliliters": 354.88,
+            "tablespoons": 24,
+            "cups": 1.5
+          }
+        }
+      ]
+    },
+    "mirin": {
+      "category": "sauces_and_condiments",
+      "item": "Mirin",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 10,
+          "conversions": {
+            "milliliters": 295.74,
+            "tablespoons": 20,
+            "cups": 1.25
+          }
+        }
+      ]
+    },
+    "sesame_seeds": {
+      "category": "grains_and_flours",
+      "item": "Sesame Seeds",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 3,
+          "conversions": {
+            "grams": 85.05,
+            "tablespoons": 6,
+            "cups": 0.4
+          }
+        }
+      ]
+    },
+    "lasagna_noodles": {
+      "category": "grains_and_flours",
+      "item": "Lasagna Noodles",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "sheets": "18-20 sheets",
+            "pounds": 1
+          }
+        }
+      ]
+    },
+    "macaroni": {
+      "category": "grains_and_flours",
+      "item": "Macaroni",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 4,
+            "pounds": 1
+          }
+        }
+      ]
+    },
+    "orzo": {
+      "category": "grains_and_flours",
+      "item": "Orzo",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 2.5,
+            "pounds": 1
+          }
+        }
+      ]
+    },
+    "polenta": {
+      "category": "grains_and_flours",
+      "item": "Polenta",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 18,
+          "conversions": {
+            "grams": 510.29,
+            "cups": 2.5,
+            "pounds": 1.125
+          }
+        }
+      ]
+    },
+    "bulgur": {
+      "category": "grains_and_flours",
+      "item": "Bulgur",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 2.5,
+            "pounds": 1
+          }
+        }
+      ]
+    },
+    "masa_harina": {
+      "category": "grains_and_flours",
+      "item": "Masa Harina",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 2,
+          "conversions": {
+            "ounces": 32,
+            "grams": 907.18,
+            "cups": 7
+          }
+        }
+      ]
+    },
+    "liquid_smoke": {
+      "category": "sauces_and_condiments",
+      "item": "Liquid Smoke",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 4,
+          "conversions": {
+            "milliliters": 118.29,
+            "tablespoons": 8,
+            "teaspoons": 24
+          }
+        }
+      ]
+    },
+    "horseradish": {
+      "category": "sauces_and_condiments",
+      "item": "Horseradish",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 5,
+          "conversions": {
+            "grams": 141.75,
+            "tablespoons": 10,
+            "cups": 0.6
+          }
+        }
+      ]
+    },
+    "whole_grain_mustard": {
+      "category": "sauces_and_condiments",
+      "item": "Whole Grain Mustard",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "tablespoons": 16,
+            "teaspoons": 48
+          }
+        }
+      ]
+    },
+    "marshmallows": {
+      "category": "canned_and_jarred",
+      "item": "Marshmallows",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "cups": 4,
+            "count": "40 marshmallows"
+          }
+        }
+      ]
+    },
+    "dates": {
+      "category": "canned_and_jarred",
+      "item": "Dates",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 1,
+            "count": "20-25 dates"
+          }
+        }
+      ]
+    },
+    "cooking_sherry": {
+      "category": "sauces_and_condiments",
+      "item": "Cooking Sherry",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 13,
+          "conversions": {
+            "milliliters": 384.46,
+            "cups": 1.6,
+            "tablespoons": 26
+          }
+        }
+      ]
+    }
+  }
+}

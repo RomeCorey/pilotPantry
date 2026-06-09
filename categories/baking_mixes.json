@@ -1,0 +1,229 @@
+{
+  "category": "baking_mixes",
+  "items": {
+    "pancake_mix": {
+      "category": "baking_mixes",
+      "item": "Pancake Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 32,
+          "conversions": {
+            "grams": 907.18,
+            "pounds": 2,
+            "cups": 3
+          }
+        }
+      ]
+    },
+    "waffle_mix": {
+      "category": "baking_mixes",
+      "item": "Waffle Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 32,
+          "conversions": {
+            "grams": 907.18,
+            "pounds": 2,
+            "cups": 3
+          }
+        }
+      ]
+    },
+    "muffin_mix": {
+      "category": "baking_mixes",
+      "item": "Muffin Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 18,
+          "conversions": {
+            "grams": 510.29,
+            "cups": 1.75,
+            "tablespoons": 36
+          }
+        }
+      ]
+    },
+    "cake_mix": {
+      "category": "baking_mixes",
+      "item": "Cake Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 18,
+          "conversions": {
+            "grams": 510.29,
+            "cups": 1.75,
+            "tablespoons": 36
+          }
+        }
+      ]
+    },
+    "brownie_mix": {
+      "category": "baking_mixes",
+      "item": "Brownie Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 18,
+          "conversions": {
+            "grams": 510.29,
+            "cups": 1.75,
+            "tablespoons": 36
+          }
+        }
+      ]
+    },
+    "cookie_mix": {
+      "category": "baking_mixes",
+      "item": "Cookie Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 18,
+          "conversions": {
+            "grams": 510.29,
+            "cups": 1.75,
+            "tablespoons": 36
+          }
+        }
+      ]
+    },
+    "biscuit_mix": {
+      "category": "baking_mixes",
+      "item": "Biscuit Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 2,
+            "tablespoons": 32
+          }
+        }
+      ]
+    },
+    "pizza_dough_mix": {
+      "category": "baking_mixes",
+      "item": "Pizza Dough Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 14,
+          "conversions": {
+            "grams": 396.89,
+            "cups": 1.5,
+            "packages": "1 package"
+          }
+        }
+      ]
+    },
+    "bread_mix": {
+      "category": "baking_mixes",
+      "item": "Bread Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 2,
+            "tablespoons": 32
+          }
+        }
+      ]
+    },
+    "cornbread_mix": {
+      "category": "baking_mixes",
+      "item": "Cornbread Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 2,
+            "loaves": "1 pan"
+          }
+        }
+      ]
+    },
+    "stuffing_mix": {
+      "category": "baking_mixes",
+      "item": "Stuffing Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "cups": 2,
+            "servings": "6 servings"
+          }
+        }
+      ]
+    },
+    "pie_crust_mix": {
+      "category": "baking_mixes",
+      "item": "Pie Crust Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 11,
+          "conversions": {
+            "grams": 311.84,
+            "cups": 1.5,
+            "crusts": "2 crusts"
+          }
+        }
+      ]
+    },
+    "frosting_mix": {
+      "category": "baking_mixes",
+      "item": "Frosting Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 2,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "gluten_free_cake_mix": {
+      "category": "baking_mixes",
+      "item": "Gluten-Free Cake Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 18,
+          "conversions": {
+            "grams": 510.29,
+            "cups": 1.75,
+            "cakes": "1 cake"
+          }
+        }
+      ]
+    }
+  }
+}

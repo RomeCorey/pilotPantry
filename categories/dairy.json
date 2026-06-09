@@ -1,0 +1,995 @@
+{
+  "category": "dairy",
+  "items": {
+    "whole_milk": {
+      "category": "milk_and_alternatives",
+      "item": "Whole Milk",
+      "common_units": [
+        {
+          "unit": "gallons",
+          "symbol": "gal",
+          "typical_amount": 1,
+          "conversions": {
+            "quarts": 4,
+            "cups": 16,
+            "liters": 3.785,
+            "ounces": 128,
+            "grams": 3785
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "gallons": 0.0625
+          }
+        },
+        {
+          "unit": "liters",
+          "symbol": "L",
+          "typical_amount": 1,
+          "conversions": {
+            "milliliters": 1000,
+            "gallons": 0.264,
+            "cups": 4.227,
+            "ounces": 33.814
+          }
+        }
+      ]
+    },
+    "two_percent_milk": {
+      "category": "milk_and_alternatives",
+      "item": "2% Milk",
+      "common_units": [
+        {
+          "unit": "gallons",
+          "symbol": "gal",
+          "typical_amount": 1,
+          "conversions": {
+            "quarts": 4,
+            "cups": 16,
+            "liters": 3.785,
+            "ounces": 128,
+            "grams": 3785
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "gallons": 0.0625
+          }
+        },
+        {
+          "unit": "liters",
+          "symbol": "L",
+          "typical_amount": 1,
+          "conversions": {
+            "milliliters": 1000,
+            "gallons": 0.264,
+            "cups": 4.227,
+            "ounces": 33.814
+          }
+        }
+      ]
+    },
+    "one_percent_milk": {
+      "category": "milk_and_alternatives",
+      "item": "1% Milk",
+      "common_units": [
+        {
+          "unit": "gallons",
+          "symbol": "gal",
+          "typical_amount": 1,
+          "conversions": {
+            "quarts": 4,
+            "cups": 16,
+            "liters": 3.785,
+            "ounces": 128,
+            "grams": 3785
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "gallons": 0.0625
+          }
+        }
+      ]
+    },
+    "skim_milk": {
+      "category": "milk_and_alternatives",
+      "item": "Skim Milk",
+      "common_units": [
+        {
+          "unit": "gallons",
+          "symbol": "gal",
+          "typical_amount": 1,
+          "conversions": {
+            "quarts": 4,
+            "cups": 16,
+            "liters": 3.785,
+            "ounces": 128,
+            "grams": 3785
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "gallons": 0.0625
+          }
+        }
+      ]
+    },
+    "buttermilk": {
+      "category": "milk_and_alternatives",
+      "item": "Buttermilk",
+      "common_units": [
+        {
+          "unit": "gallons",
+          "symbol": "gal",
+          "typical_amount": 1,
+          "conversions": {
+            "quarts": 4,
+            "cups": 16,
+            "liters": 3.785,
+            "ounces": 128,
+            "grams": 3785
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "gallons": 0.0625
+          }
+        }
+      ]
+    },
+    "chocolate_milk": {
+      "category": "milk_and_alternatives",
+      "item": "Chocolate Milk",
+      "common_units": [
+        {
+          "unit": "gallons",
+          "symbol": "gal",
+          "typical_amount": 1,
+          "conversions": {
+            "quarts": 4,
+            "cups": 16,
+            "liters": 3.785,
+            "ounces": 128,
+            "grams": 3785
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "gallons": 0.0625
+          }
+        }
+      ]
+    },
+    "almond_milk": {
+      "category": "milk_and_alternatives",
+      "item": "Almond Milk",
+      "common_units": [
+        {
+          "unit": "quarts",
+          "symbol": "qt",
+          "typical_amount": 1,
+          "conversions": {
+            "gallons": 0.25,
+            "cups": 4,
+            "ounces": 32,
+            "liters": 0.946,
+            "milliliters": 946
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "gallons": 0.0625
+          }
+        }
+      ]
+    },
+    "oat_milk": {
+      "category": "milk_and_alternatives",
+      "item": "Oat Milk",
+      "common_units": [
+        {
+          "unit": "quarts",
+          "symbol": "qt",
+          "typical_amount": 1,
+          "conversions": {
+            "gallons": 0.25,
+            "cups": 4,
+            "ounces": 32,
+            "liters": 0.946,
+            "milliliters": 946
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "gallons": 0.0625
+          }
+        }
+      ]
+    },
+    "soy_milk": {
+      "category": "milk_and_alternatives",
+      "item": "Soy Milk",
+      "common_units": [
+        {
+          "unit": "quarts",
+          "symbol": "qt",
+          "typical_amount": 1,
+          "conversions": {
+            "gallons": 0.25,
+            "cups": 4,
+            "ounces": 32,
+            "liters": 0.946,
+            "milliliters": 946
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "gallons": 0.0625
+          }
+        }
+      ]
+    },
+    "coconut_milk_beverage": {
+      "category": "milk_and_alternatives",
+      "item": "Coconut Milk (Beverage)",
+      "common_units": [
+        {
+          "unit": "quarts",
+          "symbol": "qt",
+          "typical_amount": 1,
+          "conversions": {
+            "gallons": 0.25,
+            "cups": 4,
+            "ounces": 32,
+            "liters": 0.946,
+            "milliliters": 946
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "gallons": 0.0625
+          }
+        }
+      ]
+    },
+    "cashew_milk": {
+      "category": "milk_and_alternatives",
+      "item": "Cashew Milk",
+      "common_units": [
+        {
+          "unit": "quarts",
+          "symbol": "qt",
+          "typical_amount": 1,
+          "conversions": {
+            "gallons": 0.25,
+            "cups": 4,
+            "ounces": 32,
+            "liters": 0.946,
+            "milliliters": 946
+          }
+        }
+      ]
+    },
+    "rice_milk": {
+      "category": "milk_and_alternatives",
+      "item": "Rice Milk",
+      "common_units": [
+        {
+          "unit": "quarts",
+          "symbol": "qt",
+          "typical_amount": 1,
+          "conversions": {
+            "gallons": 0.25,
+            "cups": 4,
+            "ounces": 32,
+            "liters": 0.946,
+            "milliliters": 946
+          }
+        }
+      ]
+    },
+    "hemp_milk": {
+      "category": "milk_and_alternatives",
+      "item": "Hemp Milk",
+      "common_units": [
+        {
+          "unit": "quarts",
+          "symbol": "qt",
+          "typical_amount": 1,
+          "conversions": {
+            "gallons": 0.25,
+            "cups": 4,
+            "ounces": 32,
+            "liters": 0.946,
+            "milliliters": 946
+          }
+        }
+      ]
+    },
+    "cheddar_cheese": {
+      "category": "cheese",
+      "item": "Cheddar Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5,
+            "cups": 1
+          }
+        },
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "mozzarella_cheese": {
+      "category": "cheese",
+      "item": "Mozzarella Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5,
+            "cups": 1
+          }
+        },
+        {
+          "unit": "grams",
+          "symbol": "g",
+          "typical_amount": 200,
+          "conversions": {
+            "ounces": 7.05,
+            "pounds": 0.44,
+            "cups": 0.88
+          }
+        }
+      ]
+    },
+    "parmesan_cheese": {
+      "category": "cheese",
+      "item": "Parmesan Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "pounds": 0.25,
+            "cups": 0.5
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "grams": 226.80,
+            "pounds": 0.5,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "feta_cheese": {
+      "category": "cheese",
+      "item": "Feta Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "pounds": 0.375,
+            "cups": 0.75
+          }
+        }
+      ]
+    },
+    "goat_cheese": {
+      "category": "cheese",
+      "item": "Goat Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "pounds": 0.25,
+            "cups": 0.5
+          }
+        }
+      ]
+    },
+    "cream_cheese": {
+      "category": "cheese",
+      "item": "Cream Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "pounds": 0.5,
+            "cups": 1
+          }
+        }
+      ]
+    },
+    "greek_yogurt": {
+      "category": "yogurt",
+      "item": "Greek Yogurt",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "cups": 0.75,
+            "pounds": 0.375
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "grams": 226.80,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "plain_yogurt": {
+      "category": "yogurt",
+      "item": "Plain Yogurt",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "cups": 0.75,
+            "pounds": 0.375
+          }
+        }
+      ]
+    },
+    "vanilla_yogurt": {
+      "category": "yogurt",
+      "item": "Vanilla Yogurt",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "cups": 0.75,
+            "pounds": 0.375
+          }
+        }
+      ]
+    },
+    "strawberry_yogurt": {
+      "category": "yogurt",
+      "item": "Strawberry Yogurt",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "cups": 0.75,
+            "pounds": 0.375
+          }
+        }
+      ]
+    },
+    "blueberry_yogurt": {
+      "category": "yogurt",
+      "item": "Blueberry Yogurt",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "cups": 0.75,
+            "pounds": 0.375
+          }
+        }
+      ]
+    },
+    "butter": {
+      "category": "butter_and_spreads",
+      "item": "Butter",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2,
+            "tablespoons": 32
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "teaspoons": 3,
+            "grams": 14.18,
+            "ounces": 0.5
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "grams": 226.80,
+            "tablespoons": 16,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "margarine": {
+      "category": "butter_and_spreads",
+      "item": "Margarine",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 16,
+            "grams": 453.59,
+            "kilograms": 0.454,
+            "cups": 2
+          }
+        }
+      ]
+    },
+    "ghee": {
+      "category": "butter_and_spreads",
+      "item": "Ghee",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "grams": 218,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "sour_cream": {
+      "category": "sour_cream_and_dips",
+      "item": "Sour Cream",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "pounds": 1,
+            "cups": 2,
+            "tablespoons": 32
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 12,
+            "teaspoons": 3,
+            "ounces": 0.5
+          }
+        }
+      ]
+    },
+    "whipped_cream": {
+      "category": "sour_cream_and_dips",
+      "item": "Whipped Cream",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 2,
+            "tablespoons": 16
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 4,
+            "grams": 113.40,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "heavy_cream": {
+      "category": "sour_cream_and_dips",
+      "item": "Heavy Cream",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "grams": 240
+          }
+        }
+      ]
+    },
+    "half_and_half": {
+      "category": "sour_cream_and_dips",
+      "item": "Half and Half",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "grams": 242
+          }
+        }
+      ]
+    },
+    "ricotta_cheese": {
+      "category": "cheese",
+      "item": "Ricotta Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 15,
+          "conversions": {
+            "grams": 425.24,
+            "cups": 1.75,
+            "pounds": 0.94
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8.5,
+            "grams": 241,
+            "pounds": 0.53
+          }
+        }
+      ]
+    },
+    "cottage_cheese": {
+      "category": "cheese",
+      "item": "Cottage Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "cups": 2,
+            "pounds": 1
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 8,
+            "grams": 227,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "monterey_jack": {
+      "category": "cheese",
+      "item": "Monterey Jack Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 2,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "swiss_cheese": {
+      "category": "cheese",
+      "item": "Swiss Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 2,
+            "pounds": 0.5,
+            "slices": "8-10 slices"
+          }
+        }
+      ]
+    },
+    "provolone_cheese": {
+      "category": "cheese",
+      "item": "Provolone Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 2,
+            "pounds": 0.5,
+            "slices": "8-10 slices"
+          }
+        }
+      ]
+    },
+    "pepper_jack": {
+      "category": "cheese",
+      "item": "Pepper Jack Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 2,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "evaporated_milk": {
+      "category": "milk_and_alternatives",
+      "item": "Evaporated Milk",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 12,
+          "conversions": {
+            "milliliters": 354.88,
+            "cups": 1.5,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "sweetened_condensed_milk": {
+      "category": "milk_and_alternatives",
+      "item": "Sweetened Condensed Milk",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 14,
+          "conversions": {
+            "milliliters": 414.03,
+            "cups": 1.75,
+            "cans": "1 can"
+          }
+        }
+      ]
+    },
+    "blue_cheese": {
+      "category": "cheese",
+      "item": "Blue Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "cups": 1,
+            "crumbles": "1 container"
+          }
+        }
+      ]
+    },
+    "mascarpone": {
+      "category": "cheese",
+      "item": "Mascarpone",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 1,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "queso_fresco": {
+      "category": "cheese",
+      "item": "Queso Fresco",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 10,
+          "conversions": {
+            "grams": 283.49,
+            "cups": 2,
+            "pounds": 0.625
+          }
+        }
+      ]
+    },
+    "cotija_cheese": {
+      "category": "cheese",
+      "item": "Cotija Cheese",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 2,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "string_cheese": {
+      "category": "cheese",
+      "item": "String Cheese",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "stick",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 1,
+            "grams": 28,
+            "pack": "1 of 12-pack"
+          }
+        }
+      ]
+    },
+    "kefir": {
+      "category": "yogurt",
+      "item": "Kefir",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 32,
+          "conversions": {
+            "milliliters": 946.35,
+            "cups": 4,
+            "liters": 0.946
+          }
+        }
+      ]
+    }
+  }
+}
+

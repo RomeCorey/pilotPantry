@@ -1,0 +1,471 @@
+{
+  "category": "baking_supplies",
+  "items": {
+    "baking_powder": {
+      "category": "leavening_agents",
+      "item": "Baking Powder",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 6,
+          "conversions": {
+            "grams": 170.10,
+            "tablespoons": 12,
+            "teaspoons": 36
+          }
+        }
+      ]
+    },
+    "baking_soda": {
+      "category": "leavening_agents",
+      "item": "Baking Soda",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "tablespoons": 16,
+            "teaspoons": 48
+          }
+        }
+      ]
+    },
+    "active_dry_yeast": {
+      "category": "leavening_agents",
+      "item": "Yeast (Active Dry)",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 0.25,
+          "conversions": {
+            "grams": 7.09,
+            "teaspoons": 2.3,
+            "packets": "1 packet"
+          }
+        }
+      ]
+    },
+    "vanilla_extract": {
+      "category": "extracts_and_flavorings",
+      "item": "Vanilla Extract",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 4,
+          "conversions": {
+            "milliliters": 118.29,
+            "tablespoons": 8,
+            "teaspoons": 24,
+            "grams": 126
+          }
+        }
+      ]
+    },
+    "almond_extract": {
+      "category": "extracts_and_flavorings",
+      "item": "Almond Extract",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 2,
+          "conversions": {
+            "milliliters": 59.15,
+            "tablespoons": 4,
+            "teaspoons": 12,
+            "grams": 56
+          }
+        }
+      ]
+    },
+    "cocoa_powder": {
+      "category": "cocoa_and_chocolate",
+      "item": "Cocoa Powder",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 1,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "chocolate_chips": {
+      "category": "cocoa_and_chocolate",
+      "item": "Chocolate Chips",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "cups": 2,
+            "pounds": 0.75
+          }
+        }
+      ]
+    },
+    "milk_chocolate_chips": {
+      "category": "cocoa_and_chocolate",
+      "item": "Milk Chocolate Chips",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 6,
+            "grams": 170,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "dark_chocolate_chips": {
+      "category": "cocoa_and_chocolate",
+      "item": "Dark Chocolate Chips",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 6,
+            "grams": 170,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "almonds": {
+      "category": "nuts_and_seeds",
+      "item": "Almonds",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 1,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "walnuts": {
+      "category": "nuts_and_seeds",
+      "item": "Walnuts",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 1,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "pecans": {
+      "category": "nuts_and_seeds",
+      "item": "Pecans",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 4,
+            "grams": 113,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "peanuts": {
+      "category": "nuts_and_seeds",
+      "item": "Peanuts",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5.5,
+            "grams": 156,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "coconut_shredded": {
+      "category": "other_baking",
+      "item": "Shredded Coconut",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 7,
+          "conversions": {
+            "grams": 198.41,
+            "cups": 2.5,
+            "tablespoons": 28
+          }
+        }
+      ]
+    },
+    "dried_cranberries": {
+      "category": "other_baking",
+      "item": "Dried Cranberries",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 4,
+            "grams": 113,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "raisins": {
+      "category": "other_baking",
+      "item": "Raisins",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 1.5,
+            "tablespoons": 32
+          }
+        }
+      ]
+    },
+    "pumpkin_seeds": {
+      "category": "other_baking",
+      "item": "Pumpkin Seeds",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5.3,
+            "grams": 150,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "sunflower_seeds": {
+      "category": "other_baking",
+      "item": "Sunflower Seeds",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5.3,
+            "grams": 150,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "cream_of_tartar": {
+      "category": "leavening_agents",
+      "item": "Cream of Tartar",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 2.8,
+          "conversions": {
+            "grams": 79.38,
+            "tablespoons": 5,
+            "teaspoons": 15
+          }
+        }
+      ]
+    },
+    "corn_syrup": {
+      "category": "other_baking",
+      "item": "Corn Syrup",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 16,
+          "conversions": {
+            "milliliters": 473.18,
+            "cups": 2,
+            "tablespoons": 32
+          }
+        }
+      ]
+    },
+    "gelatin": {
+      "category": "other_baking",
+      "item": "Gelatin",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "envelopes": "4 envelopes",
+            "tablespoons": 4
+          }
+        }
+      ]
+    },
+    "pistachios": {
+      "category": "nuts_and_seeds",
+      "item": "Pistachios",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 1,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "cashews": {
+      "category": "nuts_and_seeds",
+      "item": "Cashews",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 1,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "hazelnuts": {
+      "category": "nuts_and_seeds",
+      "item": "Hazelnuts",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.80,
+            "cups": 1,
+            "pounds": 0.5
+          }
+        }
+      ]
+    },
+    "pine_nuts": {
+      "category": "nuts_and_seeds",
+      "item": "Pine Nuts",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "cups": 0.75,
+            "tablespoons": 12
+          }
+        }
+      ]
+    },
+    "chia_seeds": {
+      "category": "nuts_and_seeds",
+      "item": "Chia Seeds",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "cups": 1.75,
+            "tablespoons": 28
+          }
+        }
+      ]
+    },
+    "flax_seeds": {
+      "category": "nuts_and_seeds",
+      "item": "Flax Seeds",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "cups": 2,
+            "tablespoons": 32
+          }
+        }
+      ]
+    },
+    "unsweetened_chocolate": {
+      "category": "cocoa_and_chocolate",
+      "item": "Unsweetened Chocolate",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 4,
+          "conversions": {
+            "grams": 113.40,
+            "squares": "4 squares",
+            "cups": 0.75
+          }
+        }
+      ]
+    },
+    "white_chocolate_chips": {
+      "category": "cocoa_and_chocolate",
+      "item": "White Chocolate Chips",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "cups": 2,
+            "pounds": 0.75
+          }
+        }
+      ]
+    }
+  }
+}

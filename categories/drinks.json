@@ -1,0 +1,541 @@
+{
+  "category": "drinks",
+  "items": {
+    "ground_coffee": {
+      "category": "coffee_and_tea",
+      "item": "Ground Coffee",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "pounds": 1,
+            "cups": 2,
+            "tablespoons": 32
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 7,
+            "teaspoons": 3,
+            "ounces": 0.22
+          }
+        }
+      ]
+    },
+    "tea_bags": {
+      "category": "coffee_and_tea",
+      "item": "Tea Bags",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "bag",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2,
+            "ounces": 0.07
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "box",
+          "typical_amount": 1,
+          "conversions": {
+            "bags": "20-50 bags",
+            "ounces": "1.4-3.5",
+            "grams": "40-100"
+          }
+        }
+      ]
+    },
+    "orange_juice": {
+      "category": "juice",
+      "item": "Orange Juice",
+      "common_units": [
+        {
+          "unit": "gallons",
+          "symbol": "gal",
+          "typical_amount": 1,
+          "conversions": {
+            "quarts": 4,
+            "cups": 16,
+            "fluid ounces": 128,
+            "liters": 3.785,
+            "milliliters": 3785
+          }
+        },
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16,
+            "gallons": 0.0625
+          }
+        }
+      ]
+    },
+    "cola": {
+      "category": "soft_drinks",
+      "item": "Cola",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 12,
+          "conversions": {
+            "milliliters": 354.88,
+            "cups": 1.5,
+            "liters": 0.355
+          }
+        }
+      ]
+    },
+    "sprite": {
+      "category": "soft_drinks",
+      "item": "Sprite",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 12,
+          "conversions": {
+            "milliliters": 354.88,
+            "cups": 1.5,
+            "liters": 0.355
+          }
+        }
+      ]
+    },
+    "ginger_ale": {
+      "category": "soft_drinks",
+      "item": "Ginger Ale",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 12,
+          "conversions": {
+            "milliliters": 354.88,
+            "cups": 1.5,
+            "liters": 0.355
+          }
+        }
+      ]
+    },
+    "root_beer": {
+      "category": "soft_drinks",
+      "item": "Root Beer",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 12,
+          "conversions": {
+            "milliliters": 354.88,
+            "cups": 1.5,
+            "liters": 0.355
+          }
+        }
+      ]
+    },
+    "apple_juice": {
+      "category": "juice",
+      "item": "Apple Juice",
+      "common_units": [
+        {
+          "unit": "gallons",
+          "symbol": "gal",
+          "typical_amount": 1,
+          "conversions": {
+            "quarts": 4,
+            "cups": 16,
+            "fluid ounces": 128,
+            "liters": 3.785,
+            "milliliters": 3785
+          }
+        }
+      ]
+    },
+    "grape_juice": {
+      "category": "juice",
+      "item": "Grape Juice",
+      "common_units": [
+        {
+          "unit": "gallons",
+          "symbol": "gal",
+          "typical_amount": 1,
+          "conversions": {
+            "quarts": 4,
+            "cups": 16,
+            "fluid ounces": 128,
+            "liters": 3.785
+          }
+        }
+      ]
+    },
+    "cranberry_juice": {
+      "category": "juice",
+      "item": "Cranberry Juice",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 64,
+          "conversions": {
+            "gallons": 0.5,
+            "cups": 8,
+            "milliliters": 1892.71,
+            "liters": 1.89
+          }
+        }
+      ]
+    },
+    "tomato_juice": {
+      "category": "juice",
+      "item": "Tomato Juice",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 46,
+          "conversions": {
+            "cups": 5.75,
+            "milliliters": 1360.77,
+            "liters": 1.36
+          }
+        }
+      ]
+    },
+    "bottled_water": {
+      "category": "water",
+      "item": "Bottled Water",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 16,
+          "conversions": {
+            "cups": 2,
+            "milliliters": 473.18,
+            "liters": 0.473
+          }
+        }
+      ]
+    },
+    "sparkling_water": {
+      "category": "water",
+      "item": "Sparkling Water",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 12,
+          "conversions": {
+            "cups": 1.5,
+            "milliliters": 354.88,
+            "liters": 0.355
+          }
+        }
+      ]
+    },
+    "coconut_water": {
+      "category": "smoothies_and_drinks",
+      "item": "Coconut Water",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 11,
+          "conversions": {
+            "milliliters": 325.15,
+            "cups": 1.375,
+            "liters": 0.325
+          }
+        }
+      ]
+    },
+    "protein_shakes": {
+      "category": "smoothies_and_drinks",
+      "item": "Protein Shakes",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 11,
+          "conversions": {
+            "milliliters": 325.15,
+            "cups": 1.375,
+            "liters": 0.325
+          }
+        }
+      ]
+    },
+    "beer": {
+      "category": "alcoholic_beverages",
+      "item": "Beer",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 12,
+          "conversions": {
+            "milliliters": 354.88,
+            "cups": 1.5,
+            "liters": 0.355
+          }
+        }
+      ]
+    },
+    "wine": {
+      "category": "alcoholic_beverages",
+      "item": "Wine",
+      "common_units": [
+        {
+          "unit": "bottles",
+          "symbol": "bottle",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 25,
+            "milliliters": 750,
+            "liters": 0.75,
+            "glasses": "5 glasses"
+          }
+        }
+      ]
+    },
+    "vodka": {
+      "category": "alcoholic_beverages",
+      "item": "Vodka",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 25,
+          "conversions": {
+            "milliliters": 739.74,
+            "liters": 0.74,
+            "cups": 3.125
+          }
+        }
+      ]
+    },
+    "lemonade": {
+      "category": "juice",
+      "item": "Lemonade",
+      "common_units": [
+        {
+          "unit": "gallons",
+          "symbol": "gal",
+          "typical_amount": 1,
+          "conversions": {
+            "quarts": 4,
+            "cups": 16,
+            "fluid ounces": 128,
+            "liters": 3.785
+          }
+        }
+      ]
+    },
+    "iced_tea": {
+      "category": "coffee_and_tea",
+      "item": "Iced Tea",
+      "common_units": [
+        {
+          "unit": "gallons",
+          "symbol": "gal",
+          "typical_amount": 1,
+          "conversions": {
+            "quarts": 4,
+            "cups": 16,
+            "fluid ounces": 128,
+            "liters": 3.785
+          }
+        }
+      ]
+    },
+    "pineapple_juice": {
+      "category": "juice",
+      "item": "Pineapple Juice",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 46,
+          "conversions": {
+            "cups": 5.75,
+            "milliliters": 1360.77,
+            "liters": 1.36
+          }
+        }
+      ]
+    },
+    "sports_drink": {
+      "category": "soft_drinks",
+      "item": "Sports Drink",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 20,
+          "conversions": {
+            "milliliters": 591.47,
+            "cups": 2.5,
+            "liters": 0.591
+          }
+        }
+      ]
+    },
+    "kombucha": {
+      "category": "smoothies_and_drinks",
+      "item": "Kombucha",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 16,
+          "conversions": {
+            "milliliters": 473.18,
+            "cups": 2,
+            "liters": 0.473
+          }
+        }
+      ]
+    },
+    "club_soda": {
+      "category": "soft_drinks",
+      "item": "Club Soda",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 33.8,
+          "conversions": {
+            "milliliters": 999.57,
+            "cups": 4.2,
+            "liters": 1
+          }
+        }
+      ]
+    },
+    "tonic_water": {
+      "category": "soft_drinks",
+      "item": "Tonic Water",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 33.8,
+          "conversions": {
+            "milliliters": 999.57,
+            "cups": 4.2,
+            "liters": 1
+          }
+        }
+      ]
+    },
+    "red_wine_cooking": {
+      "category": "alcoholic_beverages",
+      "item": "Red Wine (Cooking)",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "white_wine_cooking": {
+      "category": "alcoholic_beverages",
+      "item": "White Wine (Cooking)",
+      "common_units": [
+        {
+          "unit": "cups",
+          "symbol": "cup",
+          "typical_amount": 1,
+          "conversions": {
+            "fluid ounces": 8,
+            "milliliters": 237,
+            "tablespoons": 16
+          }
+        }
+      ]
+    },
+    "coffee_beans": {
+      "category": "coffee_and_tea",
+      "item": "Coffee Beans",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "pounds": 0.75,
+            "cups": 1.5
+          }
+        }
+      ]
+    },
+    "chai_tea": {
+      "category": "coffee_and_tea",
+      "item": "Chai Tea",
+      "common_units": [
+        {
+          "unit": "count",
+          "symbol": "box",
+          "typical_amount": 1,
+          "conversions": {
+            "bags": "20 bags",
+            "ounces": 2,
+            "grams": 57
+          }
+        }
+      ]
+    },
+    "hot_chocolate_mix": {
+      "category": "coffee_and_tea",
+      "item": "Hot Chocolate Mix",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 12,
+          "conversions": {
+            "grams": 340.19,
+            "cups": 2,
+            "servings": "8-10 servings"
+          }
+        }
+      ]
+    },
+    "coffee_creamer": {
+      "category": "coffee_and_tea",
+      "item": "Coffee Creamer",
+      "common_units": [
+        {
+          "unit": "fluid ounces",
+          "symbol": "fl oz",
+          "typical_amount": 32,
+          "conversions": {
+            "milliliters": 946.35,
+            "cups": 4,
+            "liters": 0.946
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1448 @@
+{
+  "category": "spices_and_seasonings",
+  "items": {
+    "black_pepper": {
+      "category": "spices",
+      "item": "Black Pepper",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 2,
+          "conversions": {
+            "grams": 56.7,
+            "tablespoons": 8,
+            "teaspoons": 24
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.3,
+            "milliliters": 5,
+            "tablespoons": 0.33
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 6.9,
+            "teaspoons": 3,
+            "ounces": 0.25,
+            "milliliters": 15
+          }
+        }
+      ]
+    },
+    "sea_salt": {
+      "category": "spices",
+      "item": "Sea Salt",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "tablespoons": 32,
+            "teaspoons": 96
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.5,
+            "grams": 14.17,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "table_salt": {
+      "category": "spices",
+      "item": "Table Salt",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 26,
+          "conversions": {
+            "grams": 737.09,
+            "tablespoons": 52,
+            "teaspoons": 156
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 6,
+            "milliliters": 5,
+            "tablespoons": 0.33
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 18,
+            "teaspoons": 3,
+            "ounces": 0.63
+          }
+        }
+      ]
+    },
+    "paprika": {
+      "category": "spices",
+      "item": "Paprika",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "chili_powder": {
+      "category": "spices",
+      "item": "Chili Powder",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "cumin": {
+      "category": "spices",
+      "item": "Cumin",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "coriander": {
+      "category": "spices",
+      "item": "Coriander",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "turmeric": {
+      "category": "spices",
+      "item": "Turmeric",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "cinnamon": {
+      "category": "spices",
+      "item": "Cinnamon",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "nutmeg": {
+      "category": "spices",
+      "item": "Nutmeg",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "cloves": {
+      "category": "spices",
+      "item": "Cloves",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "allspice": {
+      "category": "spices",
+      "item": "Allspice",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "ginger_ground": {
+      "category": "spices",
+      "item": "Ginger (Ground)",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "garlic_powder": {
+      "category": "spices",
+      "item": "Garlic Powder",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "onion_powder": {
+      "category": "spices",
+      "item": "Onion Powder",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "cayenne_pepper": {
+      "category": "spices",
+      "item": "Cayenne Pepper",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "red_pepper_flakes": {
+      "category": "spices",
+      "item": "Red Pepper Flakes",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "thyme": {
+      "category": "spices",
+      "item": "Thyme",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "oregano": {
+      "category": "spices",
+      "item": "Oregano",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "basil": {
+      "category": "spices",
+      "item": "Basil",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "rosemary": {
+      "category": "spices",
+      "item": "Rosemary",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "sage": {
+      "category": "spices",
+      "item": "Sage",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "dill": {
+      "category": "spices",
+      "item": "Dill",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "taco_seasoning": {
+      "category": "seasoning_mixes",
+      "item": "Taco Seasoning",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "italian_seasoning": {
+      "category": "seasoning_mixes",
+      "item": "Italian Seasoning",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "ranch_seasoning": {
+      "category": "seasoning_mixes",
+      "item": "Ranch Seasoning",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "curry_powder": {
+      "category": "seasoning_mixes",
+      "item": "Curry Powder",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "kosher_salt": {
+      "category": "spices",
+      "item": "Kosher Salt",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 16,
+          "conversions": {
+            "grams": 453.59,
+            "tablespoons": 32,
+            "teaspoons": 96
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 6,
+            "tablespoons": 0.33,
+            "ounces": 0.2
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 18,
+            "teaspoons": 3,
+            "ounces": 0.5
+          }
+        }
+      ]
+    },
+    "bay_leaves": {
+      "category": "spices",
+      "item": "Bay Leaves",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 0.5,
+          "conversions": {
+            "grams": 14.17,
+            "tablespoons": 8,
+            "leaves": "20-25 leaves"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "leaf",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 0.5,
+            "ounces": 0.02
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.06,
+            "grams": 1.77
+          }
+        }
+      ]
+    },
+    "smoked_paprika": {
+      "category": "spices",
+      "item": "Smoked Paprika",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "garlic_salt": {
+      "category": "spices",
+      "item": "Garlic Salt",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 5,
+          "conversions": {
+            "grams": 141.75,
+            "tablespoons": 10,
+            "teaspoons": 30
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.5,
+            "grams": 14.18,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "celery_seed": {
+      "category": "spices",
+      "item": "Celery Seed",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "dry_mustard": {
+      "category": "spices",
+      "item": "Dry Mustard",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "mustard_seed": {
+      "category": "spices",
+      "item": "Mustard Seed",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "cardamom": {
+      "category": "spices",
+      "item": "Cardamom",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "star_anise": {
+      "category": "spices",
+      "item": "Star Anise",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "fennel_seed": {
+      "category": "spices",
+      "item": "Fennel Seed",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "marjoram": {
+      "category": "spices",
+      "item": "Marjoram",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "parsley_dried": {
+      "category": "spices",
+      "item": "Parsley (Dried)",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "tarragon": {
+      "category": "spices",
+      "item": "Tarragon",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "poultry_seasoning": {
+      "category": "seasoning_mixes",
+      "item": "Poultry Seasoning",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "lemon_pepper": {
+      "category": "seasoning_mixes",
+      "item": "Lemon Pepper",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "onion_flakes": {
+      "category": "spices",
+      "item": "Onion Flakes",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "garam_masala": {
+      "category": "seasoning_mixes",
+      "item": "Garam Masala",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "chinese_five_spice": {
+      "category": "seasoning_mixes",
+      "item": "Chinese Five Spice",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "everything_bagel_seasoning": {
+      "category": "seasoning_mixes",
+      "item": "Everything Bagel Seasoning",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 2,
+          "conversions": {
+            "grams": 56.7,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.5,
+            "grams": 14.18,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "old_bay_seasoning": {
+      "category": "seasoning_mixes",
+      "item": "Old Bay Seasoning",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 2.5,
+          "conversions": {
+            "grams": 70.87,
+            "tablespoons": 5,
+            "teaspoons": 15
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.5,
+            "grams": 14.17,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "saffron": {
+      "category": "spices",
+      "item": "Saffron",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 0.06,
+          "conversions": {
+            "grams": 1.7,
+            "teaspoons": 1,
+            "threads": "30-40 threads"
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "teaspoons": 3,
+            "ounces": 0.18,
+            "grams": 5.1
+          }
+        }
+      ]
+    },
+    "cajun_seasoning": {
+      "category": "seasoning_mixes",
+      "item": "Cajun Seasoning",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 2,
+          "conversions": {
+            "grams": 56.7,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.5,
+            "grams": 14.18,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "steak_seasoning": {
+      "category": "seasoning_mixes",
+      "item": "Steak Seasoning",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 2,
+          "conversions": {
+            "grams": 56.7,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.5,
+            "grams": 14.18,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "adobo_seasoning": {
+      "category": "seasoning_mixes",
+      "item": "Adobo Seasoning",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 2,
+          "conversions": {
+            "grams": 56.7,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.5,
+            "grams": 14.18,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "seasoned_salt": {
+      "category": "spices",
+      "item": "Seasoned Salt",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 8,
+          "conversions": {
+            "grams": 226.8,
+            "tablespoons": 16,
+            "teaspoons": 48
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.5,
+            "grams": 14.18,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "fenugreek": {
+      "category": "spices",
+      "item": "Fenugreek",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    },
+    "juniper_berries": {
+      "category": "spices",
+      "item": "Juniper Berries",
+      "common_units": [
+        {
+          "unit": "ounces",
+          "symbol": "oz",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 28.35,
+            "tablespoons": 4,
+            "teaspoons": 12
+          }
+        },
+        {
+          "unit": "tablespoons",
+          "symbol": "tbsp",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 0.25,
+            "grams": 7.09,
+            "teaspoons": 3
+          }
+        }
+      ]
+    }
+  }
+}
