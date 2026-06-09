@@ -1348,13 +1348,18 @@ body {
     padding-bottom: max(1rem, env(safe-area-inset-bottom, 0px));
     padding-left: max(1rem, env(safe-area-inset-left, 0px));
     padding-right: max(1rem, env(safe-area-inset-right, 0px));
+    height: 100dvh;
+    max-height: 100dvh;
+    overflow: hidden;
   }
 
   .page-content {
     width: 100%;
-    max-height: none;
+    flex: 1 1 auto;
+    min-height: 0;
+    max-height: 100%;
     padding: 1.25rem;
-    flex: 1;
+    overflow-y: auto;
   }
 
   .page-header {
@@ -1496,6 +1501,9 @@ body {
   .page {
     padding: 0.75rem;
     padding-top: max(0.75rem, env(safe-area-inset-top, 0px));
+    padding-bottom: max(0.75rem, env(safe-area-inset-bottom, 0px));
+    padding-left: max(0.75rem, env(safe-area-inset-left, 0px));
+    padding-right: max(0.75rem, env(safe-area-inset-right, 0px));
   }
 
   .page-content {
