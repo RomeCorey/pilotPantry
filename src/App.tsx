@@ -10,7 +10,7 @@ import {
   type MouseEvent,
 } from 'react'
 import pantryNoText from './assets/PantryPilotNoText.svg'
-import ppLogo from './assets/PPLogo2.svg'
+import ppLogo from './assets/PPLogoLarge.svg'
 import cuttingBoard from './assets/cuttingBoard.png'
 import {
   CATEGORY_FILES,
@@ -327,7 +327,7 @@ function HomePage({ onRecipeClick, onShoppingClick, onGoShoppingClick }: any) {
             className="action-button button-tertiary"
             onClick={onShoppingClick}
           >
-            Build Shopping List from Recipes
+            Create Shopping List and View Recipes
           </button>
           <button
             className="action-button button-quaternary"
@@ -1104,7 +1104,7 @@ function ShoppingPage({ onBack }: any) {
         <InlineAuthPanel className="page-inline-auth" />
         <div className="page-header">
           <HomeNavButton onClick={onBack} />
-          <h1>Build Shopping List from Recipes</h1>
+          <h1>Create Shopping List and View Recipes</h1>
         </div>
 
         {recipesLoading ? (
@@ -1293,7 +1293,7 @@ function GoShoppingPage({ onBack }: any) {
 
         {shoppingList.length === 0 ? (
           <p className="empty-recipes-message">
-            Your shopping list is empty. Go to Build Shopping List from Recipes
+            Your shopping list is empty. Go to Create Shopping List and View Recipes
             to add ingredients from your saved recipes.
           </p>
         ) : (
