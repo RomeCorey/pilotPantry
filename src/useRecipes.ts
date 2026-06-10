@@ -42,7 +42,11 @@ export function useRecipes() {
 
       if (user && isConfigured) {
         await saveRecipe(recipe, user.id)
-        await reload()
+        try {
+          await reload()
+        } catch {
+          setRecipes((prev) => [recipe, ...prev])
+        }
         return recipe
       }
 

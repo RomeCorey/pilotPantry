@@ -183,10 +183,10 @@ body {
 }
 
 .auth-bar {
-  position: absolute;
+  position: fixed;
   top: max(0.75rem, env(safe-area-inset-top, 0px));
   right: max(0.75rem, env(safe-area-inset-right, 0px));
-  z-index: 3;
+  z-index: 100;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -236,16 +236,116 @@ body {
   transform: scale(0.98);
 }
 
+.auth-bar-inline {
+  position: static;
+  max-width: 100%;
+  width: 100%;
+}
+
 .auth-section {
   position: relative;
   z-index: 2;
   width: min(92%, 22rem);
   margin: 0 auto 1rem;
   padding: 1rem;
+  padding-top: 2.25rem;
   background-color: rgba(255, 255, 255, 0.92);
   border-radius: 12px;
   border: 2px solid var(--border);
   box-shadow: 0 8px 24px var(--button-shadow-hover);
+}
+
+.auth-section-dismiss {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  line-height: 1;
+  font-family: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.auth-section-dismiss:hover {
+  background-color: var(--bg-primary);
+}
+
+.auth-section-dismiss:active {
+  transform: scale(0.95);
+}
+
+.auth-login-trigger {
+  position: fixed;
+  top: max(0.75rem, env(safe-area-inset-top, 0px));
+  right: max(0.75rem, env(safe-area-inset-right, 0px));
+  z-index: 100;
+  min-height: 2rem;
+  padding: 0.35rem 0.85rem;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.92);
+  color: var(--text-primary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 4px 16px var(--button-shadow-hover);
+  touch-action: manipulation;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.auth-login-trigger:hover {
+  background-color: var(--bg-primary);
+}
+
+.auth-login-trigger:active {
+  transform: scale(0.98);
+}
+
+.auth-login-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 110;
+  padding: 1rem;
+  padding-top: max(1rem, env(safe-area-inset-top, 0px));
+  padding-bottom: max(1rem, env(safe-area-inset-bottom, 0px));
+}
+
+.auth-login-modal {
+  width: min(100%, 22rem);
+  margin: 0;
+}
+
+.inline-auth-panel {
+  width: 100%;
+}
+
+.inline-auth-panel .auth-section {
+  width: 100%;
+}
+
+.homepage-auth-panel {
+  width: min(92%, 22rem);
+  margin: 0 auto 1rem;
+}
+
+.page-inline-auth {
+  margin-bottom: 1rem;
 }
 
 .auth-form {
@@ -297,6 +397,7 @@ body {
   font-family: inherit;
   cursor: pointer;
   transition: all 0.2s ease;
+  touch-action: manipulation;
 }
 
 .auth-button:disabled {
@@ -827,6 +928,11 @@ body {
   max-width: 90%;
 }
 
+.shopping-popup-error {
+  border-color: #c0392b;
+  color: #c0392b;
+}
+
 .page-header {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -877,6 +983,7 @@ body {
 .page-content {
   background-color: var(--page-content-bg);
   padding: 5%;
+  border: 2px solid #000;
   border-radius: 16px;
   width: 90%;
   max-width: 600px;
@@ -1061,6 +1168,10 @@ body {
   overflow: visible;
 }
 
+.unit-select-placeholder {
+  color: var(--text-secondary);
+}
+
 .quantity-input:focus,
 .unit-select:focus {
   outline: none;
@@ -1200,7 +1311,9 @@ body {
 }
 
 .add-new-ingredient-section {
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .add-new-ingredient-toggle {
@@ -1311,8 +1424,38 @@ body {
   transform: scale(0.98);
 }
 
+.save-new-ingredient-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
 /* Tablet and mobile */
 @media (max-width: 768px) {
+  .homepage {
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .homepage:has(.homepage-auth-panel) .homepage-hero {
+    flex: 0 0 auto;
+    min-height: min(24dvh, 10rem);
+    padding-block: 0.75rem;
+  }
+
+  .homepage:has(.homepage-auth-panel) .button-container {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom, 0px));
+  }
+
+  .page-inline-auth .auth-section {
+    width: 100%;
+    margin: 0;
+    padding: 0.85rem;
+    padding-top: 2.25rem;
+  }
+
   .homepage-title {
     width: calc(100% - 1.5rem);
     padding: 0.75rem 1rem;
@@ -1335,6 +1478,16 @@ body {
     width: calc(100% - 2rem);
     margin-bottom: 1rem;
     padding: 0.85rem;
+    padding-top: 2.25rem;
+  }
+
+  .homepage-auth-panel {
+    width: calc(100% - 2rem);
+  }
+
+  .auth-login-trigger {
+    top: max(0.5rem, env(safe-area-inset-top, 0px));
+    right: max(0.5rem, env(safe-area-inset-right, 0px));
   }
 
   .auth-actions {
@@ -1379,6 +1532,24 @@ body {
 
   .recipe-section {
     margin-bottom: 1.25rem;
+  }
+
+  .add-new-ingredient-form {
+    gap: 0.75rem;
+    padding: 0.875rem;
+  }
+
+  .add-new-ingredient-toggle {
+    padding: 0.75rem;
+    min-height: 2.75rem;
+  }
+
+  .save-new-ingredient-btn {
+    margin-top: 0.25rem;
+  }
+
+  .save-recipe-btn {
+    margin-top: 1.25rem;
   }
 
   .recipe-name-input,
@@ -1513,6 +1684,11 @@ body {
 
   .quantity-section {
     grid-template-columns: 1fr;
+  }
+
+  .new-ingredient-units {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
   }
 
   .saved-recipe-header-meta {

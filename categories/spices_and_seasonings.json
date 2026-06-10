@@ -53,6 +53,16 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 6,
+            "tablespoons": 0.33,
+            "ounces": 0.17
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -115,6 +125,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -138,6 +159,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -167,6 +199,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -190,6 +233,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -219,6 +273,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -242,6 +307,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -271,6 +347,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -294,6 +381,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -323,6 +421,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -346,6 +455,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -375,6 +495,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -398,6 +529,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -427,6 +569,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -450,6 +603,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -479,6 +643,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -502,6 +677,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -531,6 +717,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -554,6 +751,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -583,6 +791,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -606,6 +825,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -635,6 +865,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -658,6 +899,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -687,6 +939,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -710,6 +973,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -784,12 +1058,23 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 0.59,
+            "tablespoons": 0.33,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
           "conversions": {
             "ounces": 0.06,
-            "grams": 1.77
+            "grams": 1.77,
+            "teaspoons": 3
           }
         }
       ]
@@ -806,6 +1091,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -835,6 +1131,16 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 6,
+            "tablespoons": 0.33,
+            "ounces": 0.17
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -858,6 +1164,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -887,6 +1204,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -910,6 +1238,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -939,6 +1278,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -962,6 +1312,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -991,6 +1352,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -1014,6 +1386,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -1043,6 +1426,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -1066,6 +1460,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -1095,6 +1500,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -1118,6 +1534,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -1147,6 +1574,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -1170,6 +1608,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {
@@ -1199,6 +1648,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -1222,6 +1682,16 @@
             "grams": 56.7,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 4.73,
+            "tablespoons": 0.33,
+            "ounces": 0.17
           }
         },
         {
@@ -1251,6 +1721,16 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 4.72,
+            "tablespoons": 0.33,
+            "ounces": 0.17
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -1274,6 +1754,17 @@
             "grams": 1.7,
             "teaspoons": 1,
             "threads": "30-40 threads"
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 1.7,
+            "tablespoons": 0.33,
+            "ounces": 0.06,
+            "milliliters": 5
           }
         },
         {
@@ -1303,6 +1794,16 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 4.73,
+            "tablespoons": 0.33,
+            "ounces": 0.17
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -1326,6 +1827,16 @@
             "grams": 56.7,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 4.73,
+            "tablespoons": 0.33,
+            "ounces": 0.17
           }
         },
         {
@@ -1355,6 +1866,16 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 4.73,
+            "tablespoons": 0.33,
+            "ounces": 0.17
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -1378,6 +1899,16 @@
             "grams": 226.8,
             "tablespoons": 16,
             "teaspoons": 48
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 6,
+            "tablespoons": 0.33,
+            "ounces": 0.17
           }
         },
         {
@@ -1407,6 +1938,17 @@
           }
         },
         {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
+          }
+        },
+        {
           "unit": "tablespoons",
           "symbol": "tbsp",
           "typical_amount": 1,
@@ -1430,6 +1972,17 @@
             "grams": 28.35,
             "tablespoons": 4,
             "teaspoons": 12
+          }
+        },
+        {
+          "unit": "teaspoons",
+          "symbol": "tsp",
+          "typical_amount": 1,
+          "conversions": {
+            "grams": 2.36,
+            "tablespoons": 0.33,
+            "ounces": 0.08,
+            "milliliters": 5
           }
         },
         {

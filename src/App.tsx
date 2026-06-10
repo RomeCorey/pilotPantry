@@ -1,8 +1,20 @@
-import { useState, useMemo, useEffect, type FormEvent } from 'react'
+import {
+  useState,
+  useMemo,
+  useEffect,
+  useRef,
+  useCallback,
+  createContext,
+  useContext,
+  type FormEvent,
+  type MouseEvent,
+} from 'react'
 import pantryNoText from './assets/PantryPilotNoText.svg'
 import cuttingBoard from './assets/cuttingBoard.png'
 import {
   CATEGORY_FILES,
+  getUnitOptionsForItem,
+  getDefaultUnitForItem,
   UNIT_OPTIONS,
   UNIT_SYMBOLS,
   ingredientNameToKey,
@@ -50,6 +62,23 @@ interface GroceryItem {
 
 function shoppingListItemKey(entry: Pick<ShoppingListItem, 'item' | 'unit'>): string {
   return `${entry.item.toLowerCase()}|${entry.unit.toLowerCase()}`
+}
+
+const AUTH_LOGIN_DISMISSED_KEY = 'authLoginDismissed'
+
+interface AuthUIContextValue {
+  showInlineLogin: boolean
+  dismissLogin: () => void
+}
+
+const AuthUIContext = createContext<AuthUIContextValue | null>(null)
+
+function useAuthUI() {
+  const context = useContext(AuthUIContext)
+  if (!context) {
+    throw new Error('useAuthUI must be used within App')
+  }
+  return context
 }
 
 function getRecipeShoppingStatuses(
@@ -107,21 +136,14 @@ function combineShoppingList(items: ShoppingListItem[]): CombinedShoppingItem[] 
   )
 }
 
-function HomePage({ onRecipeClick, onShoppingClick, onGoShoppingClick }: any) {
-  const {
-    user,
-    loading,
-    isConfigured,
-    authError,
-    clearAuthError,
-    signIn,
-    signUp,
-    signOut,
-  } = useAuth()
+function AuthForm() {
+  const { authError, clearAuthError, signIn, signUp, isConfigured } = useAuth()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [authMessage, setAuthMessage] = useState<string | null>(null)
   const [isSubmitting, setIsSubmitting] = useState(false)
+
+  if (!isConfigured) return null
 
   const handleSignIn = async (event: FormEvent) => {
     event.preventDefault()
@@ -143,104 +165,153 @@ function HomePage({ onRecipeClick, onShoppingClick, onGoShoppingClick }: any) {
   }
 
   return (
+    <form className="auth-form" onSubmit={handleSignIn}>
+      <p className="auth-status">Sign in to save recipes to your account.</p>
+      <label className="auth-field">
+        <span>Email</span>
+        <input
+          type="email"
+          value={email}
+          onChange={(event) => setEmail(event.target.value)}
+          autoComplete="email"
+          inputMode="email"
+          required
+        />
+      </label>
+      <label className="auth-field">
+        <span>Password</span>
+        <input
+          type="password"
+          value={password}
+          onChange={(event) => setPassword(event.target.value)}
+          autoComplete="current-password"
+          minLength={6}
+          required
+        />
+      </label>
+      <div className="auth-actions">
+        <button
+          type="submit"
+          className="auth-button auth-button-primary"
+          disabled={isSubmitting}
+        >
+          Sign In
+        </button>
+        <button
+          type="button"
+          className="auth-button auth-button-secondary"
+          onClick={handleSignUp}
+          disabled={isSubmitting}
+        >
+          Create Account
+        </button>
+      </div>
+      {authError && <p className="auth-error">{authError}</p>}
+      {authMessage && <p className="auth-message">{authMessage}</p>}
+    </form>
+  )
+}
+
+function AuthSectionCard({
+  onDismiss,
+  className = '',
+  onClick,
+}: {
+  onDismiss: () => void
+  className?: string
+  onClick?: (event: MouseEvent<HTMLElement>) => void
+}) {
+  return (
+    <section
+      className={`auth-section${className ? ` ${className}` : ''}`}
+      onClick={onClick}
+    >
+      <button
+        type="button"
+        className="auth-section-dismiss"
+        onClick={onDismiss}
+        aria-label="Close login"
+      >
+        ✕
+      </button>
+      <AuthForm />
+    </section>
+  )
+}
+
+function InlineAuthPanel({ className = '' }: { className?: string }) {
+  const { showInlineLogin, dismissLogin } = useAuthUI()
+
+  if (!showInlineLogin) return null
+
+  return (
+    <div className={`inline-auth-panel${className ? ` ${className}` : ''}`}>
+      <AuthSectionCard onDismiss={dismissLogin} />
+    </div>
+  )
+}
+
+function AuthBar({ inline = false }: { inline?: boolean }) {
+  const { user, loading, isConfigured, signOut } = useAuth()
+
+  if (!isConfigured || (!loading && !user)) return null
+
+  return (
+    <div
+      className={`auth-bar${inline ? ' auth-bar-inline' : ''}`}
+      aria-live="polite"
+    >
+      {loading ? (
+        <span className="auth-bar-status">Checking account...</span>
+      ) : (
+        <>
+          <span className="auth-bar-email" title={user?.email}>
+            {user?.email}
+          </span>
+          <button
+            type="button"
+            className="auth-bar-signout"
+            onClick={() => signOut()}
+          >
+            Sign Out
+          </button>
+        </>
+      )}
+    </div>
+  )
+}
+
+function HomePage({ onRecipeClick, onShoppingClick, onGoShoppingClick }: any) {
+  return (
     <div className="homepage light-mode">
       <header className="header">
         <img src={pantryNoText} alt="" className="header-logo" aria-hidden="true" />
       </header>
-
-      {isConfigured && (loading || user) && (
-        <div className="auth-bar" aria-live="polite">
-          {loading ? (
-            <span className="auth-bar-status">Checking account...</span>
-          ) : (
-            <>
-              <span className="auth-bar-email" title={user?.email}>
-                {user?.email}
-              </span>
-              <button
-                type="button"
-                className="auth-bar-signout"
-                onClick={() => signOut()}
-              >
-                Sign Out
-              </button>
-            </>
-          )}
-        </div>
-      )}
 
       <div className="homepage-hero">
         <h1 className="homepage-title">Pantry Pilot</h1>
       </div>
 
       <div className="homepage-bottom">
-      {isConfigured && !loading && !user && (
-        <section className="auth-section">
-            <form className="auth-form" onSubmit={handleSignIn}>
-              <p className="auth-status">
-                Sign in to save recipes to your account.
-              </p>
-              <label className="auth-field">
-                <span>Email</span>
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(event) => setEmail(event.target.value)}
-                  autoComplete="email"
-                  required
-                />
-              </label>
-              <label className="auth-field">
-                <span>Password</span>
-                <input
-                  type="password"
-                  value={password}
-                  onChange={(event) => setPassword(event.target.value)}
-                  autoComplete="current-password"
-                  minLength={6}
-                  required
-                />
-              </label>
-              <div className="auth-actions">
-                <button
-                  type="submit"
-                  className="auth-button auth-button-primary"
-                  disabled={isSubmitting}
-                >
-                  Sign In
-                </button>
-                <button
-                  type="button"
-                  className="auth-button auth-button-secondary"
-                  onClick={handleSignUp}
-                  disabled={isSubmitting}
-                >
-                  Create Account
-                </button>
-              </div>
-              {authError && <p className="auth-error">{authError}</p>}
-              {authMessage && <p className="auth-message">{authMessage}</p>}
-            </form>
-        </section>
-      )}
+        <InlineAuthPanel className="homepage-auth-panel" />
 
-      <div className="button-container">
-        <button className="action-button button-primary" onClick={onRecipeClick}>
-          Input Recipe
-        </button>
-        <button
-          className="action-button button-tertiary"
-          onClick={onShoppingClick}
-        >
-          Build Shopping List from Recipes
-        </button>
-        <button
-          className="action-button button-quaternary"
-          onClick={onGoShoppingClick}
-        >
-          Let's Go Shopping
-        </button>
-      </div>
+        <div className="button-container">
+          <button className="action-button button-primary" onClick={onRecipeClick}>
+            Input Recipe
+          </button>
+          <button
+            className="action-button button-tertiary"
+            onClick={onShoppingClick}
+          >
+            Build Shopping List from Recipes
+          </button>
+          <button
+            className="action-button button-quaternary"
+            onClick={onGoShoppingClick}
+          >
+            Let's Go Shopping
+          </button>
+        </div>
       </div>
     </div>
   )
@@ -250,9 +321,18 @@ function InputRecipePage({ onBack }: any) {
   const { addRecipe, isCloudBacked } = useRecipes()
   const [recipeName, setRecipeName] = useState('')
   const [isSavingRecipe, setIsSavingRecipe] = useState(false)
+  const [saveSuccessMessage, setSaveSuccessMessage] = useState<string | null>(null)
+  const [saveErrorMessage, setSaveErrorMessage] = useState<string | null>(null)
+  const [newIngredientSuccessMessage, setNewIngredientSuccessMessage] = useState<
+    string | null
+  >(null)
+  const [newIngredientErrorMessage, setNewIngredientErrorMessage] = useState<
+    string | null
+  >(null)
+  const [isSavingNewIngredient, setIsSavingNewIngredient] = useState(false)
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedQuantity, setSelectedQuantity] = useState<number>(1)
-  const [selectedUnit, setSelectedUnit] = useState<string>('ounces')
+  const [selectedUnit, setSelectedUnit] = useState('')
   const [ingredients, setIngredients] = useState<RecipeIngredient[]>([])
   const [showSearchResults, setShowSearchResults] = useState(false)
   const [selectedIngredient, setSelectedIngredient] = useState<GroceryItem | null>(null)
@@ -268,6 +348,7 @@ function InputRecipePage({ onBack }: any) {
   const [newUnit, setNewUnit] = useState<string>(UNIT_OPTIONS[0])
   const [newUnitSymbol, setNewUnitSymbol] = useState(UNIT_SYMBOLS[UNIT_OPTIONS[0]])
   const [newTypicalAmount, setNewTypicalAmount] = useState<number>(1)
+  const addIngredientSectionRef = useRef<HTMLDivElement>(null)
 
   const categoryDatas = useMemo(
     () => [
@@ -317,12 +398,6 @@ function InputRecipePage({ onBack }: any) {
       .slice(0, 10) // Limit to 10 results
   }, [searchTerm, allGroceryItems])
 
-  // Get available units for selected item
-  const getAvailableUnits = (item: GroceryItem): string[] => {
-    if (!item.common_units) return ['ounces']
-    return item.common_units.map((u) => u.unit)
-  }
-
   const activeIngredient = useMemo(() => {
     if (selectedIngredient) return selectedIngredient
     if (!searchTerm.trim()) return null
@@ -333,19 +408,26 @@ function InputRecipePage({ onBack }: any) {
     )
   }, [selectedIngredient, searchTerm, allGroceryItems])
 
+  // Get available units for selected item (common units first, then all others)
   const availableUnits = useMemo(() => {
-    if (!activeIngredient) return ['ounces']
-    return getAvailableUnits(activeIngredient)
+    return getUnitOptionsForItem(activeIngredient)
   }, [activeIngredient])
 
   useEffect(() => {
-    if (!availableUnits.includes(selectedUnit)) {
-      setSelectedUnit(availableUnits[0])
+    if (activeIngredient) {
+      setSelectedUnit(getDefaultUnitForItem(activeIngredient))
+    } else {
+      setSelectedUnit('')
     }
-  }, [availableUnits, selectedUnit])
+  }, [activeIngredient])
 
   // Handle adding ingredient
   const handleAddIngredient = (item: GroceryItem) => {
+    if (!selectedUnit) {
+      setNewIngredientErrorMessage('Please select a unit')
+      return
+    }
+
     const newIngredient: RecipeIngredient = {
       id: crypto.randomUUID(),
       item: item.item,
@@ -357,7 +439,7 @@ function InputRecipePage({ onBack }: any) {
     setSearchTerm('')
     setSelectedIngredient(null)
     setSelectedQuantity(1)
-    setSelectedUnit('ounces')
+    setSelectedUnit('')
     setShowSearchResults(false)
   }
 
@@ -376,21 +458,21 @@ function InputRecipePage({ onBack }: any) {
     const trimmedSubCategory = newSubCategory.trim()
 
     if (!trimmedName) {
-      alert('Please enter an ingredient name')
+      setNewIngredientErrorMessage('Please enter an ingredient name')
       return
     }
     if (!trimmedSubCategory) {
-      alert('Please enter a sub-category')
+      setNewIngredientErrorMessage('Please enter a sub-category')
       return
     }
-    if (!newTypicalAmount || newTypicalAmount <= 0) {
-      alert('Please enter a valid typical amount')
+    if (!Number.isFinite(newTypicalAmount) || newTypicalAmount <= 0) {
+      setNewIngredientErrorMessage('Please enter a valid typical amount')
       return
     }
 
     const itemKey = ingredientNameToKey(trimmedName)
     if (!itemKey) {
-      alert('Please enter a valid ingredient name')
+      setNewIngredientErrorMessage('Please enter a valid ingredient name')
       return
     }
 
@@ -410,10 +492,11 @@ function InputRecipePage({ onBack }: any) {
       (item) => item.item.toLowerCase() === trimmedName.toLowerCase()
     )
     if (duplicate) {
-      alert('An ingredient with this name already exists')
+      setNewIngredientErrorMessage('An ingredient with this name already exists')
       return
     }
 
+    setIsSavingNewIngredient(true)
     let savedToCategoryFile = false
 
     try {
@@ -429,13 +512,21 @@ function InputRecipePage({ onBack }: any) {
 
       if (response.ok) {
         savedToCategoryFile = true
-      } else {
-        const error = await response.json()
-        alert(error.error || 'Failed to save ingredient to category file')
+      } else if (response.status !== 404) {
+        let errorMessage = 'Failed to save ingredient to category file'
+        try {
+          const error = await response.json()
+          if (error?.error) errorMessage = error.error
+        } catch {
+          // Non-JSON error response
+        }
+        setNewIngredientErrorMessage(errorMessage)
         return
       }
     } catch {
       // Dev API unavailable (e.g. production build) — fall back to local storage
+    } finally {
+      setIsSavingNewIngredient(false)
     }
 
     const updatedCustom = [...customIngredients, newItem]
@@ -450,7 +541,7 @@ function InputRecipePage({ onBack }: any) {
     setNewTypicalAmount(1)
     setShowAddIngredientForm(false)
 
-    alert(
+    setNewIngredientSuccessMessage(
       savedToCategoryFile
         ? `"${trimmedName}" was added to the category file and is now available in search.`
         : `"${trimmedName}" was saved and is now available in search.`
@@ -474,17 +565,59 @@ function InputRecipePage({ onBack }: any) {
       const storageMessage = isCloudBacked
         ? 'saved to your account'
         : 'saved on this device'
-      alert(`Recipe "${savedRecipe.name}" ${storageMessage}!`)
       setRecipeName('')
       setIngredients([])
+      setSaveSuccessMessage(`Recipe "${savedRecipe.name}" ${storageMessage}!`)
     } catch (error) {
-      alert(
+      setSaveErrorMessage(
         error instanceof Error ? error.message : 'Failed to save recipe. Try again.'
       )
     } finally {
       setIsSavingRecipe(false)
     }
   }
+
+  useEffect(() => {
+    if (!saveSuccessMessage) return
+
+    const timer = window.setTimeout(() => {
+      setSaveSuccessMessage(null)
+      onBack()
+    }, 2000)
+
+    return () => window.clearTimeout(timer)
+  }, [saveSuccessMessage, onBack])
+
+  useEffect(() => {
+    if (!newIngredientSuccessMessage) return
+
+    const timer = window.setTimeout(() => {
+      setNewIngredientSuccessMessage(null)
+    }, 2500)
+
+    return () => window.clearTimeout(timer)
+  }, [newIngredientSuccessMessage])
+
+  useEffect(() => {
+    if (!showAddIngredientForm) return
+
+    const handlePointerDown = (event: PointerEvent) => {
+      const target = event.target
+      if (
+        target instanceof Node &&
+        addIngredientSectionRef.current?.contains(target)
+      ) {
+        return
+      }
+      setShowAddIngredientForm(false)
+    }
+
+    document.addEventListener('pointerdown', handlePointerDown)
+
+    return () => {
+      document.removeEventListener('pointerdown', handlePointerDown)
+    }
+  }, [showAddIngredientForm])
 
   return (
     <div
@@ -504,6 +637,7 @@ function InputRecipePage({ onBack }: any) {
           } as React.CSSProperties
         }
       >
+        <InlineAuthPanel className="page-inline-auth" />
         <div className="page-header">
           <button className="back-button" onClick={onBack}>
             ← Back
@@ -552,10 +686,11 @@ function InputRecipePage({ onBack }: any) {
                   <div
                     key={idx}
                     className="search-result-item"
-                    onClick={() => {
+                    onPointerDown={(e) => {
+                      e.preventDefault()
                       setSearchTerm(item.item)
                       setSelectedIngredient(item)
-                      setSelectedUnit(getAvailableUnits(item)[0])
+                      setSelectedUnit(getDefaultUnitForItem(item))
                       setShowSearchResults(false)
                     }}
                   >
@@ -586,8 +721,11 @@ function InputRecipePage({ onBack }: any) {
               <select
                 value={selectedUnit}
                 onChange={(e) => setSelectedUnit(e.target.value)}
-                className="unit-select"
+                className={`unit-select${selectedUnit ? '' : ' unit-select-placeholder'}`}
               >
+                <option value="" disabled>
+                  Select unit
+                </option>
                 {availableUnits.map((unit) => (
                   <option key={unit} value={unit}>
                     {unit}
@@ -597,15 +735,22 @@ function InputRecipePage({ onBack }: any) {
             </div>
 
             <button
+              type="button"
               className="add-ingredient-btn"
               onClick={() => {
                 const selectedItem = allGroceryItems.find(
                   (item) => item.item.toLowerCase() === searchTerm.toLowerCase()
                 )
+                if (!selectedUnit) {
+                  setNewIngredientErrorMessage('Please select a unit')
+                  return
+                }
                 if (selectedItem) {
                   handleAddIngredient(selectedItem)
                 } else {
-                  alert('Please select a valid ingredient from the list')
+                  setNewIngredientErrorMessage(
+                    'Please select a valid ingredient from the list'
+                  )
                 }
               }}
             >
@@ -641,15 +786,18 @@ function InputRecipePage({ onBack }: any) {
           </div>
         )}
 
-        {/* Add New Ingredient */}
-        <div className="recipe-section add-new-ingredient-section">
+        {/* Add Missing Ingredient */}
+        <div
+          ref={addIngredientSectionRef}
+          className="recipe-section add-new-ingredient-section"
+        >
           <button
             type="button"
             className={`add-new-ingredient-toggle${showAddIngredientForm ? ' expanded' : ''}`}
             onClick={() => setShowAddIngredientForm(!showAddIngredientForm)}
             aria-expanded={showAddIngredientForm}
           >
-            <span>Add New Ingredient</span>
+            <span>Add Missing Ingredient</span>
             <span className="add-new-ingredient-chevron" aria-hidden="true">
               {showAddIngredientForm ? '▾' : '▸'}
             </span>
@@ -745,8 +893,9 @@ function InputRecipePage({ onBack }: any) {
                 type="button"
                 className="save-new-ingredient-btn"
                 onClick={handleSaveNewIngredient}
+                disabled={isSavingNewIngredient}
               >
-                Save Ingredient
+                {isSavingNewIngredient ? 'Saving...' : 'Save Ingredient'}
               </button>
             </div>
           )}
@@ -754,6 +903,7 @@ function InputRecipePage({ onBack }: any) {
 
         {/* Save Recipe Button */}
         <button
+          type="button"
           className="save-recipe-btn"
           onClick={handleSaveRecipe}
           disabled={isSavingRecipe}
@@ -761,6 +911,67 @@ function InputRecipePage({ onBack }: any) {
           {isSavingRecipe ? 'Saving...' : 'Save Recipe'}
         </button>
       </div>
+
+      {saveSuccessMessage && (
+        <div
+          className="shopping-popup-overlay"
+          role="presentation"
+        >
+          <div
+            className="shopping-popup"
+            role="alertdialog"
+            aria-live="polite"
+          >
+            {saveSuccessMessage}
+          </div>
+        </div>
+      )}
+
+      {saveErrorMessage && (
+        <div
+          className="shopping-popup-overlay"
+          onClick={() => setSaveErrorMessage(null)}
+          role="presentation"
+        >
+          <div
+            className="shopping-popup shopping-popup-error"
+            role="alertdialog"
+            aria-live="assertive"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {saveErrorMessage}
+          </div>
+        </div>
+      )}
+
+      {newIngredientSuccessMessage && (
+        <div className="shopping-popup-overlay" role="presentation">
+          <div
+            className="shopping-popup"
+            role="alertdialog"
+            aria-live="polite"
+          >
+            {newIngredientSuccessMessage}
+          </div>
+        </div>
+      )}
+
+      {newIngredientErrorMessage && (
+        <div
+          className="shopping-popup-overlay"
+          onClick={() => setNewIngredientErrorMessage(null)}
+          role="presentation"
+        >
+          <div
+            className="shopping-popup shopping-popup-error"
+            role="alertdialog"
+            aria-live="assertive"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {newIngredientErrorMessage}
+          </div>
+        </div>
+      )}
     </div>
   )
 }
@@ -868,6 +1079,7 @@ function ShoppingPage({ onBack }: any) {
           } as React.CSSProperties
         }
       >
+        <InlineAuthPanel className="page-inline-auth" />
         <div className="page-header">
           <button className="back-button" onClick={onBack}>
             ← Back
@@ -1053,6 +1265,7 @@ function GoShoppingPage({ onBack }: any) {
           } as React.CSSProperties
         }
       >
+        <InlineAuthPanel className="page-inline-auth" />
         <div className="page-header">
           <button className="back-button" onClick={onBack}>
             ← Back
@@ -1152,10 +1365,64 @@ function GoShoppingPage({ onBack }: any) {
 }
 
 function App() {
+  const { user, loading, isConfigured } = useAuth()
   const [currentPage, setCurrentPage] = useState('home')
+  const [loginDismissed, setLoginDismissed] = useState(
+    () => localStorage.getItem(AUTH_LOGIN_DISMISSED_KEY) === 'true'
+  )
+  const [loginPanelOpen, setLoginPanelOpen] = useState(false)
+
+  const dismissLogin = useCallback(() => {
+    setLoginDismissed(true)
+    setLoginPanelOpen(false)
+    localStorage.setItem(AUTH_LOGIN_DISMISSED_KEY, 'true')
+  }, [])
+
+  const openLogin = useCallback(() => {
+    setLoginPanelOpen(true)
+  }, [])
+
+  useEffect(() => {
+    if (user) {
+      setLoginPanelOpen(false)
+    }
+  }, [user])
+
+  const showInlineLogin =
+    isConfigured && !loading && !user && !loginDismissed && !loginPanelOpen
+  const showLoginButton =
+    isConfigured && !loading && !user && loginDismissed && !loginPanelOpen
+  const showLoginModal = isConfigured && !loading && !user && loginPanelOpen
+
+  const authUIValue = useMemo(
+    () => ({
+      showInlineLogin,
+      dismissLogin,
+    }),
+    [showInlineLogin, dismissLogin]
+  )
 
   return (
-    <>
+    <AuthUIContext.Provider value={authUIValue}>
+      {isConfigured && (loading || user) && <AuthBar />}
+      {showLoginButton && (
+        <button type="button" className="auth-login-trigger" onClick={openLogin}>
+          Login
+        </button>
+      )}
+      {showLoginModal && (
+        <div
+          className="auth-login-overlay"
+          onClick={() => setLoginPanelOpen(false)}
+          role="presentation"
+        >
+          <AuthSectionCard
+            className="auth-login-modal"
+            onDismiss={dismissLogin}
+            onClick={(event) => event.stopPropagation()}
+          />
+        </div>
+      )}
       {currentPage === 'home' && (
         <HomePage
           onRecipeClick={() => setCurrentPage('input-recipe')}
@@ -1172,7 +1439,7 @@ function App() {
       {currentPage === 'go-shopping' && (
         <GoShoppingPage onBack={() => setCurrentPage('home')} />
       )}
-    </>
+    </AuthUIContext.Provider>
   )
 }
 

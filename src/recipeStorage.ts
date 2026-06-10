@@ -90,7 +90,7 @@ export async function saveRecipe(
 ): Promise<void> {
   const normalized = normalizeRecipe(recipe)
 
-  if (!isSupabaseConfigured) {
+  if (!isSupabaseConfigured || !userId) {
     const recipes = loadLocalRecipes()
     recipes.push(normalized)
     localStorage.setItem(LOCAL_RECIPES_KEY, JSON.stringify(recipes))

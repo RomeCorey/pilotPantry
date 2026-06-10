@@ -194,9 +194,93 @@
         }
       ]
     },
-    "bell_peppers": {
+    "red_bell_pepper": {
       "category": "vegetables",
-      "item": "Bell Peppers",
+      "item": "Red Bell Pepper",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1.5,
+          "conversions": {
+            "ounces": 24,
+            "grams": 680.39,
+            "kilograms": 0.68,
+            "count": "2-3 medium peppers"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "pepper",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5.3,
+            "grams": 150,
+            "cups": 0.75,
+            "pounds": 0.33
+          }
+        }
+      ]
+    },
+    "green_bell_pepper": {
+      "category": "vegetables",
+      "item": "Green Bell Pepper",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1.5,
+          "conversions": {
+            "ounces": 24,
+            "grams": 680.39,
+            "kilograms": 0.68,
+            "count": "2-3 medium peppers"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "pepper",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5,
+            "grams": 142,
+            "cups": 0.75,
+            "pounds": 0.31
+          }
+        }
+      ]
+    },
+    "yellow_bell_pepper": {
+      "category": "vegetables",
+      "item": "Yellow Bell Pepper",
+      "common_units": [
+        {
+          "unit": "pounds",
+          "symbol": "lb",
+          "typical_amount": 1.5,
+          "conversions": {
+            "ounces": 24,
+            "grams": 680.39,
+            "kilograms": 0.68,
+            "count": "2-3 medium peppers"
+          }
+        },
+        {
+          "unit": "count",
+          "symbol": "pepper",
+          "typical_amount": 1,
+          "conversions": {
+            "ounces": 5.3,
+            "grams": 150,
+            "cups": 0.75,
+            "pounds": 0.33
+          }
+        }
+      ]
+    },
+    "orange_bell_pepper": {
+      "category": "vegetables",
+      "item": "Orange Bell Pepper",
       "common_units": [
         {
           "unit": "pounds",
@@ -430,7 +514,7 @@
           "symbol": "oz",
           "typical_amount": 8,
           "conversions": {
-            "grams": 226.80,
+            "grams": 226.8,
             "pounds": 0.5,
             "cups": 2
           }
@@ -748,7 +832,7 @@
           "symbol": "oz",
           "typical_amount": 4,
           "conversions": {
-            "grams": 113.40,
+            "grams": 113.4,
             "tablespoons": 6,
             "teaspoons": 18
           }
@@ -878,7 +962,7 @@
           "symbol": "oz",
           "typical_amount": 6,
           "conversions": {
-            "grams": 170.10,
+            "grams": 170.1,
             "pounds": 0.375,
             "cups": 1
           }
@@ -1187,7 +1271,7 @@
           "symbol": "oz",
           "typical_amount": 8,
           "conversions": {
-            "grams": 226.80,
+            "grams": 226.8,
             "cups": 2,
             "pounds": 0.5
           }
@@ -1247,7 +1331,7 @@
           "symbol": "oz",
           "typical_amount": 6,
           "conversions": {
-            "grams": 170.10,
+            "grams": 170.1,
             "cups": 1,
             "pounds": 0.375
           }
@@ -1263,7 +1347,7 @@
           "symbol": "oz",
           "typical_amount": 6,
           "conversions": {
-            "grams": 170.10,
+            "grams": 170.1,
             "cups": 1,
             "pounds": 0.375
           }
@@ -1389,7 +1473,7 @@
           "symbol": "oz",
           "typical_amount": 8,
           "conversions": {
-            "grams": 226.80,
+            "grams": 226.8,
             "cups": 2,
             "pounds": 0.5
           }

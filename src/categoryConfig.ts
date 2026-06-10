@@ -50,6 +50,26 @@ export const UNIT_SYMBOLS: Record<string, string> = {
   count: 'count',
 }
 
+export function getUnitOptionsForItem(
+  item: { common_units?: Array<{ unit: string }> } | null | undefined
+): string[] {
+  const preferred = item?.common_units?.map((unit) => unit.unit) ?? []
+  const preferredSet = new Set(preferred)
+  const remainder = UNIT_OPTIONS.filter((unit) => !preferredSet.has(unit))
+
+  if (preferred.length === 0) {
+    return [...UNIT_OPTIONS]
+  }
+
+  return [...preferred, ...remainder]
+}
+
+export function getDefaultUnitForItem(
+  item: { common_units?: Array<{ unit: string }> } | null | undefined
+): string {
+  return item?.common_units?.[0]?.unit ?? UNIT_OPTIONS[0]
+}
+
 export function ingredientNameToKey(name: string): string {
   return name
     .toLowerCase()
