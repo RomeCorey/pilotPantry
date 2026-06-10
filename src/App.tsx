@@ -281,6 +281,27 @@ function AuthBar({ inline = false }: { inline?: boolean }) {
   )
 }
 
+function HomeNavButton({ onClick }: { onClick: () => void }) {
+  return (
+    <button
+      type="button"
+      className="pantry-pilot-home-button"
+      onClick={onClick}
+      aria-label="Go to Pantry Pilot home"
+    >
+      <svg
+        className="pantry-pilot-home-icon"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="currentColor" />
+      </svg>
+      <span>Pantry Pilot</span>
+    </button>
+  )
+}
+
 function HomePage({ onRecipeClick, onShoppingClick, onGoShoppingClick }: any) {
   return (
     <div className="homepage light-mode">
@@ -639,9 +660,7 @@ function InputRecipePage({ onBack }: any) {
       >
         <InlineAuthPanel className="page-inline-auth" />
         <div className="page-header">
-          <button className="back-button" onClick={onBack}>
-            ← Back
-          </button>
+          <HomeNavButton onClick={onBack} />
           <h1>Input Recipe</h1>
         </div>
 
@@ -1081,9 +1100,7 @@ function ShoppingPage({ onBack }: any) {
       >
         <InlineAuthPanel className="page-inline-auth" />
         <div className="page-header">
-          <button className="back-button" onClick={onBack}>
-            ← Back
-          </button>
+          <HomeNavButton onClick={onBack} />
           <h1>Build Shopping List from Recipes</h1>
         </div>
 
@@ -1267,9 +1284,7 @@ function GoShoppingPage({ onBack }: any) {
       >
         <InlineAuthPanel className="page-inline-auth" />
         <div className="page-header">
-          <button className="back-button" onClick={onBack}>
-            ← Back
-          </button>
+          <HomeNavButton onClick={onBack} />
           <h1>Let's Go Shopping</h1>
         </div>
 
