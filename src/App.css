@@ -1433,10 +1433,16 @@ body {
 
 /* Tablet and mobile */
 @media (max-width: 768px) {
+  :root {
+    --app-content-width: 80vw;
+    --app-content-height: 80dvh;
+  }
+
   .homepage {
     overflow-y: auto;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
+    --homepage-content-width: var(--app-content-width);
   }
 
   .homepage:has(.homepage-auth-panel) .homepage-hero {
@@ -1457,7 +1463,27 @@ body {
   }
 
   .homepage-logo-heading {
-    width: calc((var(--homepage-content-width) - 2rem) * 1.008);
+    width: var(--app-content-width);
+  }
+
+  .button-container {
+    width: var(--app-content-width);
+    gap: 2dvh;
+    padding-inline: 0;
+    padding-bottom: max(1rem, env(safe-area-inset-bottom, 0px));
+  }
+
+  .action-button {
+    min-height: 8dvh;
+    padding: 2dvh 1rem;
+    font-size: clamp(1rem, 4vw, 1.25rem);
+  }
+
+  .auth-login-trigger {
+    min-width: min(50vw, var(--app-content-width));
+    min-height: 8dvh;
+    padding: 2dvh 1.5rem;
+    font-size: clamp(1rem, 4vw, 1.25rem);
   }
 
   .auth-bar {
@@ -1471,55 +1497,68 @@ body {
   }
 
   .auth-section {
-    width: calc(100% - 2rem);
+    width: var(--app-content-width);
     margin-bottom: 1rem;
     padding: 0.85rem;
     padding-top: 2.25rem;
   }
 
   .homepage-auth-panel {
-    width: calc(100% - 2rem);
+    width: var(--app-content-width);
   }
 
   .auth-actions {
     grid-template-columns: 1fr;
   }
 
+  .auth-field input {
+    min-height: 8dvh;
+    font-size: clamp(1rem, 4vw, 1.125rem);
+  }
+
+  .auth-button {
+    min-height: 8dvh;
+    font-size: clamp(0.95rem, 3.5vw, 1.1rem);
+  }
+
   .page {
-    justify-content: flex-start;
-    padding: 1rem;
-    padding-top: max(1rem, env(safe-area-inset-top, 0px));
-    padding-bottom: max(1rem, env(safe-area-inset-bottom, 0px));
-    padding-left: max(1rem, env(safe-area-inset-left, 0px));
-    padding-right: max(1rem, env(safe-area-inset-right, 0px));
+    justify-content: center;
+    align-items: center;
+    padding: max(0.5rem, env(safe-area-inset-top, 0px))
+      max(0.5rem, env(safe-area-inset-right, 0px))
+      max(0.5rem, env(safe-area-inset-bottom, 0px))
+      max(0.5rem, env(safe-area-inset-left, 0px));
     height: 100dvh;
     max-height: 100dvh;
     overflow: hidden;
   }
 
   .page-content {
-    width: 100%;
-    flex: 1 1 auto;
+    width: var(--app-content-width);
+    max-width: var(--app-content-width);
+    height: var(--app-content-height);
+    max-height: var(--app-content-height);
+    flex: 0 0 var(--app-content-height);
     min-height: 0;
-    max-height: 100%;
-    padding: 1.25rem;
+    padding: 4%;
     overflow-y: auto;
   }
 
   .page-header {
-    margin-bottom: 1rem;
-    gap: 0.6rem;
+    margin-bottom: 4%;
+    gap: 3%;
   }
 
   .page-header h1 {
-    font-size: clamp(1.2rem, 5vw, 1.6rem);
+    font-size: clamp(1.35rem, 5.5vw, 2rem);
     line-height: 1.3;
-    padding-inline: 0.25rem;
+    padding-inline: 0;
   }
 
   .pantry-pilot-home-button {
-    min-height: 2.35rem;
-    font-size: clamp(0.7rem, 3.2vw, 0.85rem);
+    min-height: 8dvh;
+    padding: 2dvh 1.25rem;
+    font-size: clamp(0.85rem, 3.5vw, 1rem);
   }
 
   .recipe-section {
@@ -1546,9 +1585,9 @@ body {
 
   .recipe-name-input,
   .ingredient-search-input {
-    padding: 0.75rem;
-    font-size: 1rem;
-    min-height: 2.75rem;
+    padding: 2.5dvh 0.75rem;
+    font-size: clamp(1rem, 4vw, 1.125rem);
+    min-height: 8dvh;
   }
 
   .quantity-section {
@@ -1630,7 +1669,8 @@ body {
   .add-to-shopping-list-btn,
   .clear-shopping-list-btn,
   .save-recipe-btn {
-    min-height: 3rem;
+    min-height: 8dvh;
+    font-size: clamp(0.95rem, 3.5vw, 1.1rem);
     touch-action: manipulation;
   }
 
@@ -1652,34 +1692,12 @@ body {
 
 /* Small phones */
 @media (max-width: 480px) {
-  .button-container {
-    padding: 0.75rem;
-    padding-bottom: calc(20dvh + max(0.75rem, env(safe-area-inset-bottom, 0px)));
-  }
-
-  .homepage-logo-heading {
-    width: calc((var(--homepage-content-width) - 1.5rem) * 1.008);
-  }
-
-  .action-button {
-    font-size: 0.85rem;
-  }
-
-  .page {
-    padding: 0.75rem;
-    padding-top: max(0.75rem, env(safe-area-inset-top, 0px));
-    padding-bottom: max(0.75rem, env(safe-area-inset-bottom, 0px));
-    padding-left: max(0.75rem, env(safe-area-inset-left, 0px));
-    padding-right: max(0.75rem, env(safe-area-inset-right, 0px));
+  .quantity-section {
+    grid-template-columns: 1fr;
   }
 
   .page-content {
-    padding: 1rem;
     border-radius: 12px;
-  }
-
-  .quantity-section {
-    grid-template-columns: 1fr;
   }
 
   .new-ingredient-units {
@@ -1690,16 +1708,6 @@ body {
   .saved-recipe-header-meta {
     width: 100%;
     justify-content: space-between;
-  }
-
-  .page-header h1 {
-    font-size: clamp(1.15rem, 5.5vw, 1.45rem);
-    line-height: 1.35;
-  }
-
-  .pantry-pilot-home-button {
-    min-height: 2.25rem;
-    padding-inline: 0.75rem;
   }
 }
 
