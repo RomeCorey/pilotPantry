@@ -303,6 +303,22 @@ function HomeNavButton({ onClick }: { onClick: () => void }) {
   )
 }
 
+function RecipeEditIcon() {
+  return (
+    <svg
+      className="saved-recipe-edit-icon"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path
+        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1.003 1.003 0 0 0 0-1.42l-2.34-2.34a1.003 1.003 0 0 0-1.42 0l-1.83 1.83 3.75 3.75 1.84-1.82z"
+        fill="currentColor"
+      />
+    </svg>
+  )
+}
+
 function HomePage({
   onRecipeClick,
   onShoppingClick,
@@ -358,9 +374,16 @@ function HomePage({
   )
 }
 
-function InputRecipePage({ onBack }: any) {
-  const { addRecipe, isCloudBacked } = useRecipes()
-  const [recipeName, setRecipeName] = useState('')
+function InputRecipePage({
+  onBack,
+  recipeToEdit = null,
+}: {
+  onBack: () => void
+  recipeToEdit?: SavedRecipe | null
+}) {
+  const { addRecipe, updateRecipe, isCloudBacked } = useRecipes()
+  const isEditing = Boolean(recipeToEdit)
+  const [recipeName, setRecipeName] = useState(recipeToEdit?.name ?? '')
   const [isSavingRecipe, setIsSavingRecipe] = useState(false)
   const [saveSuccessMessage, setSaveSuccessMessage] = useState<string | null>(null)
   const [saveErrorMessage, setSaveErrorMessage] = useState<string | null>(null)
@@ -374,7 +397,9 @@ function InputRecipePage({ onBack }: any) {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedQuantity, setSelectedQuantity] = useState<number>(1)
   const [selectedUnit, setSelectedUnit] = useState('')
-  const [ingredients, setIngredients] = useState<RecipeIngredient[]>([])
+  const [ingredients, setIngredients] = useState<RecipeIngredient[]>(
+    () => recipeToEdit?.ingredients ?? []
+  )
   const [showSearchResults, setShowSearchResults] = useState(false)
   const [selectedIngredient, setSelectedIngredient] = useState<GroceryItem | null>(null)
   const [customIngredients, setCustomIngredients] = useState<GroceryItem[]>(() =>
@@ -602,13 +627,26 @@ function InputRecipePage({ onBack }: any) {
     setIsSavingRecipe(true)
 
     try {
-      const savedRecipe = await addRecipe(recipeName, ingredients)
       const storageMessage = isCloudBacked
         ? 'saved to your account'
         : 'saved on this device'
-      setRecipeName('')
-      setIngredients([])
-      setSaveSuccessMessage(`Recipe "${savedRecipe.name}" ${storageMessage}!`)
+      const savedRecipe = isEditing && recipeToEdit
+        ? await updateRecipe({
+            ...recipeToEdit,
+            name: recipeName.trim(),
+            ingredients,
+          })
+        : await addRecipe(recipeName, ingredients)
+
+      if (!isEditing) {
+        setRecipeName('')
+        setIngredients([])
+      }
+      setSaveSuccessMessage(
+        isEditing
+          ? `Recipe "${savedRecipe.name}" updated ${storageMessage}!`
+          : `Recipe "${savedRecipe.name}" ${storageMessage}!`
+      )
     } catch (error) {
       setSaveErrorMessage(
         error instanceof Error ? error.message : 'Failed to save recipe. Try again.'
@@ -681,7 +719,7 @@ function InputRecipePage({ onBack }: any) {
         <InlineAuthPanel className="page-inline-auth" />
         <div className="page-header">
           <HomeNavButton onClick={onBack} />
-          <h1>Input Recipe</h1>
+          <h1>{isEditing ? 'Edit Recipe' : 'Input Recipe'}</h1>
         </div>
 
         {/* Recipe Name Input */}
@@ -947,7 +985,13 @@ function InputRecipePage({ onBack }: any) {
           onClick={handleSaveRecipe}
           disabled={isSavingRecipe}
         >
-          {isSavingRecipe ? 'Saving...' : 'Save Recipe'}
+          {isSavingRecipe
+            ? isEditing
+              ? 'Updating...'
+              : 'Saving...'
+            : isEditing
+              ? 'Update Recipe'
+              : 'Save Recipe'}
         </button>
       </div>
 
@@ -1015,7 +1059,13 @@ function InputRecipePage({ onBack }: any) {
   )
 }
 
-function ShoppingPage({ onBack }: any) {
+function ShoppingPage({
+  onBack,
+  onEditRecipe,
+}: {
+  onBack: () => void
+  onEditRecipe: (recipe: SavedRecipe) => void
+}) {
   const { recipes: savedRecipes, loading: recipesLoading } = useRecipes()
   const [expandedRecipeKey, setExpandedRecipeKey] = useState<string | null>(null)
   const [selectedByRecipe, setSelectedByRecipe] = useState<Record<string, string[]>>({})
@@ -1140,22 +1190,42 @@ function ShoppingPage({ onBack }: any) {
 
               return (
                 <div key={recipeKey} className="saved-recipe-card">
-                  <button
-                    type="button"
+                  <div
                     className={`saved-recipe-header${isExpanded ? ' expanded' : ''}`}
-                    onClick={() => toggleRecipe(recipeKey, recipe.ingredients)}
-                    aria-expanded={isExpanded}
                   >
-                    <h2 className="saved-recipe-name">{recipe.name}</h2>
-                    <div className="saved-recipe-header-meta">
+                    <div className="saved-recipe-header-start">
+                      <button
+                        type="button"
+                        className="saved-recipe-name-btn"
+                        onClick={() => toggleRecipe(recipeKey, recipe.ingredients)}
+                        aria-expanded={isExpanded}
+                      >
+                        <h2 className="saved-recipe-name">{recipe.name}</h2>
+                      </button>
+                      <button
+                        type="button"
+                        className="saved-recipe-edit-btn"
+                        onClick={() => onEditRecipe(recipe)}
+                        aria-label={`Edit ${recipe.name}`}
+                      >
+                        <RecipeEditIcon />
+                      </button>
+                    </div>
+                    <button
+                      type="button"
+                      className="saved-recipe-meta-btn"
+                      onClick={() => toggleRecipe(recipeKey, recipe.ingredients)}
+                      aria-expanded={isExpanded}
+                      aria-label={`${isExpanded ? 'Collapse' : 'Expand'} ${recipe.name}`}
+                    >
                       <span className="saved-recipe-date">
                         {formatDate(recipe.createdAt)}
                       </span>
                       <span className="saved-recipe-toggle" aria-hidden="true">
                         {isExpanded ? '▾' : '▸'}
                       </span>
-                    </div>
-                  </button>
+                    </button>
+                  </div>
 
                   {isExpanded && (
                     <div className="saved-recipe-details">
@@ -1402,6 +1472,10 @@ function GoShoppingPage({ onBack }: any) {
 function App() {
   const { user, loading, isConfigured } = useAuth()
   const [currentPage, setCurrentPage] = useState('home')
+  const [editingRecipe, setEditingRecipe] = useState<SavedRecipe | null>(null)
+  const [inputRecipeReturnPage, setInputRecipeReturnPage] = useState<
+    'home' | 'shopping'
+  >('home')
   const [loginDismissed, setLoginDismissed] = useState(
     () => localStorage.getItem(AUTH_LOGIN_DISMISSED_KEY) === 'true'
   )
@@ -1455,7 +1529,11 @@ function App() {
       )}
       {currentPage === 'home' && (
         <HomePage
-          onRecipeClick={() => setCurrentPage('input-recipe')}
+          onRecipeClick={() => {
+            setEditingRecipe(null)
+            setInputRecipeReturnPage('home')
+            setCurrentPage('input-recipe')
+          }}
           onShoppingClick={() => setCurrentPage('shopping')}
           onGoShoppingClick={() => setCurrentPage('go-shopping')}
           showLoginButton={showLoginButton}
@@ -1463,10 +1541,24 @@ function App() {
         />
       )}
       {currentPage === 'input-recipe' && (
-        <InputRecipePage onBack={() => setCurrentPage('home')} />
+        <InputRecipePage
+          key={editingRecipe?.id ?? 'new-recipe'}
+          recipeToEdit={editingRecipe}
+          onBack={() => {
+            setCurrentPage(inputRecipeReturnPage)
+            setEditingRecipe(null)
+          }}
+        />
       )}
       {currentPage === 'shopping' && (
-        <ShoppingPage onBack={() => setCurrentPage('home')} />
+        <ShoppingPage
+          onBack={() => setCurrentPage('home')}
+          onEditRecipe={(recipe) => {
+            setEditingRecipe(recipe)
+            setInputRecipeReturnPage('shopping')
+            setCurrentPage('input-recipe')
+          }}
+        />
       )}
       {currentPage === 'go-shopping' && (
         <GoShoppingPage onBack={() => setCurrentPage('home')} />

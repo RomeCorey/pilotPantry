@@ -164,3 +164,64 @@ export function createRecipe(name: string, ingredients: RecipeIngredient[]): Sav
     createdAt: new Date().toISOString(),
   })
 }
+
+export async function updateRecipe(
+  recipe: SavedRecipe,
+  userId: string
+): Promise<void> {
+  const normalized = normalizeRecipe(recipe)
+
+  if (!isSupabaseConfigured || !userId) {
+    const recipes = loadLocalRecipes()
+    const index = recipes.findIndex((entry) => entry.id === normalized.id)
+    if (index === -1) {
+      throw new Error('Recipe not found')
+    }
+
+    recipes[index] = {
+      ...normalized,
+      createdAt: recipes[index].createdAt,
+    }
+    localStorage.setItem(LOCAL_RECIPES_KEY, JSON.stringify(recipes))
+    return
+  }
+
+  const { error: recipeError } = await supabase
+    .from('recipes')
+    .update({ name: normalized.name })
+    .eq('id', normalized.id)
+    .eq('user_id', userId)
+
+  if (recipeError) {
+    throw recipeError
+  }
+
+  const { error: deleteError } = await supabase
+    .from('recipe_ingredients')
+    .delete()
+    .eq('recipe_id', normalized.id)
+
+  if (deleteError) {
+    throw deleteError
+  }
+
+  const ingredientRows = normalized.ingredients.map((ingredient, index) => ({
+    id: ingredient.id,
+    recipe_id: normalized.id,
+    item: ingredient.item,
+    category: ingredient.category,
+    quantity: ingredient.quantity,
+    unit: ingredient.unit,
+    sort_order: index,
+  }))
+
+  if (ingredientRows.length > 0) {
+    const { error: ingredientError } = await supabase
+      .from('recipe_ingredients')
+      .insert(ingredientRows)
+
+    if (ingredientError) {
+      throw ingredientError
+    }
+  }
+}

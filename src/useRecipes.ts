@@ -5,6 +5,7 @@ import {
   fetchRecipes,
   loadLocalRecipes,
   saveRecipe,
+  updateRecipe as persistRecipeUpdate,
 } from './recipeStorage'
 import type { RecipeIngredient, SavedRecipe } from './types/recipe'
 
@@ -57,12 +58,34 @@ export function useRecipes() {
     [user, isConfigured, reload]
   )
 
+  const updateRecipe = useCallback(
+    async (recipe: SavedRecipe) => {
+      if (user && isConfigured) {
+        await persistRecipeUpdate(recipe, user.id)
+        try {
+          await reload()
+        } catch {
+          setRecipes((prev) =>
+            prev.map((entry) => (entry.id === recipe.id ? recipe : entry))
+          )
+        }
+        return recipe
+      }
+
+      await persistRecipeUpdate(recipe, '')
+      setRecipes(loadLocalRecipes())
+      return recipe
+    },
+    [user, isConfigured, reload]
+  )
+
   return {
     recipes,
     loading,
     error,
     reload,
     addRecipe,
+    updateRecipe,
     isCloudBacked: Boolean(user && isConfigured),
   }
 }
