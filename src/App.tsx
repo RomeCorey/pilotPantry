@@ -10,7 +10,7 @@ import {
   type MouseEvent,
 } from 'react'
 import pantryNoText from './assets/PantryPilotNoText.svg'
-import ppLogo from './assets/PPLogoLarge.svg'
+import ppLogo from './assets/PPLogoPic2.png'
 import cuttingBoard from './assets/cuttingBoard.png'
 import {
   CATEGORY_FILES,
@@ -303,14 +303,31 @@ function HomeNavButton({ onClick }: { onClick: () => void }) {
   )
 }
 
-function HomePage({ onRecipeClick, onShoppingClick, onGoShoppingClick }: any) {
+function HomePage({
+  onRecipeClick,
+  onShoppingClick,
+  onGoShoppingClick,
+  showLoginButton,
+  onLoginClick,
+}: any) {
   return (
     <div className="homepage light-mode">
       <header className="header">
         <img src={pantryNoText} alt="" className="header-logo" aria-hidden="true" />
       </header>
 
-      <div className="homepage-hero">
+      <div
+        className={`homepage-hero${showLoginButton ? ' homepage-hero--with-login' : ''}`}
+      >
+        {showLoginButton && (
+          <button
+            type="button"
+            className="action-button button-secondary auth-login-trigger"
+            onClick={onLoginClick}
+          >
+            Login
+          </button>
+        )}
         <h1 className="homepage-logo-heading">
           <img src={ppLogo} alt="Pantry Pilot" className="homepage-logo" />
         </h1>
@@ -1423,11 +1440,6 @@ function App() {
   return (
     <AuthUIContext.Provider value={authUIValue}>
       {isConfigured && (loading || user) && <AuthBar />}
-      {showLoginButton && (
-        <button type="button" className="auth-login-trigger" onClick={openLogin}>
-          Login
-        </button>
-      )}
       {showLoginModal && (
         <div
           className="auth-login-overlay"
@@ -1446,6 +1458,8 @@ function App() {
           onRecipeClick={() => setCurrentPage('input-recipe')}
           onShoppingClick={() => setCurrentPage('shopping')}
           onGoShoppingClick={() => setCurrentPage('go-shopping')}
+          showLoginButton={showLoginButton}
+          onLoginClick={openLogin}
         />
       )}
       {currentPage === 'input-recipe' && (
