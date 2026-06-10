@@ -10,6 +10,7 @@ import {
   type MouseEvent,
 } from 'react'
 import pantryNoText from './assets/PantryPilotNoText.svg'
+import ppLogo from './assets/PPLogo2.svg'
 import cuttingBoard from './assets/cuttingBoard.png'
 import {
   CATEGORY_FILES,
@@ -310,7 +311,9 @@ function HomePage({ onRecipeClick, onShoppingClick, onGoShoppingClick }: any) {
       </header>
 
       <div className="homepage-hero">
-        <h1 className="homepage-title">Pantry Pilot</h1>
+        <h1 className="homepage-logo-heading">
+          <img src={ppLogo} alt="Pantry Pilot" className="homepage-logo" />
+        </h1>
       </div>
 
       <div className="homepage-bottom">

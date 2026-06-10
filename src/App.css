@@ -105,6 +105,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
+  --homepage-content-width: min(92%, 28rem);
 }
 
 .homepage-bottom {
@@ -125,34 +126,19 @@ body {
   padding-inline: 1rem;
 }
 
-.homepage-title {
+.homepage-logo-heading {
   position: static;
-  transform: none;
   z-index: 2;
-  width: min(100%, 28rem);
-  margin: 0;
-  padding: clamp(0.65rem, 2.5vw, 1rem) clamp(1rem, 4vw, 2rem);
-  text-align: center;
-  font-size: clamp(1.25rem, 5vw, 2.25rem);
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: clamp(0.04em, 0.35vw, 0.1em);
-  text-transform: uppercase;
-  color: white;
-  background: linear-gradient(
-    135deg,
-    var(--primary-start),
-    var(--primary-mid),
-    var(--primary-end),
-    var(--primary-dark)
-  );
-  border-radius: clamp(12px, 2vw, 16px);
-  box-shadow: 0 4px 12px var(--button-shadow);
-  pointer-events: none;
+  width: calc((var(--homepage-content-width) - 2rem) * 2.8);
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-.homepage:has(.auth-bar) .homepage-title {
-  width: min(calc(100% - 11rem), 20rem);
+.homepage-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .header {
@@ -340,7 +326,7 @@ body {
 }
 
 .homepage-auth-panel {
-  width: min(92%, 22rem);
+  width: var(--homepage-content-width);
   margin: 0 auto 1rem;
 }
 
@@ -446,7 +432,7 @@ body {
   gap: 0.75rem;
   justify-items: stretch;
   align-items: stretch;
-  width: min(92%, 28rem);
+  width: var(--homepage-content-width);
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
@@ -1480,12 +1466,8 @@ body {
     padding-top: 2.25rem;
   }
 
-  .homepage-title {
-    width: calc(100% - 1.5rem);
-    padding: 0.75rem 1rem;
-    font-size: clamp(1.1rem, 6vw, 1.5rem);
-    letter-spacing: 0.06em;
-    border-radius: 12px;
+  .homepage-logo-heading {
+    width: calc((var(--homepage-content-width) - 2rem) * 2.8);
   }
 
   .auth-bar {
@@ -1688,6 +1670,10 @@ body {
   .button-container {
     padding: 0.75rem;
     padding-bottom: calc(20dvh + max(0.75rem, env(safe-area-inset-bottom, 0px)));
+  }
+
+  .homepage-logo-heading {
+    width: calc((var(--homepage-content-width) - 1.5rem) * 2.8);
   }
 
   .action-button {
