@@ -289,6 +289,14 @@ body {
   padding-inline: 1.5rem;
 }
 
+.homepage:has(.homepage-auth-panel) .auth-login-trigger {
+  display: none;
+}
+
+.mobile-login-trigger {
+  display: none;
+}
+
 .auth-login-overlay {
   position: fixed;
   inset: 0;
@@ -1496,6 +1504,38 @@ body {
     --homepage-content-width: var(--app-content-width);
   }
 
+  .homepage-auth-panel,
+  .page-inline-auth {
+    display: none;
+  }
+
+  .mobile-login-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: max(0.75rem, env(safe-area-inset-top, 0px));
+    right: max(0.75rem, env(safe-area-inset-right, 0px));
+    z-index: 100;
+    min-height: 2.5rem;
+    padding: 0.5rem 1.25rem;
+    border: 2px solid var(--border);
+    border-radius: 999px;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: var(--text-primary);
+    font-size: clamp(0.85rem, 3.5vw, 1rem);
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    touch-action: manipulation;
+    box-shadow: 0 4px 16px var(--button-shadow-hover);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+
+  .mobile-login-trigger:active {
+    transform: scale(0.98);
+  }
+
   .homepage:has(.homepage-auth-panel) .homepage-hero {
     flex: 0 0 auto;
     min-height: min(24dvh, 10rem);
@@ -1531,10 +1571,7 @@ body {
   }
 
   .auth-login-trigger {
-    min-width: min(50vw, var(--app-content-width));
-    min-height: 8dvh;
-    padding: 2dvh 1.5rem;
-    font-size: clamp(1rem, 4vw, 1.25rem);
+    display: none;
   }
 
   .auth-bar {

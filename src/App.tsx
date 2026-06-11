@@ -1497,11 +1497,10 @@ function App() {
     }
   }, [user])
 
-  const showInlineLogin =
-    isConfigured && !loading && !user && !loginDismissed && !loginPanelOpen
-  const showLoginButton =
-    isConfigured && !loading && !user && loginDismissed && !loginPanelOpen
-  const showLoginModal = isConfigured && !loading && !user && loginPanelOpen
+  const isLoggedOut = isConfigured && !loading && !user
+  const showInlineLogin = isLoggedOut && !loginDismissed && !loginPanelOpen
+  const showLoginButton = isLoggedOut && loginDismissed && !loginPanelOpen
+  const showLoginModal = isLoggedOut && loginPanelOpen
 
   const authUIValue = useMemo(
     () => ({
@@ -1514,6 +1513,15 @@ function App() {
   return (
     <AuthUIContext.Provider value={authUIValue}>
       {isConfigured && (loading || user) && <AuthBar />}
+      {isLoggedOut && !loginPanelOpen && (
+        <button
+          type="button"
+          className="mobile-login-trigger"
+          onClick={openLogin}
+        >
+          Login
+        </button>
+      )}
       {showLoginModal && (
         <div
           className="auth-login-overlay"
