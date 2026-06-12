@@ -282,18 +282,70 @@ body {
   transform: scale(0.95);
 }
 
-.auth-login-trigger {
+.login-access-btn {
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #000;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  box-shadow: 0 4px 16px var(--button-shadow-hover);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.login-access-btn:active {
+  transform: scale(0.98);
+}
+
+.login-access-btn--fixed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: max(0.75rem, env(safe-area-inset-top, 0px));
+  left: max(0.75rem, env(safe-area-inset-left, 0px));
   z-index: 100;
-  flex-shrink: 0;
-  min-width: min(12rem, var(--homepage-content-width));
-  padding-inline: 1.5rem;
+  min-height: 2.5rem;
+  padding: 0.5rem 1.25rem;
+  font-size: clamp(0.85rem, 3.5vw, 1rem);
 }
 
-.homepage:has(.homepage-auth-panel) .auth-login-trigger {
-  display: none;
+.login-access-btn--stack {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.875rem 1rem;
+  border-radius: 12px;
+  font-size: clamp(0.95rem, 2.5vw, 1.15rem);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: linear-gradient(135deg, var(--primary-mid), var(--primary-end));
+  color: white;
+  border: none;
+  box-shadow: 0 4px 12px var(--button-shadow);
 }
 
-.mobile-login-trigger {
+.login-access-btn--header {
+  min-height: 2.5rem;
+  padding: 0.45rem 1rem;
+  font-size: clamp(0.75rem, 2.2vw, 0.9rem);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: linear-gradient(135deg, var(--primary-mid), var(--primary-end));
+  color: white;
+  border: none;
+  box-shadow: 0 4px 12px var(--button-shadow);
+}
+
+@media (min-width: 769px) {
+  .homepage--inline-login .login-access-btn--fixed,
+  .homepage--inline-login .login-access-btn--stack {
+    display: none;
+  }
+}
+
+.homepage .login-access-btn--fixed {
   display: none;
 }
 
@@ -974,6 +1026,15 @@ body {
   align-items: flex-start;
   gap: 0.75rem;
   margin-bottom: 4%;
+  width: 100%;
+}
+
+.page-header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  width: 100%;
 }
 
 .pantry-pilot-home-button {
@@ -1504,38 +1565,6 @@ body {
     --homepage-content-width: var(--app-content-width);
   }
 
-  .homepage-auth-panel,
-  .page-inline-auth {
-    display: none;
-  }
-
-  .mobile-login-trigger {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: max(0.75rem, env(safe-area-inset-top, 0px));
-    right: max(0.75rem, env(safe-area-inset-right, 0px));
-    z-index: 100;
-    min-height: 2.5rem;
-    padding: 0.5rem 1.25rem;
-    border: 2px solid var(--border);
-    border-radius: 999px;
-    background-color: rgba(255, 255, 255, 0.95);
-    color: var(--text-primary);
-    font-size: clamp(0.85rem, 3.5vw, 1rem);
-    font-weight: 600;
-    font-family: inherit;
-    cursor: pointer;
-    touch-action: manipulation;
-    box-shadow: 0 4px 16px var(--button-shadow-hover);
-    transition: background-color 0.2s ease, transform 0.2s ease;
-  }
-
-  .mobile-login-trigger:active {
-    transform: scale(0.98);
-  }
-
   .homepage:has(.homepage-auth-panel) .homepage-hero {
     flex: 0 0 auto;
     min-height: min(24dvh, 10rem);
@@ -1570,8 +1599,10 @@ body {
     font-size: clamp(1rem, 4vw, 1.25rem);
   }
 
-  .auth-login-trigger {
-    display: none;
+  .login-access-btn--stack {
+    min-height: 8dvh;
+    padding: 2dvh 1rem;
+    font-size: clamp(1rem, 4vw, 1.25rem);
   }
 
   .auth-bar {

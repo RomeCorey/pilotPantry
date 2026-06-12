@@ -319,31 +319,74 @@ function RecipeEditIcon() {
   )
 }
 
+function LoginAccessButton({
+  onClick,
+  variant = 'fixed',
+  className = '',
+}: {
+  onClick: () => void
+  variant?: 'fixed' | 'stack' | 'header'
+  className?: string
+}) {
+  return (
+    <button
+      type="button"
+      className={`login-access-btn login-access-btn--${variant}${className ? ` ${className}` : ''}`}
+      onClick={onClick}
+    >
+      Login
+    </button>
+  )
+}
+
+function PageHeader({
+  title,
+  onBack,
+  showLoginAccess,
+  onLoginClick,
+}: {
+  title: string
+  onBack: () => void
+  showLoginAccess?: boolean
+  onLoginClick?: () => void
+}) {
+  return (
+    <div className="page-header">
+      <div className="page-header-top">
+        <HomeNavButton onClick={onBack} />
+        {showLoginAccess && onLoginClick && (
+          <LoginAccessButton variant="header" onClick={onLoginClick} />
+        )}
+      </div>
+      <h1>{title}</h1>
+    </div>
+  )
+}
+
 function HomePage({
   onRecipeClick,
   onShoppingClick,
   onGoShoppingClick,
-  showLoginButton,
+  showLoginAccess,
   onLoginClick,
-}: any) {
+}: {
+  onRecipeClick: () => void
+  onShoppingClick: () => void
+  onGoShoppingClick: () => void
+  showLoginAccess: boolean
+  onLoginClick: () => void
+}) {
+  const { showInlineLogin } = useAuthUI()
+
   return (
-    <div className="homepage light-mode">
+    <div
+      className={`homepage light-mode${showInlineLogin ? ' homepage--inline-login' : ''}`}
+    >
       <header className="header">
         <img src={pantryNoText} alt="" className="header-logo" aria-hidden="true" />
       </header>
 
-      <div
-        className={`homepage-hero${showLoginButton ? ' homepage-hero--with-login' : ''}`}
-      >
-        {showLoginButton && (
-          <button
-            type="button"
-            className="action-button button-secondary auth-login-trigger"
-            onClick={onLoginClick}
-          >
-            Login
-          </button>
-        )}
+      <div className="homepage-hero">
         <h1 className="homepage-logo-heading">
           <img src={ppLogo} alt="Pantry Pilot" className="homepage-logo" />
         </h1>
@@ -353,6 +396,9 @@ function HomePage({
         <InlineAuthPanel className="homepage-auth-panel" />
 
         <div className="button-container">
+          {showLoginAccess && (
+            <LoginAccessButton variant="stack" onClick={onLoginClick} />
+          )}
           <button className="action-button button-primary" onClick={onRecipeClick}>
             Input Recipe
           </button>
@@ -377,9 +423,13 @@ function HomePage({
 function InputRecipePage({
   onBack,
   recipeToEdit = null,
+  showLoginAccess = false,
+  onLoginClick,
 }: {
   onBack: () => void
   recipeToEdit?: SavedRecipe | null
+  showLoginAccess?: boolean
+  onLoginClick?: () => void
 }) {
   const { addRecipe, updateRecipe, isCloudBacked } = useRecipes()
   const isEditing = Boolean(recipeToEdit)
@@ -717,10 +767,12 @@ function InputRecipePage({
         }
       >
         <InlineAuthPanel className="page-inline-auth" />
-        <div className="page-header">
-          <HomeNavButton onClick={onBack} />
-          <h1>{isEditing ? 'Edit Recipe' : 'Input Recipe'}</h1>
-        </div>
+        <PageHeader
+          title={isEditing ? 'Edit Recipe' : 'Input Recipe'}
+          onBack={onBack}
+          showLoginAccess={showLoginAccess}
+          onLoginClick={onLoginClick}
+        />
 
         {/* Recipe Name Input */}
         <div className="recipe-section">
@@ -1062,9 +1114,13 @@ function InputRecipePage({
 function ShoppingPage({
   onBack,
   onEditRecipe,
+  showLoginAccess = false,
+  onLoginClick,
 }: {
   onBack: () => void
   onEditRecipe: (recipe: SavedRecipe) => void
+  showLoginAccess?: boolean
+  onLoginClick?: () => void
 }) {
   const { recipes: savedRecipes, loading: recipesLoading } = useRecipes()
   const [expandedRecipeKey, setExpandedRecipeKey] = useState<string | null>(null)
@@ -1169,10 +1225,12 @@ function ShoppingPage({
         }
       >
         <InlineAuthPanel className="page-inline-auth" />
-        <div className="page-header">
-          <HomeNavButton onClick={onBack} />
-          <h1>Create Shopping List and View Recipes</h1>
-        </div>
+        <PageHeader
+          title="Create Shopping List and View Recipes"
+          onBack={onBack}
+          showLoginAccess={showLoginAccess}
+          onLoginClick={onLoginClick}
+        />
 
         {recipesLoading ? (
           <p className="empty-recipes-message">Loading recipes...</p>
@@ -1286,7 +1344,15 @@ function ShoppingPage({
   )
 }
 
-function GoShoppingPage({ onBack }: any) {
+function GoShoppingPage({
+  onBack,
+  showLoginAccess = false,
+  onLoginClick,
+}: {
+  onBack: () => void
+  showLoginAccess?: boolean
+  onLoginClick?: () => void
+}) {
   const [shoppingList, setShoppingList] = useState<ShoppingListItem[]>([])
   const [foundItems, setFoundItems] = useState<Set<string>>(new Set())
   const [showCheckoutPopup, setShowCheckoutPopup] = useState(false)
@@ -1373,10 +1439,12 @@ function GoShoppingPage({ onBack }: any) {
         }
       >
         <InlineAuthPanel className="page-inline-auth" />
-        <div className="page-header">
-          <HomeNavButton onClick={onBack} />
-          <h1>Let's Go Shopping</h1>
-        </div>
+        <PageHeader
+          title="Let's Go Shopping"
+          onBack={onBack}
+          showLoginAccess={showLoginAccess}
+          onLoginClick={onLoginClick}
+        />
 
         {shoppingList.length === 0 ? (
           <p className="empty-recipes-message">
@@ -1497,10 +1565,10 @@ function App() {
     }
   }, [user])
 
-  const isLoggedOut = isConfigured && !loading && !user
-  const showInlineLogin = isLoggedOut && !loginDismissed && !loginPanelOpen
-  const showLoginButton = isLoggedOut && loginDismissed && !loginPanelOpen
+  const isLoggedOut = isConfigured && !user && !loginPanelOpen
+  const showInlineLogin = isLoggedOut && !loginDismissed
   const showLoginModal = isLoggedOut && loginPanelOpen
+  const showLoginAccess = isLoggedOut
 
   const authUIValue = useMemo(
     () => ({
@@ -1513,14 +1581,8 @@ function App() {
   return (
     <AuthUIContext.Provider value={authUIValue}>
       {isConfigured && (loading || user) && <AuthBar />}
-      {isLoggedOut && !loginPanelOpen && (
-        <button
-          type="button"
-          className="mobile-login-trigger"
-          onClick={openLogin}
-        >
-          Login
-        </button>
+      {showLoginAccess && (
+        <LoginAccessButton variant="fixed" onClick={openLogin} />
       )}
       {showLoginModal && (
         <div
@@ -1544,7 +1606,7 @@ function App() {
           }}
           onShoppingClick={() => setCurrentPage('shopping')}
           onGoShoppingClick={() => setCurrentPage('go-shopping')}
-          showLoginButton={showLoginButton}
+          showLoginAccess={showLoginAccess}
           onLoginClick={openLogin}
         />
       )}
@@ -1556,6 +1618,8 @@ function App() {
             setCurrentPage(inputRecipeReturnPage)
             setEditingRecipe(null)
           }}
+          showLoginAccess={showLoginAccess}
+          onLoginClick={openLogin}
         />
       )}
       {currentPage === 'shopping' && (
@@ -1566,10 +1630,16 @@ function App() {
             setInputRecipeReturnPage('shopping')
             setCurrentPage('input-recipe')
           }}
+          showLoginAccess={showLoginAccess}
+          onLoginClick={openLogin}
         />
       )}
       {currentPage === 'go-shopping' && (
-        <GoShoppingPage onBack={() => setCurrentPage('home')} />
+        <GoShoppingPage
+          onBack={() => setCurrentPage('home')}
+          showLoginAccess={showLoginAccess}
+          onLoginClick={openLogin}
+        />
       )}
     </AuthUIContext.Provider>
   )
